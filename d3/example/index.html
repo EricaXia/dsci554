@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- <h1>Hiiii</h1> -->
+    <!-- <p>This should be green!</p> -->
+
+
+
+    <script>
+        // d3 code goes here: 
+        // var hello = 'helloworld';
+        d3.select("p").style("color", "green");
+
+        var dataset = [1, 2, 3];
+        d3.select('body')
+            .selectAll('p')
+            .data(dataset)
+            .enter()
+            .append('p')
+            .text(function (d, i) { return 'd=' + d + ' i=' + i; })
+            .style('color', function (d, i) { return (i % 2) ? 'red' : 'blue'; });
+
+        function myfunc(num) {
+            return num % 2 ? '1' : 'not 1'
+        }
+        // console.log(0%2);
+        // console.log(1%2);
+        // console.log(2%2);
+        console.log(myfunc(4));
+    </script>
+
+</body>
+
+</html>
