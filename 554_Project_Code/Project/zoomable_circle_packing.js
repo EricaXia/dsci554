@@ -50,6 +50,17 @@ d3.json(data_url).then(data => {
         .on("mouseout", function () { d3.select(this).attr("stroke", null); })
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
 
+    function displayText(d) {
+        // Don't display % for root nodes
+        if (d.parent === root) {
+            return (d.data.name)
+        }
+        else {
+            return (d.data.name + ": " + Math.round(d.data.value) + "\%")
+        }
+    }
+    
+// TODO: show % values on a new line OR add tool tip?
     const label = svg.append("g")
         .attr("class", "zoom-font")
         .attr("pointer-events", "none")
@@ -59,7 +70,10 @@ d3.json(data_url).then(data => {
         .join("text")
         .style("fill-opacity", d => d.parent === root ? 1 : 0)
         .style("display", d => d.parent === root ? "inline" : "none")
-        .text(d => d.data.name);
+        .text(d => displayText(d))
+    // .text(d => d.data.name);      
+    
+
 
     zoomTo([root.x, root.y, root.r * 2]);
 
