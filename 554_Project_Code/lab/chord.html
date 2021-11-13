@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DSCI 554 Lab 7 ex7</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../node_modules/highlightjs/styles/github.css">
+	<script src="../node_modules/highlightjs/highlight.pack.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<script src="../node_modules/d3/dist/d3.min.js"></script>
+</head>
+
+<body>
+	<h1>🏋🏽‍♂️ EX7: CHORD DIAGRAM</h1>
+
+	<h2>0 - Ribbon generator</h2>
+	<hr>
+
+	<p>Read <a target="_blank" href="https://github.com/d3/d3-chord/blob/v2.0.0/README.md#ribbon">d3.ribbon</a> then
+		complete the Answer where indicated by 🎒.</p>
+
+	<div class="answer">
+		<cap>Answer</cap>
+
+		<svg id="arc-test" width="350" height="350"></svg>
+
+		<script>
+			var chord = {  //a chord in a chord diagram
+				source: { startAngle: 0.7524114, endAngle: 1.1212972, radius: 140 },
+				target: { startAngle: 1.8617078, endAngle: 1.9842927, radius: 140 }
+			};
+
+			var ribbon = d3.ribbon();  //🎒 explain: Create ribbon generator without any direction
+			// var ribbon = d3.ribbonArrow();  //🎒 explain: Create ribbon generator with a directional arrow
+
+			console.log(ribbon(chord));  //🎒 explain: Print the ribbon generated path string after passing the data to the ribbon generator
+
+			var svg = d3.select('#arc-test'),
+				width = +svg.attr('width'),
+				height = +svg.attr('height'),
+				radius = Math.min(width, height) / 2,
+				g = svg.append('g')
+					.attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');  //🎒 explain: Append new group element and set its position to be half the width and half the height
+
+			g.append('path')  //🎒 explain: Append new path to group element
+				.attr('d', ribbon(chord))  //🎒 explain: Draw the path by setting the 'd' attribute to the ribbon generated path
+				.attr('fill', "red")
+				.attr('stroke', "black");
+		</script>
+	</div>
+
+	<h2>1 - Chord diagram example</h2>
+	<hr>
+
+	<p>Read <a target="_blank" href="https://github.com/d3/d3-chord">d3-chord API</a> then complete the Answer where
+		indicated by 🎒.</p>
+
+	<p class="alert info">💡 Adapted from <a target="_blank" href="https://bl.ocks.org/mbostock/4062006">Mike Bostock’s
+			Block 4062006</a></p>
+
+	<p class="alert info">💡 See also <a target="_blank" href="https://kuhn.usc.edu/breast_cancer/">Breast Cancer
+			Progression Models</a></p>
+
+
+	<div class="answer">
+		<cap>Answer</cap>
+		<style>
+			text {
+				font: 10px sans-serif;
+			}
+
+			.ribbons {
+				fill-opacity: 0.67;
+			}
+		</style>
+		<svg id="chord-diagram" style="display: block; margin: auto;" width="500" height="500"></svg>
+		<script>
+			var matrix = [
+				[11975, 5871, 8916, 2868],
+				[1951, 10048, 2060, 6171],
+				[8010, 16145, 8090, 8045],
+				[1013, 990, 940, 6907]
+			];
+
+			var svg = d3.select("#chord-diagram"),
+				width = +svg.attr("width"),
+				height = +svg.attr("height"),
+				outerRadius = Math.min(width, height) * 0.5 - 40,
+				innerRadius = outerRadius - 30;
+
+			var formatValue = d3.formatPrefix(",.0", 1e3);
+
+			var chord = d3.chord()  //🎒 explain: Define a new chord layout
+				.padAngle(0.05)  //🎒 explain: This sets the pad angle between bordering groups on the chart to 0.05 in radians
+				.sortSubgroups(d3.descending);  //🎒 explain: This sets the subgroup comparator to descending order of values
+
+
+			var arc = d3.arc()  //🎒 explain: Define new arc generator
+				.innerRadius(innerRadius)  //🎒 explain: Set inner radius of arc to be innerRadius variable
+				.outerRadius(outerRadius);  //🎒 explain: Set outer radius of arc to be outerRadius variable
+			//🎒 adapt to draw a directed chord diagram (where the chords end with an arrow)
+			var ribbon = d3.ribbonArrow() // changed this
+				.radius(innerRadius);
+
+			var color4 = d3.scaleOrdinal()
+				.domain(d3.range(4))
+				.range(["#000000", "#FFDD89", "#957244", "#F26223"]);  //🎒 explain: Set the range to map the categorical values to the specified colors
+
+			var g = svg.append("g")
+				.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+				.datum(chord(matrix));  //🎒 explain: Data join with computed chord angles with data matrix as input
+
+			var group = g.append("g")
+				.attr("class", "groups")
+				.selectAll("g")
+				.data(chords => chords.groups)  //🎒 explain: Data join with the groups attribute of the chords
+				.enter()
+				.append("g");
+
+			group.append("path")  //🎒 explain: Append path object to group element
+				.style("fill", d => color4(d.index))  //🎒 explain: Set fill of path to be mapped to colors corresponding to index of data
+				.style("stroke", d => d3.rgb(color4(d.index)).darker())  //🎒 explain: Set stroke of path to be darker version of fill color for each index of the data
+				.attr("d", arc);  //🎒 explain: Draw the outer arc using the arc function
+
+			var groupTick = group.selectAll(".group-tick")
+				.data(d => groupTicks(d, 1e3))
+				.enter()
+				.append("g")
+				.attr("class", "group-tick")
+				.attr("transform", function (d) {
+					return "rotate(" + (d.angle * 180 / Math.PI - 90) + ") translate(" + outerRadius + ",0)";
+				});
+
+			groupTick.append("line")
+				.attr("x2", 6);
+
+			groupTick
+				.filter(d => d.value % 5e3 === 0)
+				.append("text")
+				.attr("x", 8)
+				.attr("dy", ".35em")
+				.attr("transform", d => d.angle > Math.PI ? "rotate(180) translate(-16)" : null)
+				.style("text-anchor", d => d.angle > Math.PI ? "end" : null)
+				.text(d => formatValue(d.value));
+
+			g.append("g")
+				.attr("class", "ribbons")
+				.selectAll("path")
+				.data(function (chords) {
+					return chords;
+				})
+				.enter()
+				.append("path")
+				.attr("d", ribbon)
+				.style("fill", d => color4(d.target.index))
+				.style("stroke", d => d3.rgb(color4(d.target.index)).darker());
+
+			// Returns an array of tick angles and values for a given group and step.
+			function groupTicks(d, step) {
+				var k = (d.endAngle - d.startAngle) / d.value;
+				return d3.range(0, d.value, step).map(value => {
+					return {
+						value: value,
+						angle: value * k + d.startAngle
+					};
+				});
+			}
+		</script>
+	</div>
+</body>

@@ -1,0 +1,243 @@
+year,country,perc_share_labor
+1985,test,28.3
+1986,test,28.3
+1987,test,28.2
+1988,test,28.2
+1989,test,28.2
+1990,test,28.2
+1991,test,28.2
+1992,test,28.2
+1993,test,28.1
+1994,test,28.1
+1995,test,28
+1996,test,28.1
+1997,test,28.1
+1998,test,28.2
+1999,test,28.2
+2000,test,28.2
+2001,test,28.4
+2002,test,28.6
+2003,test,28.8
+2004,test,28.8
+2005,test,29
+2006,test,29.4
+1985,Afghanistan,28.3
+1986,Afghanistan,28.3
+1987,Afghanistan,28.2
+1988,Afghanistan,28.2
+1989,Afghanistan,28.2
+1990,Afghanistan,28.2
+1991,Afghanistan,28.2
+1992,Afghanistan,28.2
+1993,Afghanistan,28.1
+1994,Afghanistan,28.1
+1995,Afghanistan,28
+1996,Afghanistan,28.1
+1997,Afghanistan,28.1
+1998,Afghanistan,28.2
+1999,Afghanistan,28.2
+2000,Afghanistan,28.2
+2001,Afghanistan,28.4
+2002,Afghanistan,28.6
+2003,Afghanistan,28.8
+2004,Afghanistan,28.8
+2005,Afghanistan,29
+2006,Afghanistan,29.4
+1985,Australia,38.3
+1986,Australia,39.2
+1987,Australia,39.7
+1988,Australia,40.3
+1989,Australia,40.8
+1990,Australia,41.3
+1991,Australia,41.5
+1992,Australia,41.6
+1993,Australia,41.7
+1994,Australia,42.1
+1995,Australia,42.7
+1996,Australia,42.8
+1997,Australia,42.9
+1998,Australia,43.3
+1999,Australia,43.3
+2000,Australia,44
+2001,Australia,44.2
+2002,Australia,44.3
+2003,Australia,44.5
+2004,Australia,44.8
+2005,Australia,45
+2006,Australia,45.2
+1985,Austria,39.4
+1986,Austria,39.5
+1987,Austria,39.9
+1988,Austria,40.3
+1989,Austria,40.4
+1990,Austria,40.8
+1991,Austria,40.9
+1992,Austria,41.4
+1993,Austria,41.6
+1994,Austria,42.8
+1995,Austria,42.7
+1996,Austria,42.7
+1997,Austria,42.9
+1998,Austria,42.9
+1999,Austria,43
+2000,Austria,43.1
+2001,Austria,43.4
+2002,Austria,43.9
+2003,Austria,44
+2004,Austria,44.3
+2005,Austria,44.6
+2006,Austria,44.9
+1985,France,41.8
+1986,France,42.2
+1987,France,42.5
+1988,France,42.7
+1989,France,43
+1990,France,43.2
+1991,France,43.6
+1992,France,43.9
+1993,France,44.3
+1994,France,44.5
+1995,France,44.8
+1996,France,44.8
+1997,France,44.8
+1998,France,45.1
+1999,France,45.2
+2000,France,45.4
+2001,France,45.4
+2002,France,45.5
+2003,France,45.7
+2004,France,45.8
+2005,France,45.9
+2006,France,46.1
+1985,Germany,39.2
+1986,Germany,39.3
+1987,Germany,39.7
+1988,Germany,40
+1989,Germany,40.1
+1990,Germany,40.5
+1991,Germany,42.1
+1992,Germany,42.1
+1993,Germany,42.2
+1994,Germany,42.3
+1995,Germany,42.5
+1996,Germany,42.6
+1997,Germany,42.9
+1998,Germany,43
+1999,Germany,43.5
+2000,Germany,43.7
+2001,Germany,43.9
+2002,Germany,44.2
+2003,Germany,44.5
+2004,Germany,44.9
+2005,Germany,45.2
+2006,Germany,45.5
+1985,Mexico,29.4
+1986,Mexico,29.8
+1987,Mexico,30.2
+1988,Mexico,30.6
+1989,Mexico,30.3
+1990,Mexico,30
+1991,Mexico,29.7
+1992,Mexico,30.1
+1993,Mexico,30.6
+1994,Mexico,31.2
+1995,Mexico,32
+1996,Mexico,31.7
+1997,Mexico,33.1
+1998,Mexico,32.9
+1999,Mexico,32.7
+2000,Mexico,33
+2001,Mexico,32.7
+2002,Mexico,33.3
+2003,Mexico,33.3
+2004,Mexico,34.4
+2005,Mexico,34.8
+2006,Mexico,35.3
+1985,Netherlands,37.1
+1986,Netherlands,37.3
+1987,Netherlands,37.4
+1988,Netherlands,38.1
+1989,Netherlands,38.2
+1990,Netherlands,39.1
+1991,Netherlands,39.5
+1992,Netherlands,39.9
+1993,Netherlands,40.6
+1994,Netherlands,40.9
+1995,Netherlands,41.3
+1996,Netherlands,41.6
+1997,Netherlands,42.1
+1998,Netherlands,42.2
+1999,Netherlands,42.8
+2000,Netherlands,43.1
+2001,Netherlands,43.4
+2002,Netherlands,43.7
+2003,Netherlands,44.1
+2004,Netherlands,44.4
+2005,Netherlands,44.6
+2006,Netherlands,44.8
+1985,Spain,29.9
+1986,Spain,30.3
+1987,Spain,32.5
+1988,Spain,33.7
+1989,Spain,33.9
+1990,Spain,34.4
+1991,Spain,34.8
+1992,Spain,35.6
+1993,Spain,36.3
+1994,Spain,37.1
+1995,Spain,37.7
+1996,Spain,38
+1997,Spain,38.5
+1998,Spain,38.6
+1999,Spain,38.9
+2000,Spain,39.5
+2001,Spain,39
+2002,Spain,39.7
+2003,Spain,40.4
+2004,Spain,40.6
+2005,Spain,40.9
+2006,Spain,41.2
+1985,United Kingdom,41.5
+1986,United Kingdom,42.1
+1987,United Kingdom,42.4
+1988,United Kingdom,42.6
+1989,United Kingdom,43.1
+1990,United Kingdom,43.3
+1991,United Kingdom,43.4
+1992,United Kingdom,43.7
+1993,United Kingdom,44.1
+1994,United Kingdom,44.2
+1995,United Kingdom,44.3
+1996,United Kingdom,44.6
+1997,United Kingdom,44.9
+1998,United Kingdom,45
+1999,United Kingdom,45.1
+2000,United Kingdom,45.2
+2001,United Kingdom,45.4
+2002,United Kingdom,45.6
+2003,United Kingdom,45.4
+2004,United Kingdom,45.7
+2005,United Kingdom,45.9
+2006,United Kingdom,46
+1985,United States of America,43.1
+1986,United States of America,43.4
+1987,United States of America,43.8
+1988,United States of America,44
+1989,United States of America,44.3
+1990,United States of America,44.4
+1991,United States of America,44.5
+1992,United States of America,44.7
+1993,United States of America,44.8
+1994,United States of America,45.3
+1995,United States of America,45.4
+1996,United States of America,45.5
+1997,United States of America,45.7
+1998,United States of America,45.7
+1999,United States of America,45.8
+2000,United States of America,45.8
+2001,United States of America,45.9
+2002,United States of America,45.9
+2003,United States of America,46
+2004,United States of America,46.2
+2005,United States of America,46.3
+2006,United States of America,46.3

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DSCI 554 Lab 7 ex5</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../node_modules/highlightjs/styles/github.css">
+  <script src="../node_modules/highlightjs/highlight.pack.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+  <h1>🏋🏽‍♂️ ex5: HISTOGRAM</h1>
+
+  <p>Complete the code in the page where marked with 🎒</p>
+
+  <p class="alert info">💡 See <a target="_blank"
+      href="https://observablehq.com/@d3/d3-bin">d3-bin</a> for interactive examples.
+  </p>
+
+  <div class="answer">
+    <cap>Answer</cap>
+
+    <script src="../node_modules/d3/dist/d3.min.js"></script>
+    <style>
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+
+      text {
+        stroke: none;
+        fill: black;
+      }
+
+      text.label {
+        font-size: 0.7em;
+        font-weight: bold;
+      }
+
+      .bar {
+        fill: orange;
+      }
+    </style>
+
+    <h2>Unemployment rate by county, August 2016.</h2>
+    <svg id="chart"></svg>
+
+    <script>
+      d3.csv('unemployment-x.csv', d => +d.rate)
+        .then(data => {
+          var margin = { top: 50, left: 100, bottom: 20, right: 50 },
+            width = 600 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
+
+          var svg = d3.select('#chart')
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom)
+            .append('g')
+            .attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
+
+          var x = d3.scaleLinear()
+            .domain([0, d3.max(data)])
+            .range([0, width])
+            .nice();
+
+          //see https://observablehq.com/@d3/d3-bin
+          var bin = d3.bin();  //🎒 explain: Define new bin operator
+
+          //see https://observablehq.com/@d3/scale-ticks
+          var thresholds = x.ticks(20);  //🎒 explain: Generate 20 ticks for the x-axis
+
+          //see https://observablehq.com/@d3/d3-bin and look for bin.domain and bin.thresholds
+          var bin = d3.bin()
+            .domain(x.domain()) //🎒 explain: Set domain of the bin to be the domain of the x scale
+            .thresholds(thresholds); //🎒 explain: Set thresholds to be the threshold variable (20 tick marks for the x-axis) to define how many buckets to bin to
+
+          //see https://observablehq.com/@d3/d3-bin and look for bin.domain and bin.thresholds
+          var bins = bin(data);  //🎒 explain: Pass in data to the bins operator to group the data into the defined number of buckets
+
+          //see https://observablehq.com/@d3/d3-scalelinear and look for scale.nice
+          var y = d3.scaleLinear()
+            .domain([0, d3.max(bins, d => d.length)])
+            .range([height, 0])
+            .nice();  //🎒 explain: Rounds the domain to nice round values for better plotting 
+
+          var bar = svg.selectAll('.bar')
+            .data(bins)  //data join with bins
+            .enter()
+            .append('g')
+            .attr('class', 'bar')
+            .attr('transform', d => 'translate(' + x(d.x0) + ',' + y(d.length) + ')');
+
+          bar.append('rect')
+            .attr('x', 0)
+            .attr('width', d => x(d.x1) - x(d.x0))
+            .attr('height', d => height - y(d.length));
+
+          var xAxis = d3.axisBottom()
+            .scale(x);
+
+          svg.append('g')
+            .attr('class', 'axis')
+            .attr('transform', 'translate(0,' + height + ')')
+            .call(xAxis);
+
+          var yAxis = d3.axisLeft()
+            .scale(y)
+            .ticks(10, '.0f');
+
+          svg.append('g')
+            .attr('class', 'axis')
+            .call(yAxis);
+
+          svg.append('text')
+            .attr('x', 5)
+            .attr('y', 5)
+            .attr('class', 'label')
+            .text('Counties');
+
+          svg.append('text')
+            .attr('x', 0.75 * width)
+            .attr('y', height - 5)
+            .attr('class', 'label')
+            .text('Unemployment (%)');
+        });
+    </script>
+  </div>
+</body>
+
+</html>

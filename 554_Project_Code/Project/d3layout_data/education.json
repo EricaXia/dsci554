@@ -1,0 +1,798 @@
+{
+    "name": "education",
+    "children": [
+        {
+            "name": "Educational attainment (lower secondary)",
+            "children": [
+                {
+                    "name": "AUS",
+                    "value": 94.3
+                },
+                {
+                    "name": "BOL",
+                    "value": 47.6
+                },
+                {
+                    "name": "BGR",
+                    "value": 93.0
+                },
+                {
+                    "name": "CRI",
+                    "value": 50.7
+                },
+                {
+                    "name": "CYP",
+                    "value": 76.0
+                },
+                {
+                    "name": "CZE",
+                    "value": 99.9
+                },
+                {
+                    "name": "DNK",
+                    "value": 95.5
+                },
+                {
+                    "name": "DOM",
+                    "value": 55.6
+                },
+                {
+                    "name": "SLV",
+                    "value": 36.8
+                },
+                {
+                    "name": "FRA",
+                    "value": 78.0
+                },
+                {
+                    "name": "DEU",
+                    "value": 96.3
+                },
+                {
+                    "name": "GTM",
+                    "value": 21.9
+                },
+                {
+                    "name": "HND",
+                    "value": 28.0
+                },
+                {
+                    "name": "HUN",
+                    "value": 97.9
+                },
+                {
+                    "name": "IRN",
+                    "value": 62.2
+                },
+                {
+                    "name": "ISR",
+                    "value": 84.4
+                },
+                {
+                    "name": "ITA",
+                    "value": 71.2
+                },
+                {
+                    "name": "KWT",
+                    "value": 55.6
+                },
+                {
+                    "name": "LVA",
+                    "value": 98.9
+                },
+                {
+                    "name": "LTU",
+                    "value": 89.1
+                },
+                {
+                    "name": "MLT",
+                    "value": 68.6
+                },
+                {
+                    "name": "MEX",
+                    "value": 55.7
+                },
+                {
+                    "name": "NLD",
+                    "value": 87.7
+                },
+                {
+                    "name": "PER",
+                    "value": 56.3
+                },
+                {
+                    "name": "POL",
+                    "value": 79.4
+                },
+                {
+                    "name": "PRT",
+                    "value": 47.7
+                },
+                {
+                    "name": "QAT",
+                    "value": 66.7
+                },
+                {
+                    "name": "MDA",
+                    "value": 93.6
+                },
+                {
+                    "name": "ROU",
+                    "value": 86.1
+                },
+                {
+                    "name": "SRB",
+                    "value": 58.4
+                },
+                {
+                    "name": "SGP",
+                    "value": 74.1
+                },
+                {
+                    "name": "SVK",
+                    "value": 99.1
+                },
+                {
+                    "name": "SVN",
+                    "value": 95.8
+                },
+                {
+                    "name": "ZAF",
+                    "value": 72.7
+                },
+                {
+                    "name": "ESP",
+                    "value": 66.8
+                },
+                {
+                    "name": "SWE",
+                    "value": 86.5
+                },
+                {
+                    "name": "CHE",
+                    "value": 95.0
+                },
+                {
+                    "name": "TUR",
+                    "value": 39.0
+                },
+                {
+                    "name": "USA",
+                    "value": 95.1
+                },
+                {
+                    "name": "URY",
+                    "value": 54.4
+                }
+            ]
+        },
+        {
+            "name": "Educational attainment (tertiary)",
+            "children": [
+                {
+                    "name": "AUS",
+                    "value": 44.9
+                },
+                {
+                    "name": "AUT",
+                    "value": 14.7
+                },
+                {
+                    "name": "BOL",
+                    "value": 24.3
+                },
+                {
+                    "name": "BGR",
+                    "value": 24.6
+                },
+                {
+                    "name": "CRI",
+                    "value": 21.2
+                },
+                {
+                    "name": "CYP",
+                    "value": 34.5
+                },
+                {
+                    "name": "CZE",
+                    "value": 16.4
+                },
+                {
+                    "name": "DNK",
+                    "value": 34.6
+                },
+                {
+                    "name": "DOM",
+                    "value": 12.5
+                },
+                {
+                    "name": "SLV",
+                    "value": 10.6
+                },
+                {
+                    "name": "EST",
+                    "value": 42.5
+                },
+                {
+                    "name": "FRA",
+                    "value": 26.3
+                },
+                {
+                    "name": "DEU",
+                    "value": 21.2
+                },
+                {
+                    "name": "HND",
+                    "value": 4.0
+                },
+                {
+                    "name": "HUN",
+                    "value": 22.7
+                },
+                {
+                    "name": "IRN",
+                    "value": 18.6
+                },
+                {
+                    "name": "ISR",
+                    "value": 47.3
+                },
+                {
+                    "name": "ITA",
+                    "value": 13.3
+                },
+                {
+                    "name": "KWT",
+                    "value": 11.2
+                },
+                {
+                    "name": "LVA",
+                    "value": 32.6
+                },
+                {
+                    "name": "LTU",
+                    "value": 32.5
+                },
+                {
+                    "name": "LUX",
+                    "value": 32.8
+                },
+                {
+                    "name": "MLT",
+                    "value": 13.5
+                },
+                {
+                    "name": "MEX",
+                    "value": 14.3
+                },
+                {
+                    "name": "NLD",
+                    "value": 26.4
+                },
+                {
+                    "name": "PER",
+                    "value": 21.7
+                },
+                {
+                    "name": "POL",
+                    "value": 24.0
+                },
+                {
+                    "name": "PRT",
+                    "value": 17.0
+                },
+                {
+                    "name": "QAT",
+                    "value": 33.9
+                },
+                {
+                    "name": "MDA",
+                    "value": 20.1
+                },
+                {
+                    "name": "ROU",
+                    "value": 12.9
+                },
+                {
+                    "name": "SRB",
+                    "value": 16.0
+                },
+                {
+                    "name": "SGP",
+                    "value": 36.4
+                },
+                {
+                    "name": "SVK",
+                    "value": 18.0
+                },
+                {
+                    "name": "SVN",
+                    "value": 26.4
+                },
+                {
+                    "name": "ZAF",
+                    "value": 5.8
+                },
+                {
+                    "name": "ESP",
+                    "value": 26.6
+                },
+                {
+                    "name": "SWE",
+                    "value": 33.3
+                },
+                {
+                    "name": "CHE",
+                    "value": 27.0
+                },
+                {
+                    "name": "TUR",
+                    "value": 10.4
+                },
+                {
+                    "name": "USA",
+                    "value": 41.1
+                },
+                {
+                    "name": "URY",
+                    "value": 13.0
+                }
+            ]
+        },
+        {
+            "name": "Educational attainment (primary)",
+            "children": [
+                {
+                    "name": "AUS",
+                    "value": 99.8
+                },
+                {
+                    "name": "BOL",
+                    "value": 51.4
+                },
+                {
+                    "name": "CRI",
+                    "value": 80.0
+                },
+                {
+                    "name": "CYP",
+                    "value": 92.1
+                },
+                {
+                    "name": "CZE",
+                    "value": 99.9
+                },
+                {
+                    "name": "DNK",
+                    "value": 96.0
+                },
+                {
+                    "name": "DOM",
+                    "value": 65.4
+                },
+                {
+                    "name": "SLV",
+                    "value": 51.8
+                },
+                {
+                    "name": "FRA",
+                    "value": 98.3
+                },
+                {
+                    "name": "DEU",
+                    "value": 99.9
+                },
+                {
+                    "name": "GTM",
+                    "value": 48.8
+                },
+                {
+                    "name": "HND",
+                    "value": 53.2
+                },
+                {
+                    "name": "HUN",
+                    "value": 100.0
+                },
+                {
+                    "name": "ISR",
+                    "value": 93.4
+                },
+                {
+                    "name": "ITA",
+                    "value": 92.5
+                },
+                {
+                    "name": "KWT",
+                    "value": 64.0
+                },
+                {
+                    "name": "LVA",
+                    "value": 99.7
+                },
+                {
+                    "name": "LTU",
+                    "value": 98.4
+                },
+                {
+                    "name": "MLT",
+                    "value": 97.8
+                },
+                {
+                    "name": "MEX",
+                    "value": 75.7
+                },
+                {
+                    "name": "NLD",
+                    "value": 97.6
+                },
+                {
+                    "name": "PER",
+                    "value": 74.2
+                },
+                {
+                    "name": "POL",
+                    "value": 98.2
+                },
+                {
+                    "name": "PRT",
+                    "value": 85.0
+                },
+                {
+                    "name": "QAT",
+                    "value": 82.2
+                },
+                {
+                    "name": "MDA",
+                    "value": 98.8
+                },
+                {
+                    "name": "ROU",
+                    "value": 98.1
+                },
+                {
+                    "name": "SRB",
+                    "value": 82.5
+                },
+                {
+                    "name": "SGP",
+                    "value": 81.2
+                },
+                {
+                    "name": "SVK",
+                    "value": 99.7
+                },
+                {
+                    "name": "SVN",
+                    "value": 99.7
+                },
+                {
+                    "name": "ZAF",
+                    "value": 78.6
+                },
+                {
+                    "name": "ESP",
+                    "value": 87.2
+                },
+                {
+                    "name": "TUR",
+                    "value": 77.7
+                },
+                {
+                    "name": "USA",
+                    "value": 98.8
+                },
+                {
+                    "name": "URY",
+                    "value": 88.5
+                }
+            ]
+        },
+        {
+            "name": "Educational attainment (post-secondary)",
+            "children": [
+                {
+                    "name": "AUS",
+                    "value": 50.1
+                },
+                {
+                    "name": "AUT",
+                    "value": 24.3
+                },
+                {
+                    "name": "BOL",
+                    "value": 24.3
+                },
+                {
+                    "name": "CRI",
+                    "value": 21.2
+                },
+                {
+                    "name": "CYP",
+                    "value": 36.7
+                },
+                {
+                    "name": "CZE",
+                    "value": 18.5
+                },
+                {
+                    "name": "DOM",
+                    "value": 12.5
+                },
+                {
+                    "name": "FRA",
+                    "value": 26.4
+                },
+                {
+                    "name": "DEU",
+                    "value": 27.8
+                },
+                {
+                    "name": "GTM",
+                    "value": 1.8
+                },
+                {
+                    "name": "HND",
+                    "value": 7.1
+                },
+                {
+                    "name": "HUN",
+                    "value": 24.5
+                },
+                {
+                    "name": "IRN",
+                    "value": 18.6
+                },
+                {
+                    "name": "ISR",
+                    "value": 47.3
+                },
+                {
+                    "name": "ITA",
+                    "value": 14.2
+                },
+                {
+                    "name": "KWT",
+                    "value": 20.4
+                },
+                {
+                    "name": "LVA",
+                    "value": 42.5
+                },
+                {
+                    "name": "LTU",
+                    "value": 53.9
+                },
+                {
+                    "name": "MLT",
+                    "value": 18.6
+                },
+                {
+                    "name": "NLD",
+                    "value": 28.9
+                },
+                {
+                    "name": "POL",
+                    "value": 28.5
+                },
+                {
+                    "name": "PRT",
+                    "value": 17.2
+                },
+                {
+                    "name": "QAT",
+                    "value": 37.8
+                },
+                {
+                    "name": "MDA",
+                    "value": 51.3
+                },
+                {
+                    "name": "ROU",
+                    "value": 16.5
+                },
+                {
+                    "name": "SGP",
+                    "value": 44.3
+                },
+                {
+                    "name": "ZAF",
+                    "value": 12.9
+                },
+                {
+                    "name": "ESP",
+                    "value": 26.6
+                },
+                {
+                    "name": "SWE",
+                    "value": 37.4
+                },
+                {
+                    "name": "CHE",
+                    "value": 32.5
+                },
+                {
+                    "name": "URY",
+                    "value": 13.0
+                }
+            ]
+        },
+        {
+            "name": "Educational attainment (upper secondary)",
+            "children": [
+                {
+                    "name": "AUS",
+                    "value": 75.0
+                },
+                {
+                    "name": "AUT",
+                    "value": 69.8
+                },
+                {
+                    "name": "BOL",
+                    "value": 37.3
+                },
+                {
+                    "name": "BGR",
+                    "value": 70.6
+                },
+                {
+                    "name": "CRI",
+                    "value": 38.0
+                },
+                {
+                    "name": "CYP",
+                    "value": 66.6
+                },
+                {
+                    "name": "CZE",
+                    "value": 83.7
+                },
+                {
+                    "name": "DNK",
+                    "value": 72.5
+                },
+                {
+                    "name": "DOM",
+                    "value": 35.8
+                },
+                {
+                    "name": "SLV",
+                    "value": 25.2
+                },
+                {
+                    "name": "EST",
+                    "value": 88.9
+                },
+                {
+                    "name": "FRA",
+                    "value": 60.9
+                },
+                {
+                    "name": "DEU",
+                    "value": 76.4
+                },
+                {
+                    "name": "GTM",
+                    "value": 13.2
+                },
+                {
+                    "name": "HND",
+                    "value": 19.7
+                },
+                {
+                    "name": "HUN",
+                    "value": 74.1
+                },
+                {
+                    "name": "IRN",
+                    "value": 43.9
+                },
+                {
+                    "name": "ISR",
+                    "value": 79.4
+                },
+                {
+                    "name": "ITA",
+                    "value": 46.3
+                },
+                {
+                    "name": "KWT",
+                    "value": 34.3
+                },
+                {
+                    "name": "LVA",
+                    "value": 88.3
+                },
+                {
+                    "name": "LTU",
+                    "value": 79.2
+                },
+                {
+                    "name": "LUX",
+                    "value": 72.6
+                },
+                {
+                    "name": "MLT",
+                    "value": 28.3
+                },
+                {
+                    "name": "MEX",
+                    "value": 32.2
+                },
+                {
+                    "name": "NLD",
+                    "value": 62.7
+                },
+                {
+                    "name": "PER",
+                    "value": 51.2
+                },
+                {
+                    "name": "POL",
+                    "value": 79.3
+                },
+                {
+                    "name": "PRT",
+                    "value": 31.8
+                },
+                {
+                    "name": "QAT",
+                    "value": 56.6
+                },
+                {
+                    "name": "MDA",
+                    "value": 72.1
+                },
+                {
+                    "name": "ROU",
+                    "value": 60.2
+                },
+                {
+                    "name": "SRB",
+                    "value": 43.6
+                },
+                {
+                    "name": "SGP",
+                    "value": 64.9
+                },
+                {
+                    "name": "SVK",
+                    "value": 80.6
+                },
+                {
+                    "name": "SVN",
+                    "value": 74.5
+                },
+                {
+                    "name": "ZAF",
+                    "value": 59.1
+                },
+                {
+                    "name": "ESP",
+                    "value": 44.8
+                },
+                {
+                    "name": "SWE",
+                    "value": 78.4
+                },
+                {
+                    "name": "CHE",
+                    "value": 78.6
+                },
+                {
+                    "name": "TUR",
+                    "value": 25.3
+                },
+                {
+                    "name": "USA",
+                    "value": 88.0
+                },
+                {
+                    "name": "URY",
+                    "value": 30.9
+                }
+            ]
+        }
+    ]
+}

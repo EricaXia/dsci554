@@ -1,0 +1,1536 @@
+{
+    "name": "employment",
+    "children": [
+        {
+            "name": "Elementary occupations, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 11.2
+                },
+                {
+                    "name": "BEL",
+                    "value": 14.2
+                },
+                {
+                    "name": "BGR",
+                    "value": 9.3
+                },
+                {
+                    "name": "HRV",
+                    "value": 8.7
+                },
+                {
+                    "name": "CYP",
+                    "value": 23.7
+                },
+                {
+                    "name": "CZE",
+                    "value": 7.8
+                },
+                {
+                    "name": "DNK",
+                    "value": 10.0
+                },
+                {
+                    "name": "EST",
+                    "value": 10.6
+                },
+                {
+                    "name": "FIN",
+                    "value": 8.2
+                },
+                {
+                    "name": "FRA",
+                    "value": 11.9
+                },
+                {
+                    "name": "DEU",
+                    "value": 9.8
+                },
+                {
+                    "name": "GRC",
+                    "value": 9.3
+                },
+                {
+                    "name": "HUN",
+                    "value": 10.2
+                },
+                {
+                    "name": "ISL",
+                    "value": 6.1
+                },
+                {
+                    "name": "IRL",
+                    "value": 6.9
+                },
+                {
+                    "name": "ITA",
+                    "value": 13.0
+                },
+                {
+                    "name": "LVA",
+                    "value": 12.7
+                },
+                {
+                    "name": "LTU",
+                    "value": 8.2
+                },
+                {
+                    "name": "LUX",
+                    "value": 13.5
+                },
+                {
+                    "name": "MKD",
+                    "value": 23.7
+                },
+                {
+                    "name": "MLT",
+                    "value": 7.6
+                },
+                {
+                    "name": "NLD",
+                    "value": 8.6
+                },
+                {
+                    "name": "NOR",
+                    "value": 4.8
+                },
+                {
+                    "name": "POL",
+                    "value": 9.1
+                },
+                {
+                    "name": "PRT",
+                    "value": 17.9
+                },
+                {
+                    "name": "MDA",
+                    "value": 29.2
+                },
+                {
+                    "name": "ROU",
+                    "value": 10.5
+                },
+                {
+                    "name": "SGP",
+                    "value": 8.9
+                },
+                {
+                    "name": "SVK",
+                    "value": 9.4
+                },
+                {
+                    "name": "SVN",
+                    "value": 10.8
+                },
+                {
+                    "name": "ESP",
+                    "value": 17.9
+                },
+                {
+                    "name": "SWE",
+                    "value": 6.0
+                },
+                {
+                    "name": "CHE",
+                    "value": 6.2
+                },
+                {
+                    "name": "TUR",
+                    "value": 19.1
+                },
+                {
+                    "name": "GBR",
+                    "value": 8.3
+                },
+                {
+                    "name": "ACE",
+                    "value": 11.7212
+                },
+                {
+                    "name": "ECM",
+                    "value": 10.0
+                },
+                {
+                    "name": "ECE",
+                    "value": 8.10765
+                }
+            ]
+        },
+        {
+            "name": "Service and sales workers, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 25.7
+                },
+                {
+                    "name": "BEL",
+                    "value": 19.4
+                },
+                {
+                    "name": "BGR",
+                    "value": 27.3
+                },
+                {
+                    "name": "HRV",
+                    "value": 22.8
+                },
+                {
+                    "name": "CYP",
+                    "value": 22.5
+                },
+                {
+                    "name": "CZE",
+                    "value": 22.9
+                },
+                {
+                    "name": "DNK",
+                    "value": 26.5
+                },
+                {
+                    "name": "EST",
+                    "value": 20.4
+                },
+                {
+                    "name": "FIN",
+                    "value": 29.2
+                },
+                {
+                    "name": "FRA",
+                    "value": 24.7
+                },
+                {
+                    "name": "DEU",
+                    "value": 21.7
+                },
+                {
+                    "name": "GRC",
+                    "value": 24.9
+                },
+                {
+                    "name": "HUN",
+                    "value": 20.6
+                },
+                {
+                    "name": "ISL",
+                    "value": 24.6
+                },
+                {
+                    "name": "IRL",
+                    "value": 28.8
+                },
+                {
+                    "name": "ITA",
+                    "value": 23.6
+                },
+                {
+                    "name": "LVA",
+                    "value": 21.6
+                },
+                {
+                    "name": "LTU",
+                    "value": 19.3
+                },
+                {
+                    "name": "LUX",
+                    "value": 15.2
+                },
+                {
+                    "name": "MKD",
+                    "value": 17.0
+                },
+                {
+                    "name": "MLT",
+                    "value": 27.1
+                },
+                {
+                    "name": "NLD",
+                    "value": 28.8
+                },
+                {
+                    "name": "NOR",
+                    "value": 32.1
+                },
+                {
+                    "name": "POL",
+                    "value": 19.9
+                },
+                {
+                    "name": "PRT",
+                    "value": 21.8
+                },
+                {
+                    "name": "MDA",
+                    "value": 21.2
+                },
+                {
+                    "name": "ROU",
+                    "value": 18.2
+                },
+                {
+                    "name": "SGP",
+                    "value": 15.3
+                },
+                {
+                    "name": "SVK",
+                    "value": 25.2
+                },
+                {
+                    "name": "SVN",
+                    "value": 17.4
+                },
+                {
+                    "name": "ESP",
+                    "value": 29.2
+                },
+                {
+                    "name": "SWE",
+                    "value": 30.1
+                },
+                {
+                    "name": "CHE",
+                    "value": 23.1
+                },
+                {
+                    "name": "TUR",
+                    "value": 14.8
+                },
+                {
+                    "name": "GBR",
+                    "value": 27.6
+                },
+                {
+                    "name": "ACE",
+                    "value": 23.2758
+                },
+                {
+                    "name": "ECM",
+                    "value": 22.9
+                },
+                {
+                    "name": "ECE",
+                    "value": 15.423
+                }
+            ]
+        },
+        {
+            "name": "Managers, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 2.9
+                },
+                {
+                    "name": "BEL",
+                    "value": 5.8
+                },
+                {
+                    "name": "BGR",
+                    "value": 4.7
+                },
+                {
+                    "name": "HRV",
+                    "value": 2.5
+                },
+                {
+                    "name": "CYP",
+                    "value": 1.3
+                },
+                {
+                    "name": "CZE",
+                    "value": 3.1
+                },
+                {
+                    "name": "DNK",
+                    "value": 1.1
+                },
+                {
+                    "name": "EST",
+                    "value": 5.8
+                },
+                {
+                    "name": "FIN",
+                    "value": 2.3
+                },
+                {
+                    "name": "FRA",
+                    "value": 6.1
+                },
+                {
+                    "name": "DEU",
+                    "value": 3.0
+                },
+                {
+                    "name": "GRC",
+                    "value": 2.7
+                },
+                {
+                    "name": "HUN",
+                    "value": 4.1
+                },
+                {
+                    "name": "ISL",
+                    "value": 8.4
+                },
+                {
+                    "name": "IRL",
+                    "value": 5.5
+                },
+                {
+                    "name": "ITA",
+                    "value": 2.3
+                },
+                {
+                    "name": "LVA",
+                    "value": 8.2
+                },
+                {
+                    "name": "LTU",
+                    "value": 6.8
+                },
+                {
+                    "name": "LUX",
+                    "value": 1.2
+                },
+                {
+                    "name": "MKD",
+                    "value": 3.1
+                },
+                {
+                    "name": "MLT",
+                    "value": 6.8
+                },
+                {
+                    "name": "NLD",
+                    "value": 4.3
+                },
+                {
+                    "name": "NOR",
+                    "value": 4.5
+                },
+                {
+                    "name": "POL",
+                    "value": 5.3
+                },
+                {
+                    "name": "PRT",
+                    "value": 4.7
+                },
+                {
+                    "name": "ROU",
+                    "value": 1.5
+                },
+                {
+                    "name": "SGP",
+                    "value": 13.0
+                },
+                {
+                    "name": "SVK",
+                    "value": 3.3
+                },
+                {
+                    "name": "SVN",
+                    "value": 6.7
+                },
+                {
+                    "name": "ESP",
+                    "value": 3.3
+                },
+                {
+                    "name": "SWE",
+                    "value": 4.3
+                },
+                {
+                    "name": "CHE",
+                    "value": 5.9
+                },
+                {
+                    "name": "TUR",
+                    "value": 2.5
+                },
+                {
+                    "name": "GBR",
+                    "value": 7.7
+                },
+                {
+                    "name": "ACE",
+                    "value": 4.21562
+                },
+                {
+                    "name": "ECM",
+                    "value": 4.1
+                },
+                {
+                    "name": "ECE",
+                    "value": 2.71799
+                }
+            ]
+        },
+        {
+            "name": "Craft and related trades workers, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 2.4
+                },
+                {
+                    "name": "BEL",
+                    "value": 1.3
+                },
+                {
+                    "name": "BGR",
+                    "value": 8.0
+                },
+                {
+                    "name": "HRV",
+                    "value": 2.4
+                },
+                {
+                    "name": "CYP",
+                    "value": 1.0
+                },
+                {
+                    "name": "CZE",
+                    "value": 4.2
+                },
+                {
+                    "name": "DNK",
+                    "value": 1.1
+                },
+                {
+                    "name": "EST",
+                    "value": 3.3
+                },
+                {
+                    "name": "FIN",
+                    "value": 1.8
+                },
+                {
+                    "name": "FRA",
+                    "value": 1.7
+                },
+                {
+                    "name": "DEU",
+                    "value": 2.8
+                },
+                {
+                    "name": "GRC",
+                    "value": 2.2
+                },
+                {
+                    "name": "HUN",
+                    "value": 3.0
+                },
+                {
+                    "name": "ISL",
+                    "value": 2.7
+                },
+                {
+                    "name": "IRL",
+                    "value": 1.6
+                },
+                {
+                    "name": "ITA",
+                    "value": 3.7
+                },
+                {
+                    "name": "LVA",
+                    "value": 5.6
+                },
+                {
+                    "name": "LTU",
+                    "value": 5.2
+                },
+                {
+                    "name": "LUX",
+                    "value": 0.7
+                },
+                {
+                    "name": "MKD",
+                    "value": 4.3
+                },
+                {
+                    "name": "MLT",
+                    "value": 1.3
+                },
+                {
+                    "name": "NLD",
+                    "value": 1.2
+                },
+                {
+                    "name": "NOR",
+                    "value": 1.0
+                },
+                {
+                    "name": "POL",
+                    "value": 4.0
+                },
+                {
+                    "name": "PRT",
+                    "value": 5.0
+                },
+                {
+                    "name": "MDA",
+                    "value": 5.7
+                },
+                {
+                    "name": "ROU",
+                    "value": 7.5
+                },
+                {
+                    "name": "SGP",
+                    "value": 1.0
+                },
+                {
+                    "name": "SVK",
+                    "value": 4.0
+                },
+                {
+                    "name": "SVN",
+                    "value": 2.9
+                },
+                {
+                    "name": "ESP",
+                    "value": 1.9
+                },
+                {
+                    "name": "SWE",
+                    "value": 1.3
+                },
+                {
+                    "name": "CHE",
+                    "value": 4.4
+                },
+                {
+                    "name": "TUR",
+                    "value": 5.0
+                },
+                {
+                    "name": "GBR",
+                    "value": 1.0
+                },
+                {
+                    "name": "ACE",
+                    "value": 3.14848
+                },
+                {
+                    "name": "ECM",
+                    "value": 2.8
+                },
+                {
+                    "name": "ECE",
+                    "value": 2.05517
+                }
+            ]
+        },
+        {
+            "name": "Technicians and associate professionals, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 18.6
+                },
+                {
+                    "name": "BEL",
+                    "value": 14.7
+                },
+                {
+                    "name": "BGR",
+                    "value": 8.1
+                },
+                {
+                    "name": "HRV",
+                    "value": 12.1
+                },
+                {
+                    "name": "CYP",
+                    "value": 12.3
+                },
+                {
+                    "name": "CZE",
+                    "value": 18.4
+                },
+                {
+                    "name": "DNK",
+                    "value": 16.3
+                },
+                {
+                    "name": "EST",
+                    "value": 15.2
+                },
+                {
+                    "name": "FIN",
+                    "value": 21.0
+                },
+                {
+                    "name": "FRA",
+                    "value": 19.4
+                },
+                {
+                    "name": "DEU",
+                    "value": 25.4
+                },
+                {
+                    "name": "GRC",
+                    "value": 9.9
+                },
+                {
+                    "name": "HUN",
+                    "value": 19.4
+                },
+                {
+                    "name": "ISL",
+                    "value": 16.8
+                },
+                {
+                    "name": "IRL",
+                    "value": 11.2
+                },
+                {
+                    "name": "ITA",
+                    "value": 16.4
+                },
+                {
+                    "name": "LVA",
+                    "value": 15.3
+                },
+                {
+                    "name": "LTU",
+                    "value": 13.3
+                },
+                {
+                    "name": "LUX",
+                    "value": 22.2
+                },
+                {
+                    "name": "MKD",
+                    "value": 11.6
+                },
+                {
+                    "name": "MLT",
+                    "value": 12.4
+                },
+                {
+                    "name": "NLD",
+                    "value": 17.2
+                },
+                {
+                    "name": "NOR",
+                    "value": 13.9
+                },
+                {
+                    "name": "POL",
+                    "value": 12.8
+                },
+                {
+                    "name": "PRT",
+                    "value": 8.5
+                },
+                {
+                    "name": "MDA",
+                    "value": 11.8
+                },
+                {
+                    "name": "ROU",
+                    "value": 7.7
+                },
+                {
+                    "name": "SGP",
+                    "value": 23.0
+                },
+                {
+                    "name": "SVK",
+                    "value": 21.7
+                },
+                {
+                    "name": "SVN",
+                    "value": 14.4
+                },
+                {
+                    "name": "ESP",
+                    "value": 9.1
+                },
+                {
+                    "name": "SWE",
+                    "value": 15.4
+                },
+                {
+                    "name": "CHE",
+                    "value": 19.6
+                },
+                {
+                    "name": "TUR",
+                    "value": 4.9
+                },
+                {
+                    "name": "GBR",
+                    "value": 14.5
+                },
+                {
+                    "name": "ACE",
+                    "value": 14.8212
+                },
+                {
+                    "name": "ECM",
+                    "value": 14.7
+                },
+                {
+                    "name": "ECE",
+                    "value": 9.95277
+                }
+            ]
+        },
+        {
+            "name": "Plant and machine operators, and assemblers, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 1.8
+                },
+                {
+                    "name": "BEL",
+                    "value": 1.8
+                },
+                {
+                    "name": "BGR",
+                    "value": 7.3
+                },
+                {
+                    "name": "HRV",
+                    "value": 5.1
+                },
+                {
+                    "name": "CYP",
+                    "value": 0.6
+                },
+                {
+                    "name": "CZE",
+                    "value": 7.7
+                },
+                {
+                    "name": "DNK",
+                    "value": 1.8
+                },
+                {
+                    "name": "EST",
+                    "value": 7.5
+                },
+                {
+                    "name": "FIN",
+                    "value": 2.4
+                },
+                {
+                    "name": "FRA",
+                    "value": 2.3
+                },
+                {
+                    "name": "DEU",
+                    "value": 2.4
+                },
+                {
+                    "name": "GRC",
+                    "value": 1.2
+                },
+                {
+                    "name": "HUN",
+                    "value": 8.9
+                },
+                {
+                    "name": "ISL",
+                    "value": 0.9
+                },
+                {
+                    "name": "IRL",
+                    "value": 1.8
+                },
+                {
+                    "name": "ITA",
+                    "value": 3.1
+                },
+                {
+                    "name": "LVA",
+                    "value": 1.8
+                },
+                {
+                    "name": "LTU",
+                    "value": 4.9
+                },
+                {
+                    "name": "LUX",
+                    "value": 0.7
+                },
+                {
+                    "name": "MKD",
+                    "value": 12.6
+                },
+                {
+                    "name": "MLT",
+                    "value": 3.8
+                },
+                {
+                    "name": "NLD",
+                    "value": 0.9
+                },
+                {
+                    "name": "NOR",
+                    "value": 2.1
+                },
+                {
+                    "name": "POL",
+                    "value": 3.2
+                },
+                {
+                    "name": "PRT",
+                    "value": 4.9
+                },
+                {
+                    "name": "MDA",
+                    "value": 0.9
+                },
+                {
+                    "name": "ROU",
+                    "value": 5.4
+                },
+                {
+                    "name": "SGP",
+                    "value": 2.9
+                },
+                {
+                    "name": "SVK",
+                    "value": 7.6
+                },
+                {
+                    "name": "SVN",
+                    "value": 5.7
+                },
+                {
+                    "name": "ESP",
+                    "value": 2.2
+                },
+                {
+                    "name": "SWE",
+                    "value": 2.5
+                },
+                {
+                    "name": "CHE",
+                    "value": 1.5
+                },
+                {
+                    "name": "TUR",
+                    "value": 3.4
+                },
+                {
+                    "name": "GBR",
+                    "value": 1.2
+                },
+                {
+                    "name": "ACE",
+                    "value": 3.57879
+                },
+                {
+                    "name": "ECM",
+                    "value": 2.4
+                },
+                {
+                    "name": "ECE",
+                    "value": 1.95363
+                }
+            ]
+        },
+        {
+            "name": "Clerical support workers, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 17.0
+                },
+                {
+                    "name": "BEL",
+                    "value": 17.0
+                },
+                {
+                    "name": "BGR",
+                    "value": 10.0
+                },
+                {
+                    "name": "HRV",
+                    "value": 14.9
+                },
+                {
+                    "name": "CYP",
+                    "value": 18.2
+                },
+                {
+                    "name": "CZE",
+                    "value": 16.8
+                },
+                {
+                    "name": "DNK",
+                    "value": 11.6
+                },
+                {
+                    "name": "EST",
+                    "value": 9.1
+                },
+                {
+                    "name": "FIN",
+                    "value": 10.5
+                },
+                {
+                    "name": "FRA",
+                    "value": 14.3
+                },
+                {
+                    "name": "DEU",
+                    "value": 17.4
+                },
+                {
+                    "name": "GRC",
+                    "value": 13.9
+                },
+                {
+                    "name": "HUN",
+                    "value": 12.8
+                },
+                {
+                    "name": "ISL",
+                    "value": 6.3
+                },
+                {
+                    "name": "IRL",
+                    "value": 16.6
+                },
+                {
+                    "name": "ITA",
+                    "value": 18.7
+                },
+                {
+                    "name": "LVA",
+                    "value": 9.6
+                },
+                {
+                    "name": "LTU",
+                    "value": 5.6
+                },
+                {
+                    "name": "LUX",
+                    "value": 10.2
+                },
+                {
+                    "name": "MKD",
+                    "value": 7.3
+                },
+                {
+                    "name": "MLT",
+                    "value": 18.6
+                },
+                {
+                    "name": "NLD",
+                    "value": 13.7
+                },
+                {
+                    "name": "NOR",
+                    "value": 8.8
+                },
+                {
+                    "name": "POL",
+                    "value": 9.6
+                },
+                {
+                    "name": "PRT",
+                    "value": 10.4
+                },
+                {
+                    "name": "MDA",
+                    "value": 3.3
+                },
+                {
+                    "name": "ROU",
+                    "value": 6.1
+                },
+                {
+                    "name": "SGP",
+                    "value": 22.5
+                },
+                {
+                    "name": "SVK",
+                    "value": 13.1
+                },
+                {
+                    "name": "SVN",
+                    "value": 10.2
+                },
+                {
+                    "name": "ESP",
+                    "value": 14.6
+                },
+                {
+                    "name": "SWE",
+                    "value": 8.6
+                },
+                {
+                    "name": "CHE",
+                    "value": 14.2
+                },
+                {
+                    "name": "TUR",
+                    "value": 8.8
+                },
+                {
+                    "name": "GBR",
+                    "value": 14.8
+                },
+                {
+                    "name": "ACE",
+                    "value": 11.9394
+                },
+                {
+                    "name": "ECM",
+                    "value": 11.6
+                },
+                {
+                    "name": "ECE",
+                    "value": 9.06583
+                }
+            ]
+        },
+        {
+            "name": "Skilled agricultural, forestry and fishery workers, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 4.4
+                },
+                {
+                    "name": "BEL",
+                    "value": 0.5
+                },
+                {
+                    "name": "BGR",
+                    "value": 3.0
+                },
+                {
+                    "name": "HRV",
+                    "value": 12.3
+                },
+                {
+                    "name": "CYP",
+                    "value": 0.9
+                },
+                {
+                    "name": "CZE",
+                    "value": 1.1
+                },
+                {
+                    "name": "DNK",
+                    "value": 0.8
+                },
+                {
+                    "name": "EST",
+                    "value": 1.4
+                },
+                {
+                    "name": "FIN",
+                    "value": 2.4
+                },
+                {
+                    "name": "FRA",
+                    "value": 1.5
+                },
+                {
+                    "name": "DEU",
+                    "value": 0.6
+                },
+                {
+                    "name": "GRC",
+                    "value": 12.5
+                },
+                {
+                    "name": "HUN",
+                    "value": 1.9
+                },
+                {
+                    "name": "ISL",
+                    "value": 1.5
+                },
+                {
+                    "name": "IRL",
+                    "value": 0.7
+                },
+                {
+                    "name": "ITA",
+                    "value": 1.3
+                },
+                {
+                    "name": "LVA",
+                    "value": 2.5
+                },
+                {
+                    "name": "LTU",
+                    "value": 5.2
+                },
+                {
+                    "name": "LUX",
+                    "value": 1.1
+                },
+                {
+                    "name": "MKD",
+                    "value": 0.7
+                },
+                {
+                    "name": "MLT",
+                    "value": 0.3
+                },
+                {
+                    "name": "NLD",
+                    "value": 1.2
+                },
+                {
+                    "name": "NOR",
+                    "value": 0.7
+                },
+                {
+                    "name": "POL",
+                    "value": 10.9
+                },
+                {
+                    "name": "PRT",
+                    "value": 8.3
+                },
+                {
+                    "name": "MDA",
+                    "value": 1.6
+                },
+                {
+                    "name": "ROU",
+                    "value": 25.4
+                },
+                {
+                    "name": "SVK",
+                    "value": 0.6
+                },
+                {
+                    "name": "SVN",
+                    "value": 4.5
+                },
+                {
+                    "name": "ESP",
+                    "value": 1.3
+                },
+                {
+                    "name": "SWE",
+                    "value": 1.0
+                },
+                {
+                    "name": "CHE",
+                    "value": 1.9
+                },
+                {
+                    "name": "TUR",
+                    "value": 28.8
+                },
+                {
+                    "name": "GBR",
+                    "value": 0.3
+                },
+                {
+                    "name": "ACE",
+                    "value": 4.32727
+                },
+                {
+                    "name": "ECM",
+                    "value": 1.5
+                },
+                {
+                    "name": "ECE",
+                    "value": 4.36265
+                }
+            ]
+        },
+        {
+            "name": "Professionals, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 15.9
+                },
+                {
+                    "name": "BEL",
+                    "value": 25.3
+                },
+                {
+                    "name": "BGR",
+                    "value": 22.1
+                },
+                {
+                    "name": "HRV",
+                    "value": 19.1
+                },
+                {
+                    "name": "CYP",
+                    "value": 19.4
+                },
+                {
+                    "name": "CZE",
+                    "value": 17.8
+                },
+                {
+                    "name": "DNK",
+                    "value": 30.7
+                },
+                {
+                    "name": "EST",
+                    "value": 26.4
+                },
+                {
+                    "name": "FIN",
+                    "value": 22.0
+                },
+                {
+                    "name": "FRA",
+                    "value": 17.8
+                },
+                {
+                    "name": "DEU",
+                    "value": 16.5
+                },
+                {
+                    "name": "GRC",
+                    "value": 23.0
+                },
+                {
+                    "name": "HUN",
+                    "value": 18.9
+                },
+                {
+                    "name": "ISL",
+                    "value": 27.5
+                },
+                {
+                    "name": "IRL",
+                    "value": 26.3
+                },
+                {
+                    "name": "ITA",
+                    "value": 17.7
+                },
+                {
+                    "name": "LVA",
+                    "value": 22.4
+                },
+                {
+                    "name": "LTU",
+                    "value": 31.5
+                },
+                {
+                    "name": "LUX",
+                    "value": 34.8
+                },
+                {
+                    "name": "MKD",
+                    "value": 19.5
+                },
+                {
+                    "name": "MLT",
+                    "value": 21.7
+                },
+                {
+                    "name": "NLD",
+                    "value": 22.9
+                },
+                {
+                    "name": "NOR",
+                    "value": 26.2
+                },
+                {
+                    "name": "POL",
+                    "value": 25.0
+                },
+                {
+                    "name": "PRT",
+                    "value": 18.4
+                },
+                {
+                    "name": "MDA",
+                    "value": 19.3
+                },
+                {
+                    "name": "ROU",
+                    "value": 17.5
+                },
+                {
+                    "name": "SGP",
+                    "value": 13.4
+                },
+                {
+                    "name": "SVK",
+                    "value": 15.1
+                },
+                {
+                    "name": "SVN",
+                    "value": 26.8
+                },
+                {
+                    "name": "ESP",
+                    "value": 20.3
+                },
+                {
+                    "name": "SWE",
+                    "value": 30.4
+                },
+                {
+                    "name": "CHE",
+                    "value": 22.8
+                },
+                {
+                    "name": "TUR",
+                    "value": 12.8
+                },
+                {
+                    "name": "GBR",
+                    "value": 24.2
+                },
+                {
+                    "name": "ACE",
+                    "value": 22.3121
+                },
+                {
+                    "name": "ECM",
+                    "value": 22.1
+                },
+                {
+                    "name": "ECE",
+                    "value": 13.0139
+                }
+            ]
+        },
+        {
+            "name": "Legislators, senior officials and managers, Female",
+            "children": [
+                {
+                    "name": "MDA",
+                    "value": 7.0
+                }
+            ]
+        },
+        {
+            "name": "Armed Forces occupations, Female",
+            "children": [
+                {
+                    "name": "AUT",
+                    "value": 0.0
+                },
+                {
+                    "name": "BEL",
+                    "value": 0.1
+                },
+                {
+                    "name": "BGR",
+                    "value": 0.2
+                },
+                {
+                    "name": "HRV",
+                    "value": 0.1
+                },
+                {
+                    "name": "CYP",
+                    "value": 0.2
+                },
+                {
+                    "name": "CZE",
+                    "value": 0.1
+                },
+                {
+                    "name": "DNK",
+                    "value": 0.1
+                },
+                {
+                    "name": "EST",
+                    "value": 0.1
+                },
+                {
+                    "name": "FIN",
+                    "value": 0.0
+                },
+                {
+                    "name": "FRA",
+                    "value": 0.2
+                },
+                {
+                    "name": "DEU",
+                    "value": 0.1
+                },
+                {
+                    "name": "GRC",
+                    "value": 0.4
+                },
+                {
+                    "name": "HUN",
+                    "value": 0.2
+                },
+                {
+                    "name": "IRL",
+                    "value": 0.1
+                },
+                {
+                    "name": "ITA",
+                    "value": 0.1
+                },
+                {
+                    "name": "LVA",
+                    "value": 0.1
+                },
+                {
+                    "name": "MKD",
+                    "value": 0.2
+                },
+                {
+                    "name": "MLT",
+                    "value": 0.2
+                },
+                {
+                    "name": "NLD",
+                    "value": 0.0
+                },
+                {
+                    "name": "NOR",
+                    "value": 0.4
+                },
+                {
+                    "name": "POL",
+                    "value": 0.0
+                },
+                {
+                    "name": "PRT",
+                    "value": 0.1
+                },
+                {
+                    "name": "ROU",
+                    "value": 0.2
+                },
+                {
+                    "name": "SVK",
+                    "value": 0.1
+                },
+                {
+                    "name": "SVN",
+                    "value": 0.1
+                },
+                {
+                    "name": "ESP",
+                    "value": 0.1
+                },
+                {
+                    "name": "SWE",
+                    "value": 0.0
+                },
+                {
+                    "name": "GBR",
+                    "value": 0.0
+                }
+            ]
+        }
+    ]
+}

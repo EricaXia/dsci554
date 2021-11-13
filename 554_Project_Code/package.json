@@ -1,0 +1,16 @@
+{
+  "name": "lab07",
+  "version": "1.0.0",
+  "description": "lab07",
+  "scripts": {
+    "serve": "browser-sync start ./ -s --files './' --directory --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "d3": "^7.1.1",
+    "d3-require": "^1.2.4",
+    "highlightjs": "^9.16.2"
+  }
+}

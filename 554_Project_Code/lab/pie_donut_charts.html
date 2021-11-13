@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DSCI 554 Lab 7 ex6</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../node_modules/highlightjs/styles/github.css">
+	<script src="../node_modules/highlightjs/highlight.pack.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<script src="../node_modules/d3/dist/d3.min.js"></script>
+</head>
+
+<body>
+	<h1>🏋🏽‍♂️ EX6: PIE CHART</h1>
+
+	<h2>0 - Arc generator</h2>
+	<hr>
+
+	<p>Read <a target="_blank" href="https://github.com/d3/d3-shape/blob/v2.0.0/README.md#arcs">D3 Arcs API</a> then
+		then complete the code in the page where marked with 🎒.</p>
+
+	<div class="answer">
+		<cap>Answer</cap>
+
+		<svg id="arc-test" width="200" height="200"></svg>
+
+		<script>
+			var slice = {  //a slice of pie
+				innerRadius: 0,
+				outerRadius: 100,
+				startAngle: 0,
+				endAngle: Math.PI / 2
+			};
+
+			var arc = d3.arc();  //🎒 explain: Create a new arc generator
+			console.log(arc(slice));   //🎒 explain: Console log the path for the generated arc with the 'slice' variable passed in as arguments
+
+			var svg = d3.select('#arc-test'),
+				width = +svg.attr('width'),
+				height = +svg.attr('height'),
+				radius = Math.min(width, height) / 2,
+				g = svg.append('g')
+					.attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');  //🎒 explain: Create new svg group element and translate its position to half the width and half the height
+			g.append('path')  //🎒 explain: Append path object to g element
+				.attr('d', arc(slice))  //🎒 explain: Draw the arc by setting the 'd' attribute to the generated arc with arguments passed in
+				.attr('fill', "red")
+				.attr('stroke', "black");
+		</script>
+	</div>
+
+	<h2>1 - Pie chart example</h2>
+	<hr>
+
+	<p>Read <a target="_blank" href="https://github.com/d3/d3/blob/master/API.md#pies">D3 Pies API</a> then complete the
+		Answer where indicated by 🎒.</p>
+
+	<p class="alert info">💡 Adapted from <a target="_blank" href="https://bl.ocks.org/mbostock/3887235">Mike Bostock’s
+			Block 3887235</a></p>
+
+	<div class="answer">
+		<cap>Answer</cap>
+
+		<svg id="pie-chart" width="960" height="500"></svg>
+
+		<style>
+			.arc text {
+				font: 10px sans-serif;
+				text-anchor: middle;
+			}
+
+			.arc path {
+				stroke: #fff;
+			}
+		</style>
+
+		<script>
+			var slice = {  //a slice of pie
+				innerRadius: 0,
+				outerRadius: 100,
+				startAngle: 0,
+				endAngle: Math.PI / 2
+			};
+
+			var arc = d3.arc();
+			console.log(arc(slice)); // 🎒 explain: Console log the generated arc object with arguments passed in from 'slice'
+
+			var svg = d3.select('#arc-test'),
+				width = +svg.attr('width'),
+				height = +svg.attr('height'),
+				radius = Math.min(width, height) / 2,
+				g = svg.append('g')
+					.attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+
+			var arc = g.append('path')  //🎒 explain: Add new path to g element and set as arc variable
+				.attr('d', arc(slice))  //🎒 explain: Draw the arc by setting the 'd' attribute to the generated arc with arguments passed in
+				.attr('fill', d => "red");
+
+			d3.csv('data.csv', d => {
+				d.population = +d.population;
+				return d;
+			}).then(data => {
+				var svg = d3.select('#pie-chart'),
+					width = +svg.attr('width'),
+					height = +svg.attr('height'),
+					radius = Math.min(width, height) / 2,
+					g = svg.append('g')
+						.attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+
+				var color = d3.scaleOrdinal(['#98abc5', '#8a89a6', '#7b6888', '#6b486b']);  //🎒 explain: Set the color scale to the 4 defined colors in hex codes
+
+				var pie = d3.pie()  //🎒 explain: Make new pie generator, which calculates necessary angles to be passed to an arc generator and allows you to put the areas together
+					.value(d => d.population)
+					.sort(null)  //🎒 explain: Disable automatic sorting by value on pie chart
+					// .sort(function(a, b) { return a.age.localeCompare(b.age); })  //🎒 explain: Specify which part of the data we want to sort
+					.sortValues(d3.descending);  //🎒 explain: Sort by values in descending order
+
+				var path = d3.arc()  //🎒 explain: Define arc function without joining data yet
+					.outerRadius(radius)  //🎒 explain: Set up outer radius attribute to the pre-defined radius variable
+					.innerRadius(200);  //🎒 explain: Set inner radius to zero
+
+				//🎒 change to a donut chart
+				// Changing innerRadius from 0 to 200 converts it to a donut chart
+
+				var label = d3.arc()  //🎒 explain: Define arc function for the purposes of adding and positioning text labels
+					.outerRadius(radius - 40)  //🎒 explain: Set position of outer radius as less than original radius so text is positioned properly
+					.innerRadius(radius - 40);  //🎒 explain: Set position of inner radius
+
+				var arc = g.selectAll('.arc')  //🎒 explain: Select all elements with the 'arc' class
+					.data(pie(data))  //🎒 explain: Data join to the data, with angles computed by passing to pie generator
+					.enter()
+					.append('g')
+					.attr('class', 'arc');
+
+				arc.append('path')  //🎒 explain: Create new path object
+					.attr('d', path)  //🎒 explain: Set 'd' attribute as the path variable from the arc generator to draw the path
+					.attr('fill', d => color(d.data.age));  //🎒 explain: Set the color fill to map to the different age groups in the data
+
+				arc.append('text')
+					.attr('transform', d => 'translate(' + label.centroid(d) + ')')  //🎒 explain: Add the text labels and position on the plot using the 'label' arc function
+					.text(d => d.data.age);
+			});
+		</script>
+	</div>
+</body>
+
+</html>
