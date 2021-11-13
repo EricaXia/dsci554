@@ -89,14 +89,17 @@ function PieChart(data, {
 }
 
 // data_url = 'Project/d3layout_data/gender_pay_gap_2010.csv'
-data_url = 'Project/d3layout_data/GWGPOECD.csv'
+data_url = 'Project/d3layout_data/share_science_graduates_fem_2010.csv'
+
 //Gender wage gap - unadjusted and calculated as the difference between median earnings of men and women relative to median earnings of men
 
+// Share of science graduates at tertiary level, female
+
 d3.csv(data_url).then(data => {
-    // console.log(data)
+    console.log(data)
     PieChart(data, {
-        name: d => d.ISO,
-        value: d => d.wage_gap_2010,
+        name: d => d.name,
+        value: d => d.value,
         width: 500,
         height: 500,
         innerRadius: 180
