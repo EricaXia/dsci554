@@ -1,0 +1,1544 @@
+{
+    "name": "employment",
+    "children": [
+        {
+            "name": "Professionals, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 14.5
+                },
+                {
+                    "name": "Belgium",
+                    "value": 18.3
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 9.2
+                },
+                {
+                    "name": "Croatia",
+                    "value": 11.3
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 15.9
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 10.8
+                },
+                {
+                    "name": "Denmark",
+                    "value": 22.6
+                },
+                {
+                    "name": "Estonia",
+                    "value": 12.0
+                },
+                {
+                    "name": "Finland",
+                    "value": 22.9
+                },
+                {
+                    "name": "France",
+                    "value": 16.6
+                },
+                {
+                    "name": "Germany",
+                    "value": 18.8
+                },
+                {
+                    "name": "Greece",
+                    "value": 15.8
+                },
+                {
+                    "name": "Hungary",
+                    "value": 13.8
+                },
+                {
+                    "name": "Iceland",
+                    "value": 16.8
+                },
+                {
+                    "name": "Ireland",
+                    "value": 18.6
+                },
+                {
+                    "name": "Italy",
+                    "value": 10.6
+                },
+                {
+                    "name": "Latvia",
+                    "value": 11.8
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 13.1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 34.8
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 11.4
+                },
+                {
+                    "name": "Malta",
+                    "value": 12.9
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 22.8
+                },
+                {
+                    "name": "Norway",
+                    "value": 20.1
+                },
+                {
+                    "name": "Poland",
+                    "value": 12.3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.8
+                },
+                {
+                    "name": "Moldova",
+                    "value": 10.2
+                },
+                {
+                    "name": "Romania",
+                    "value": 10.4
+                },
+                {
+                    "name": "Singapore",
+                    "value": 14.8
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 8.1
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 14.3
+                },
+                {
+                    "name": "Spain",
+                    "value": 13.9
+                },
+                {
+                    "name": "Sweden",
+                    "value": 20.7
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 24.1
+                },
+                {
+                    "name": "Turkey",
+                    "value": 7.1
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 23.7
+                },
+                {
+                    "name": "ACE",
+                    "value": 15.7303
+                },
+                {
+                    "name": "ECM",
+                    "value": 14.3
+                },
+                {
+                    "name": "ECE",
+                    "value": 10.0933
+                }
+            ]
+        },
+        {
+            "name": "Armed Forces occupations, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 0.4
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1.1
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 1.4
+                },
+                {
+                    "name": "Croatia",
+                    "value": 1.1
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 1.7
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 0.6
+                },
+                {
+                    "name": "Denmark",
+                    "value": 0.7
+                },
+                {
+                    "name": "Estonia",
+                    "value": 0.7
+                },
+                {
+                    "name": "Finland",
+                    "value": 0.7
+                },
+                {
+                    "name": "France",
+                    "value": 1.6
+                },
+                {
+                    "name": "Germany",
+                    "value": 0.9
+                },
+                {
+                    "name": "Greece",
+                    "value": 2.3
+                },
+                {
+                    "name": "Hungary",
+                    "value": 0.7
+                },
+                {
+                    "name": "Ireland",
+                    "value": 0.7
+                },
+                {
+                    "name": "Italy",
+                    "value": 1.9
+                },
+                {
+                    "name": "Latvia",
+                    "value": 0.8
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 0.8
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 0.7
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 1.1
+                },
+                {
+                    "name": "Malta",
+                    "value": 1.8
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 0.6
+                },
+                {
+                    "name": "Norway",
+                    "value": 1.0
+                },
+                {
+                    "name": "Poland",
+                    "value": 1.0
+                },
+                {
+                    "name": "Portugal",
+                    "value": 1.2
+                },
+                {
+                    "name": "Romania",
+                    "value": 1.5
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 0.6
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 1.0
+                },
+                {
+                    "name": "Spain",
+                    "value": 0.9
+                },
+                {
+                    "name": "Sweden",
+                    "value": 0.5
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 0.4
+                }
+            ]
+        },
+        {
+            "name": "Legislators, senior officials and managers, Male",
+            "children": [
+                {
+                    "name": "Moldova",
+                    "value": 8.8
+                }
+            ]
+        },
+        {
+            "name": "Clerical support workers, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 5.7
+                },
+                {
+                    "name": "Belgium",
+                    "value": 9.3
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 3.3
+                },
+                {
+                    "name": "Croatia",
+                    "value": 6.4
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 4.7
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 3.6
+                },
+                {
+                    "name": "Denmark",
+                    "value": 4.6
+                },
+                {
+                    "name": "Estonia",
+                    "value": 3.0
+                },
+                {
+                    "name": "Finland",
+                    "value": 2.9
+                },
+                {
+                    "name": "France",
+                    "value": 5.0
+                },
+                {
+                    "name": "Germany",
+                    "value": 7.7
+                },
+                {
+                    "name": "Greece",
+                    "value": 7.4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 3.6
+                },
+                {
+                    "name": "Iceland",
+                    "value": 1.4
+                },
+                {
+                    "name": "Ireland",
+                    "value": 4.0
+                },
+                {
+                    "name": "Italy",
+                    "value": 7.9
+                },
+                {
+                    "name": "Latvia",
+                    "value": 2.5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 2.1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 7.0
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 4.6
+                },
+                {
+                    "name": "Malta",
+                    "value": 7.4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 6.0
+                },
+                {
+                    "name": "Norway",
+                    "value": 4.9
+                },
+                {
+                    "name": "Poland",
+                    "value": 4.3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 5.4
+                },
+                {
+                    "name": "Moldova",
+                    "value": 1.0
+                },
+                {
+                    "name": "Romania",
+                    "value": 2.5
+                },
+                {
+                    "name": "Singapore",
+                    "value": 5.2
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 4.1
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 6.0
+                },
+                {
+                    "name": "Spain",
+                    "value": 6.4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 3.5
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 5.2
+                },
+                {
+                    "name": "Turkey",
+                    "value": 4.8
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 5.8
+                },
+                {
+                    "name": "ACE",
+                    "value": 4.74545
+                },
+                {
+                    "name": "ECM",
+                    "value": 4.7
+                },
+                {
+                    "name": "ECE",
+                    "value": 3.80504
+                }
+            ]
+        },
+        {
+            "name": "Plant and machine operators, and assemblers, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 9.1
+                },
+                {
+                    "name": "Belgium",
+                    "value": 10.3
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 18.6
+                },
+                {
+                    "name": "Croatia",
+                    "value": 12.9
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 8.1
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 18.1
+                },
+                {
+                    "name": "Denmark",
+                    "value": 8.7
+                },
+                {
+                    "name": "Estonia",
+                    "value": 18.7
+                },
+                {
+                    "name": "Finland",
+                    "value": 12.7
+                },
+                {
+                    "name": "France",
+                    "value": 10.7
+                },
+                {
+                    "name": "Germany",
+                    "value": 10.1
+                },
+                {
+                    "name": "Greece",
+                    "value": 9.8
+                },
+                {
+                    "name": "Hungary",
+                    "value": 17.5
+                },
+                {
+                    "name": "Iceland",
+                    "value": 7.3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 9.0
+                },
+                {
+                    "name": "Italy",
+                    "value": 9.9
+                },
+                {
+                    "name": "Latvia",
+                    "value": 16.6
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 18.2
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 7.1
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 12.0
+                },
+                {
+                    "name": "Malta",
+                    "value": 8.1
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 7.0
+                },
+                {
+                    "name": "Norway",
+                    "value": 10.7
+                },
+                {
+                    "name": "Poland",
+                    "value": 16.0
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.1
+                },
+                {
+                    "name": "Moldova",
+                    "value": 14.9
+                },
+                {
+                    "name": "Romania",
+                    "value": 13.7
+                },
+                {
+                    "name": "Singapore",
+                    "value": 10.9
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 19.9
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 12.5
+                },
+                {
+                    "name": "Spain",
+                    "value": 12.1
+                },
+                {
+                    "name": "Sweden",
+                    "value": 12.5
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 5.7
+                },
+                {
+                    "name": "Turkey",
+                    "value": 12.2
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 8.2
+                },
+                {
+                    "name": "ACE",
+                    "value": 12.1788
+                },
+                {
+                    "name": "ECM",
+                    "value": 12.0
+                },
+                {
+                    "name": "ECE",
+                    "value": 7.60132
+                }
+            ]
+        },
+        {
+            "name": "Skilled agricultural, forestry and fishery workers, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 5.2
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1.9
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 4.5
+                },
+                {
+                    "name": "Croatia",
+                    "value": 11.3
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 2.6
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 1.5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 3.4
+                },
+                {
+                    "name": "Estonia",
+                    "value": 2.6
+                },
+                {
+                    "name": "Finland",
+                    "value": 4.9
+                },
+                {
+                    "name": "France",
+                    "value": 4.2
+                },
+                {
+                    "name": "Germany",
+                    "value": 2.2
+                },
+                {
+                    "name": "Greece",
+                    "value": 12.1
+                },
+                {
+                    "name": "Hungary",
+                    "value": 4.1
+                },
+                {
+                    "name": "Iceland",
+                    "value": 6.9
+                },
+                {
+                    "name": "Ireland",
+                    "value": 7.1
+                },
+                {
+                    "name": "Italy",
+                    "value": 3.3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 4.7
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 7.4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 2.7
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 2.0
+                },
+                {
+                    "name": "Malta",
+                    "value": 1.4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 3.5
+                },
+                {
+                    "name": "Norway",
+                    "value": 3.2
+                },
+                {
+                    "name": "Poland",
+                    "value": 11.6
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.5
+                },
+                {
+                    "name": "Moldova",
+                    "value": 2.4
+                },
+                {
+                    "name": "Romania",
+                    "value": 21.7
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 1.4
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 6.2
+                },
+                {
+                    "name": "Spain",
+                    "value": 3.7
+                },
+                {
+                    "name": "Sweden",
+                    "value": 2.7
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 4.2
+                },
+                {
+                    "name": "Turkey",
+                    "value": 16.0
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1.9
+                },
+                {
+                    "name": "ACE",
+                    "value": 5.59394
+                },
+                {
+                    "name": "ECM",
+                    "value": 4.1
+                },
+                {
+                    "name": "ECE",
+                    "value": 4.23399
+                }
+            ]
+        },
+        {
+            "name": "Technicians and associate professionals, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 19.1
+                },
+                {
+                    "name": "Belgium",
+                    "value": 15.4
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 8.2
+                },
+                {
+                    "name": "Croatia",
+                    "value": 14.3
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 14.6
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 18.3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 17.3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 12.0
+                },
+                {
+                    "name": "Finland",
+                    "value": 14.7
+                },
+                {
+                    "name": "France",
+                    "value": 20.8
+                },
+                {
+                    "name": "Germany",
+                    "value": 17.9
+                },
+                {
+                    "name": "Greece",
+                    "value": 6.7
+                },
+                {
+                    "name": "Hungary",
+                    "value": 9.9
+                },
+                {
+                    "name": "Iceland",
+                    "value": 13.0
+                },
+                {
+                    "name": "Ireland",
+                    "value": 11.0
+                },
+                {
+                    "name": "Italy",
+                    "value": 17.9
+                },
+                {
+                    "name": "Latvia",
+                    "value": 11.0
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 9.1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 17.6
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 8.5
+                },
+                {
+                    "name": "Malta",
+                    "value": 15.3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 15.3
+                },
+                {
+                    "name": "Norway",
+                    "value": 18.5
+                },
+                {
+                    "name": "Poland",
+                    "value": 9.3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 10.7
+                },
+                {
+                    "name": "Moldova",
+                    "value": 5.7
+                },
+                {
+                    "name": "Romania",
+                    "value": 5.5
+                },
+                {
+                    "name": "Singapore",
+                    "value": 18.9
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 14.1
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 12.5
+                },
+                {
+                    "name": "Spain",
+                    "value": 12.0
+                },
+                {
+                    "name": "Sweden",
+                    "value": 17.6
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 17.0
+                },
+                {
+                    "name": "Turkey",
+                    "value": 5.6
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 11.4
+                },
+                {
+                    "name": "ACE",
+                    "value": 13.1061
+                },
+                {
+                    "name": "ECM",
+                    "value": 13.0
+                },
+                {
+                    "name": "ECE",
+                    "value": 9.01722
+                }
+            ]
+        },
+        {
+            "name": "Managers, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 5.9
+                },
+                {
+                    "name": "Belgium",
+                    "value": 10.0
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 7.4
+                },
+                {
+                    "name": "Croatia",
+                    "value": 5.5
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 6.3
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 6.7
+                },
+                {
+                    "name": "Denmark",
+                    "value": 2.6
+                },
+                {
+                    "name": "Estonia",
+                    "value": 12.1
+                },
+                {
+                    "name": "Finland",
+                    "value": 5.1
+                },
+                {
+                    "name": "France",
+                    "value": 8.6
+                },
+                {
+                    "name": "Germany",
+                    "value": 5.6
+                },
+                {
+                    "name": "Greece",
+                    "value": 5.5
+                },
+                {
+                    "name": "Hungary",
+                    "value": 5.7
+                },
+                {
+                    "name": "Iceland",
+                    "value": 11.7
+                },
+                {
+                    "name": "Ireland",
+                    "value": 10.0
+                },
+                {
+                    "name": "Italy",
+                    "value": 4.6
+                },
+                {
+                    "name": "Latvia",
+                    "value": 10.1
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 11.3
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 4.0
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 6.7
+                },
+                {
+                    "name": "Malta",
+                    "value": 10.7
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 9.1
+                },
+                {
+                    "name": "Norway",
+                    "value": 8.5
+                },
+                {
+                    "name": "Poland",
+                    "value": 7.0
+                },
+                {
+                    "name": "Portugal",
+                    "value": 8.0
+                },
+                {
+                    "name": "Romania",
+                    "value": 2.7
+                },
+                {
+                    "name": "Singapore",
+                    "value": 20.2
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 5.2
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 8.9
+                },
+                {
+                    "name": "Spain",
+                    "value": 6.4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 7.1
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 10.0
+                },
+                {
+                    "name": "Turkey",
+                    "value": 7.5
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 12.8
+                },
+                {
+                    "name": "ACE",
+                    "value": 7.45625
+                },
+                {
+                    "name": "ECM",
+                    "value": 7.0
+                },
+                {
+                    "name": "ECE",
+                    "value": 4.86488
+                }
+            ]
+        },
+        {
+            "name": "Service and sales workers, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 10.6
+                },
+                {
+                    "name": "Belgium",
+                    "value": 8.6
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 17.2
+                },
+                {
+                    "name": "Croatia",
+                    "value": 12.8
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 15.6
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 9.3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 13.7
+                },
+                {
+                    "name": "Estonia",
+                    "value": 6.2
+                },
+                {
+                    "name": "Finland",
+                    "value": 10.2
+                },
+                {
+                    "name": "France",
+                    "value": 10.1
+                },
+                {
+                    "name": "Germany",
+                    "value": 10.1
+                },
+                {
+                    "name": "Greece",
+                    "value": 18.6
+                },
+                {
+                    "name": "Hungary",
+                    "value": 11.8
+                },
+                {
+                    "name": "Iceland",
+                    "value": 13.7
+                },
+                {
+                    "name": "Ireland",
+                    "value": 12.2
+                },
+                {
+                    "name": "Italy",
+                    "value": 11.6
+                },
+                {
+                    "name": "Latvia",
+                    "value": 8.4
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 8.2
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 8.3
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 15.9
+                },
+                {
+                    "name": "Malta",
+                    "value": 15.5
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 10.6
+                },
+                {
+                    "name": "Norway",
+                    "value": 12.2
+                },
+                {
+                    "name": "Poland",
+                    "value": 9.1
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.3
+                },
+                {
+                    "name": "Moldova",
+                    "value": 8.2
+                },
+                {
+                    "name": "Romania",
+                    "value": 9.0
+                },
+                {
+                    "name": "Singapore",
+                    "value": 11.2
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 11.0
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 9.3
+                },
+                {
+                    "name": "Spain",
+                    "value": 16.4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 12.1
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 10.3
+                },
+                {
+                    "name": "Turkey",
+                    "value": 17.3
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 11.2
+                },
+                {
+                    "name": "ACE",
+                    "value": 11.5485
+                },
+                {
+                    "name": "ECM",
+                    "value": 11.0
+                },
+                {
+                    "name": "ECE",
+                    "value": 8.05908
+                }
+            ]
+        },
+        {
+            "name": "Elementary occupations, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 5.9
+                },
+                {
+                    "name": "Belgium",
+                    "value": 6.6
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 10.8
+                },
+                {
+                    "name": "Croatia",
+                    "value": 5.8
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 10.7
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 3.5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 10.6
+                },
+                {
+                    "name": "Estonia",
+                    "value": 5.8
+                },
+                {
+                    "name": "Finland",
+                    "value": 5.1
+                },
+                {
+                    "name": "France",
+                    "value": 7.9
+                },
+                {
+                    "name": "Germany",
+                    "value": 4.8
+                },
+                {
+                    "name": "Greece",
+                    "value": 5.0
+                },
+                {
+                    "name": "Hungary",
+                    "value": 8.2
+                },
+                {
+                    "name": "Iceland",
+                    "value": 6.1
+                },
+                {
+                    "name": "Ireland",
+                    "value": 10.3
+                },
+                {
+                    "name": "Italy",
+                    "value": 9.3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 13.7
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 7.3
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 4.5
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 20.8
+                },
+                {
+                    "name": "Malta",
+                    "value": 10.7
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 8.1
+                },
+                {
+                    "name": "Norway",
+                    "value": 2.7
+                },
+                {
+                    "name": "Poland",
+                    "value": 5.3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 6.2
+                },
+                {
+                    "name": "Moldova",
+                    "value": 33.6
+                },
+                {
+                    "name": "Romania",
+                    "value": 10.8
+                },
+                {
+                    "name": "Singapore",
+                    "value": 5.7
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 7.2
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 6.4
+                },
+                {
+                    "name": "Spain",
+                    "value": 8.8
+                },
+                {
+                    "name": "Sweden",
+                    "value": 4.2
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 2.7
+                },
+                {
+                    "name": "Turkey",
+                    "value": 12.3
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 9.4
+                },
+                {
+                    "name": "ACE",
+                    "value": 8.49697
+                },
+                {
+                    "name": "ECM",
+                    "value": 7.2
+                },
+                {
+                    "name": "ECE",
+                    "value": 5.48571
+                }
+            ]
+        },
+        {
+            "name": "Craft and related trades workers, Male",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 23.7
+                },
+                {
+                    "name": "Belgium",
+                    "value": 18.6
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 19.5
+                },
+                {
+                    "name": "Croatia",
+                    "value": 18.5
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 19.8
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 27.6
+                },
+                {
+                    "name": "Denmark",
+                    "value": 15.6
+                },
+                {
+                    "name": "Estonia",
+                    "value": 26.9
+                },
+                {
+                    "name": "Finland",
+                    "value": 20.4
+                },
+                {
+                    "name": "France",
+                    "value": 14.4
+                },
+                {
+                    "name": "Germany",
+                    "value": 21.6
+                },
+                {
+                    "name": "Greece",
+                    "value": 16.9
+                },
+                {
+                    "name": "Hungary",
+                    "value": 24.8
+                },
+                {
+                    "name": "Iceland",
+                    "value": 18.3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 16.5
+                },
+                {
+                    "name": "Italy",
+                    "value": 22.9
+                },
+                {
+                    "name": "Latvia",
+                    "value": 20.3
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 22.5
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 12.4
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 16.8
+                },
+                {
+                    "name": "Malta",
+                    "value": 16.1
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 15.6
+                },
+                {
+                    "name": "Norway",
+                    "value": 17.5
+                },
+                {
+                    "name": "Poland",
+                    "value": 24.0
+                },
+                {
+                    "name": "Portugal",
+                    "value": 22.9
+                },
+                {
+                    "name": "Moldova",
+                    "value": 15.2
+                },
+                {
+                    "name": "Romania",
+                    "value": 22.2
+                },
+                {
+                    "name": "Singapore",
+                    "value": 7.2
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 28.3
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 22.3
+                },
+                {
+                    "name": "Spain",
+                    "value": 19.4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 18.6
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 20.4
+                },
+                {
+                    "name": "Turkey",
+                    "value": 17.2
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 14.8
+                },
+                {
+                    "name": "ACE",
+                    "value": 19.8909
+                },
+                {
+                    "name": "ECM",
+                    "value": 19.5
+                },
+                {
+                    "name": "ECE",
+                    "value": 12.9487
+                }
+            ]
+        }
+    ]
+}

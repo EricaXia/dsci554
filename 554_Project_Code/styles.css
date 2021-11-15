@@ -130,3 +130,10 @@ pre {
   font-weight: 600;
   text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
 }
+
+.donut-font {
+  font-size: 18px;
+  /* font-color: rgb(50, 76, 190) */
+  /* font-color: rgb(83, 107, 173) */
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+}

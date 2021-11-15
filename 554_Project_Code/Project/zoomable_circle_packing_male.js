@@ -1,15 +1,12 @@
 // const svg = d3.select('#circle-packing-chart')
 
 // data_url = 'Project/d3layout_data/education.json'
-// data_url_f = 'Project/d3layout_data/female_employment_data.json'
-// data_url_m = 'Project/d3layout_data/male_employment_data.json'
-data_url = 'Project/d3layout_data/all_employment_data.json'
-
-// Promise.all([d3.json(data_url_f), d3.json(data_url_m)]).then( data => {
-//     data_f = data[0]
-//     data_m = data[1]
+// data_url = 'Project/d3layout_data/female_employment_data.json'
+data_url = 'Project/d3layout_data/male_employment_data.json'
 
 d3.json(data_url).then(data => {
+
+    // console.log("THIS IS DATA:", data)
 
     width = 932
     height = width
@@ -20,8 +17,8 @@ d3.json(data_url).then(data => {
         .domain([0, 5])
         // .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
         // .range(["rgb(204, 204, 255)", "rgb(128, 0, 128)"])
-        // .range(["rgb(214, 205, 247)", "rgb(57, 47, 90)"])
-        .range(["rgb(255, 249, 243)", "rgb(233, 201, 22)"])
+        .range(["rgb(214, 205, 247)", "rgb(57, 47, 90)"])
+        // .range(["#ceb1be", "#45062e"])
         .interpolate(d3.interpolateHcl)
 
     pack = data => d3.pack()
@@ -37,7 +34,7 @@ d3.json(data_url).then(data => {
     let view;
 
     //   const svg = d3.create("svg")
-    const svg = d3.select('#circle-packing-chart')
+    const svg = d3.select('#circle-packing-chart-male')
         .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
         .style("display", "block")
         .style("margin", "0 -14px")
@@ -45,28 +42,11 @@ d3.json(data_url).then(data => {
         .style("cursor", "pointer")
         .on("click", (event) => zoom(event, root));
 
-    function colorCircles(d) {
-        if (d.children) {
-            return color(d.depth)
-        }
-        else {
-            // console.log(d)
-            if (d.data.gender == "female") {
-                return "rgb(185, 147, 229)"
-            }
-            else {
-                return "rgb(50, 76, 190)" //"rgb(83, 107, 173)"
-            }
-        } // else
-    }
-
     const node = svg.append("g")
         .selectAll("circle")
         .data(root.descendants().slice(1))
         .join("circle")
-        .attr("fill", d => colorCircles(d))
-        // .attr("fill", d => d.children ? color(d.depth) : "white")  // color children white, color non-children according to color()
-
+        .attr("fill", d => d.children ? color(d.depth) : "white")
         .attr("pointer-events", d => !d.children ? "none" : null)
         .on("mouseover", function () { d3.select(this).attr("stroke", "#000"); })
         .on("mouseout", function () { d3.select(this).attr("stroke", null); })
@@ -81,8 +61,8 @@ d3.json(data_url).then(data => {
             return (d.data.name + ": " + Math.round(d.data.value) + "\%")
         }
     }
-
-    // TODO: show % values on a new line?
+    
+// TODO: show % values on a new line?
     const label = svg.append("g")
         .attr("class", "zoom-font")
         .attr("pointer-events", "none")
@@ -94,7 +74,7 @@ d3.json(data_url).then(data => {
         .style("display", d => d.parent === root ? "inline" : "none")
         .text(d => displayText(d))
     // .text(d => d.data.name);      
-
+    
 
 
     zoomTo([root.x, root.y, root.r * 2]);

@@ -1,0 +1,3760 @@
+{
+    "name": "employment",
+    "children": [
+        {
+            "name": "Elementary occupations",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 11.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 14.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 9.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 8.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 23.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 7.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 10.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 10.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 8.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 11.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 9.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 9.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 10.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 6.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 6.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 13.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 12.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 8.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 13.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 23.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 7.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 8.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 4.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 9.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 17.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 29.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 10.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 8.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 9.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 10.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 17.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 6.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 6.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 19.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 8.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 11.7212,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 10.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 8.10765,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 5.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 6.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 10.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 5.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 10.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 3.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 10.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 5.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 5.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 7.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 4.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 5.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 8.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 6.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 10.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 9.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 13.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 7.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 4.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 20.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 10.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 8.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 2.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 5.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 6.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 33.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 10.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 5.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 7.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 6.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 8.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 4.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 2.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 12.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 9.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 8.49697,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 7.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 5.48571,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Service and sales workers",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 25.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 19.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 27.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 22.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 22.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 22.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 26.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 20.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 29.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 24.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 21.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 24.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 20.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 24.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 28.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 23.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 21.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 19.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 15.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 17.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 27.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 28.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 32.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 19.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 21.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 21.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 18.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 15.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 25.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 17.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 29.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 30.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 23.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 14.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 27.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 23.2758,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 22.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 15.423,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 10.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 8.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 17.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 12.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 15.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 9.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 13.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 6.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 10.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 10.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 10.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 18.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 11.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 13.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 12.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 11.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 8.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 8.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 8.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 15.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 15.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 10.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 12.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 9.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 8.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 9.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 11.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 11.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 9.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 16.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 12.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 10.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 17.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 11.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 11.5485,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 11.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 8.05908,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Managers",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 2.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 5.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 4.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 2.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 1.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 3.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 1.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 5.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 2.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 6.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 3.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 2.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 4.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 8.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 5.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 2.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 8.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 6.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 1.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 3.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 6.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 4.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 4.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 5.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 4.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 1.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 13.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 3.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 6.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 3.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 4.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 5.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 2.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 7.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 4.21562,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 4.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 2.71799,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 5.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 10.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 7.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 5.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 6.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 6.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 2.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 12.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 5.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 8.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 5.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 5.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 5.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 11.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 10.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 4.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 10.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 11.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 4.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 6.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 10.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 9.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 8.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 7.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 8.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 2.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 20.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 5.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 8.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 6.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 7.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 10.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 7.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 12.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 7.45625,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 7.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 4.86488,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Craft and related trades workers",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 2.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 8.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 2.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 1.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 4.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 1.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 3.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 1.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 1.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 2.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 2.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 3.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 2.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 1.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 3.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 5.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 5.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 0.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 4.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 1.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 1.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 1.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 4.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 5.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 5.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 7.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 1.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 4.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 2.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 1.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 1.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 4.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 5.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 3.14848,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 2.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 2.05517,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 23.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 18.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 19.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 18.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 19.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 27.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 15.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 26.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 20.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 14.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 21.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 16.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 24.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 18.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 16.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 22.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 20.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 22.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 12.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 16.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 16.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 15.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 17.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 24.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 22.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 15.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 22.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 7.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 28.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 22.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 19.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 18.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 20.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 17.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 14.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 19.8909,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 19.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 12.9487,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Technicians and associate professionals",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 18.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 14.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 8.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 12.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 12.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 18.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 16.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 15.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 21.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 19.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 25.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 9.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 19.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 16.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 11.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 16.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 15.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 13.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 22.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 11.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 12.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 17.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 13.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 12.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 8.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 11.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 7.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 23.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 21.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 14.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 9.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 15.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 19.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 4.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 14.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 14.8212,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 14.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 9.95277,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 19.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 15.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 8.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 14.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 14.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 18.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 17.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 12.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 14.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 20.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 17.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 6.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 9.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 13.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 11.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 17.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 11.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 9.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 17.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 8.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 15.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 15.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 18.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 9.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 10.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 5.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 5.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 18.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 14.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 12.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 12.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 17.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 17.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 5.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 11.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 13.1061,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 13.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 9.01722,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Plant and machine operators, and assemblers",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 1.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 7.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 5.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 0.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 7.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 1.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 7.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 2.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 2.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 2.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 1.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 8.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 0.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 1.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 3.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 1.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 4.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 0.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 12.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 3.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 0.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 2.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 3.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 4.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 0.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 5.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 2.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 7.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 5.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 2.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 2.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 1.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 3.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 3.57879,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 2.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 1.95363,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 9.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 10.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 18.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 12.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 8.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 18.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 8.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 18.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 12.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 10.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 10.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 9.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 17.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 7.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 9.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 9.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 16.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 18.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 7.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 12.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 8.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 7.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 10.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 16.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 14.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 13.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 10.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 19.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 12.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 12.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 12.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 5.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 12.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 8.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 12.1788,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 12.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 7.60132,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Clerical support workers",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 17.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 17.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 10.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 14.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 18.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 16.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 11.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 9.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 10.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 14.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 17.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 13.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 12.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 6.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 16.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 18.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 9.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 5.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 10.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 7.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 18.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 13.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 8.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 9.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 10.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 3.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 6.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 22.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 13.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 10.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 14.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 8.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 14.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 8.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 14.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 11.9394,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 11.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 9.06583,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 5.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 9.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 3.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 6.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 4.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 3.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 4.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 3.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 2.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 5.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 7.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 7.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 3.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 1.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 4.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 7.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 2.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 2.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 7.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 4.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 7.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 6.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 4.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 4.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 5.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 1.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 2.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 5.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 4.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 6.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 6.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 3.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 5.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 4.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 5.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 4.74545,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 4.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 3.80504,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Skilled agricultural, forestry and fishery workers",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 4.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 0.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 3.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 12.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 0.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 1.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 0.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 1.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 2.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 1.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 0.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 12.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 1.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 1.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 0.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 1.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 2.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 5.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 1.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 0.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 0.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 1.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 0.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 10.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 8.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 1.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 25.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 0.6,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 4.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 1.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 1.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 1.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 28.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 0.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 4.32727,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 1.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 4.36265,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 5.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 4.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 11.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 2.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 1.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 3.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 2.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 4.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 4.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 2.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 12.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 4.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 6.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 7.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 3.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 4.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 7.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 2.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 2.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 1.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 3.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 3.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 11.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 2.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 21.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 1.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 6.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 3.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 2.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 4.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 16.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 5.59394,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 4.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 4.23399,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Professionals",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 15.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 25.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 22.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 19.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 19.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 17.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 30.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 26.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 22.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 17.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 16.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 23.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 18.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 27.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 26.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 17.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 22.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 31.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 34.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 19.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 21.7,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 22.9,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 26.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 25.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 18.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 19.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 17.5,
+                    "gender": "female"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 13.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 15.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 26.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 20.3,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 30.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 22.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 12.8,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 24.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "ACE",
+                    "value": 22.3121,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECM",
+                    "value": 22.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "ECE",
+                    "value": 13.0139,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 14.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 18.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 9.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 11.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 15.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 10.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 22.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 12.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 22.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 16.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 18.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 15.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 13.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Iceland",
+                    "value": 16.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 18.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 10.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 11.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 13.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 34.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 11.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 12.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 22.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 20.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 12.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 11.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 10.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 10.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Singapore",
+                    "value": 14.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 8.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 14.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 13.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 20.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 24.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Turkey",
+                    "value": 7.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 23.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "ACE",
+                    "value": 15.7303,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECM",
+                    "value": 14.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "ECE",
+                    "value": 10.0933,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Legislators, senior officials and managers",
+            "children": [
+                {
+                    "name": "Moldova",
+                    "value": 7.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Moldova",
+                    "value": 8.8,
+                    "gender": "male"
+                }
+            ]
+        },
+        {
+            "name": "Armed Forces occupations",
+            "children": [
+                {
+                    "name": "Austria",
+                    "value": 0.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 0.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 0.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Finland",
+                    "value": 0.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "France",
+                    "value": 0.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Germany",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Greece",
+                    "value": 0.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 0.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Italy",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 0.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Malta",
+                    "value": 0.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 0.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Norway",
+                    "value": 0.4,
+                    "gender": "female"
+                },
+                {
+                    "name": "Poland",
+                    "value": 0.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Romania",
+                    "value": 0.2,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Spain",
+                    "value": 0.1,
+                    "gender": "female"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 0.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 0.0,
+                    "gender": "female"
+                },
+                {
+                    "name": "Austria",
+                    "value": 0.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 1.4,
+                    "gender": "male"
+                },
+                {
+                    "name": "Croatia",
+                    "value": 1.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 1.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 0.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Denmark",
+                    "value": 0.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Estonia",
+                    "value": 0.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Finland",
+                    "value": 0.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "France",
+                    "value": 1.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Germany",
+                    "value": 0.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Greece",
+                    "value": 2.3,
+                    "gender": "male"
+                },
+                {
+                    "name": "Hungary",
+                    "value": 0.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Ireland",
+                    "value": 0.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "Italy",
+                    "value": 1.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Latvia",
+                    "value": 0.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 0.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 0.7,
+                    "gender": "male"
+                },
+                {
+                    "name": "North Macedonia",
+                    "value": 1.1,
+                    "gender": "male"
+                },
+                {
+                    "name": "Malta",
+                    "value": 1.8,
+                    "gender": "male"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 0.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Norway",
+                    "value": 1.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Poland",
+                    "value": 1.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Portugal",
+                    "value": 1.2,
+                    "gender": "male"
+                },
+                {
+                    "name": "Romania",
+                    "value": 1.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovak Republic",
+                    "value": 0.6,
+                    "gender": "male"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 1.0,
+                    "gender": "male"
+                },
+                {
+                    "name": "Spain",
+                    "value": 0.9,
+                    "gender": "male"
+                },
+                {
+                    "name": "Sweden",
+                    "value": 0.5,
+                    "gender": "male"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 0.4,
+                    "gender": "male"
+                }
+            ]
+        }
+    ]
+}

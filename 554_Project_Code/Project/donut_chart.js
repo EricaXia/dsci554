@@ -8,7 +8,8 @@ function PieChart(data, {
     height = 400, // outer height, in pixels
     innerRadius = 0, // inner radius of pie, in pixels (non-zero for donut)
     outerRadius = Math.min(width, height) / 2, // outer radius of pie, in pixels
-    labelRadius = (innerRadius * 0.2 + outerRadius * 0.8), // center radius of labels
+    // labelRadius = (innerRadius * 0.2 + outerRadius * 0.8), // center radius of labels
+    labelRadius = (innerRadius * 0.1 + outerRadius * 0.8), // center radius of labels
     format = ",", // a format specifier for values (in the label)
     names, // array of names (the domain of the color scale)
     colors, // array of colors for names
@@ -83,13 +84,16 @@ function PieChart(data, {
         .attr("x", 0)
         .attr("y", (_, i) => `${i * 1.1}em`)
         .attr("font-weight", (_, i) => i ? null : "bold")
+        .attr("class", "donut-font")
         .text(d => d);
 
     return Object.assign(svg.node(), { scales: { color } });
 }
 
 // data_url = 'Project/d3layout_data/gender_pay_gap_2010.csv'
-data_url = 'Project/d3layout_data/share_science_graduates_fem_2010.csv'
+// data_url = 'Project/d3layout_data/share_science_graduates_fem_2010.csv'
+data_url = 'Project/d3layout_data/fem_to_male_enrollment_USA.csv'
+
 
 //Gender wage gap - unadjusted and calculated as the difference between median earnings of men and women relative to median earnings of men
 
@@ -98,7 +102,8 @@ data_url = 'Project/d3layout_data/share_science_graduates_fem_2010.csv'
 d3.csv(data_url).then(data => {
     console.log(data)
     PieChart(data, {
-        name: d => d.name,
+        // name: d => d.name,
+        name: d => d.label,
         value: d => d.value,
         width: 500,
         height: 500,
