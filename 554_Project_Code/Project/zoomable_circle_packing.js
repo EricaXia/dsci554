@@ -18,11 +18,12 @@ d3.json(data_url).then(data => {
 
     color = d3.scaleLinear()
         .domain([0, 5])
-        // .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
         // .range(["rgb(204, 204, 255)", "rgb(128, 0, 128)"])
         // .range(["rgb(214, 205, 247)", "rgb(57, 47, 90)"])
         .range(["rgb(255, 249, 243)", "rgb(233, 201, 22)"])
         .interpolate(d3.interpolateHcl)
+
+    // color: {type: "sequential", scheme: "magma", domain: [8, 0], reverse: true},
 
     pack = data => d3.pack()
         .size([width, height])
@@ -50,12 +51,13 @@ d3.json(data_url).then(data => {
             return color(d.depth)
         }
         else {
-            // console.log(d)
             if (d.data.gender == "female") {
-                return "rgb(185, 147, 229)"
+                // return "rgb(185, 147, 229)"
+                // return "#dcd0ff"
+                return "#D291BC"
             }
             else {
-                return "rgb(50, 76, 190)" //"rgb(83, 107, 173)"
+                return "#A8B5E0" //"rgb(83, 107, 173)"
             }
         } // else
     }
@@ -65,7 +67,7 @@ d3.json(data_url).then(data => {
         .data(root.descendants().slice(1))
         .join("circle")
         .attr("fill", d => colorCircles(d))
-        // .attr("fill", d => d.children ? color(d.depth) : "white")  // color children white, color non-children according to color()
+        // .attr("fill", d => d.children ? color(d.depth) : "white")  // color children white
 
         .attr("pointer-events", d => !d.children ? "none" : null)
         .on("mouseover", function () { d3.select(this).attr("stroke", "#000"); })

@@ -1,5 +1,3 @@
-// OBSERVABLE EXAMPLE
-
 function PieChart(data, {
     name = ([x]) => x,  // given d in data, returns the (ordinal) label
     value = ([, y]) => y, // given d in data, returns the (quantitative) value
@@ -109,4 +107,4 @@ d3.csv(data_url).then(data => {
         height: 500,
         innerRadius: 180
       })
-});
+}); // .then

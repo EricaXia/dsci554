@@ -128,7 +128,7 @@ pre {
 .zoom-font {
   font-size: 14px;
   font-weight: 600;
-  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
 .donut-font {
