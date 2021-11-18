@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
 const margin = { top: 10, right: 30, bottom: 20, left: 50 },
-    width = 900 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 950 - margin.left - margin.right,
+    height = 450 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("#bar-chart")
@@ -25,7 +25,7 @@ d3.csv(data_url).then(data => {
     // const groups = data.map(d => d.group)
     const groups = data.map(d => d.year)
 
-    console.log(groups)
+    // console.log(groups)  // should be years
 
     // Add X axis
     const x = d3.scaleBand()
@@ -35,12 +35,13 @@ d3.csv(data_url).then(data => {
 
     svg.append("g")
         .attr("transform", `translate(0, ${height})`)
-        .call(d3.axisBottom(x).tickSize(0));
+        .call(d3.axisBottom(x).tickSize(8));
+
+    // console.log(d3.max(data, d => d.male))
 
     // Add Y axis
     const y = d3.scaleLinear()
-        // .domain([0, 40])
-        .domain([0, d3.max(data, d => d.male)])
+        .domain([0, d3.max(data, d => parseInt(d.male))])
         .range([height, 0]);
     svg.append("g")
         .call(d3.axisLeft(y));
