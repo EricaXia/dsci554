@@ -1,21 +1,11 @@
-// const svg = d3.select('#circle-packing-chart')
-
-// data_url = 'Project/d3layout_data/education.json'
 // data_url_f = 'Project/d3layout_data/female_employment_data.json'
 // data_url_m = 'Project/d3layout_data/male_employment_data.json'
 data_url = 'Project/d3layout_data/all_employment_data.json'
 
-// Promise.all([d3.json(data_url_f), d3.json(data_url_m)]).then( data => {
-//     data_f = data[0]
-//     data_m = data[1]
-
 d3.json(data_url).then(data => {
-
-    width = 932
-    height = width
-
+    // width = 932
+    // height = width
     format = d3.format(",d")
-
     color = d3.scaleLinear()
         .domain([0, 5])
         // .range(["rgb(204, 204, 255)", "rgb(128, 0, 128)"])
@@ -26,7 +16,7 @@ d3.json(data_url).then(data => {
     // color: {type: "sequential", scheme: "magma", domain: [8, 0], reverse: true},
 
     pack = data => d3.pack()
-        .size([width, height])
+        .size([932,932])
         .padding(3)
         (d3.hierarchy(data)
             .sum(d => d.value)
@@ -39,7 +29,7 @@ d3.json(data_url).then(data => {
 
     //   const svg = d3.create("svg")
     const svg = d3.select('#circle-packing-chart')
-        .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
+        .attr("viewBox", `-${932 / 2} -${932 / 2} ${932} ${932}`)
         .style("display", "block")
         .style("margin", "0 -14px")
         .style("background", color(0))
@@ -102,7 +92,7 @@ d3.json(data_url).then(data => {
     zoomTo([root.x, root.y, root.r * 2]);
 
     function zoomTo(v) {
-        const k = width / v[2];
+        const k = 932 / v[2];
 
         view = v;
 
