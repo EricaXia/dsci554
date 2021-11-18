@@ -40,7 +40,7 @@ d3.csv(data_url).then(data => {
     // Add Y axis
     const y = d3.scaleLinear()
         // .domain([0, 40])
-        .domain([0, 6000])
+        .domain([0, d3.max(data, d => d.male)])
         .range([height, 0]);
     svg.append("g")
         .call(d3.axisLeft(y));
@@ -54,7 +54,7 @@ d3.csv(data_url).then(data => {
     // color palette = one color per subgroup
     const color = d3.scaleOrdinal()
         .domain(subgroups)
-        .range(['#e41a1c', '#377eb8', '#4daf4a'])
+        .range(["#D291BC", "#A8B5E0", '#4daf4a'])
 
     // Show the bars
     svg.append("g")
