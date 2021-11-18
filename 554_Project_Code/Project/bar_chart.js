@@ -1,6 +1,6 @@
 // set the dimensions and margins of the graph
 const margin = { top: 10, right: 30, bottom: 20, left: 50 },
-    width = 460 - margin.left - margin.right,
+    width = 900 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
@@ -12,15 +12,18 @@ const svg = d3.select("#bar-chart")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
 // Parse the Data
-data_url = "Project/d3layout_data/bar_test.csv"
+// data_url = "Project/d3layout_data/bar_test.csv"
+data_url = "Project/d3layout_data/bar_test2.csv"
 
 d3.csv(data_url).then(data => {
+    console.log("DATA:", data)
 
     // List of subgroups = header of the csv files = soil condition here
     const subgroups = data.columns.slice(1)
 
-    // List of groups = species here = value of the first column called group -> I show them on the X axis
-    const groups = data.map(d => d.group)
+    // List of groups = value of the first column called group -> on the X axis
+    // const groups = data.map(d => d.group)
+    const groups = data.map(d => d.year)
 
     console.log(groups)
 
@@ -29,13 +32,15 @@ d3.csv(data_url).then(data => {
         .domain(groups)
         .range([0, width])
         .padding([0.2])
+
     svg.append("g")
         .attr("transform", `translate(0, ${height})`)
         .call(d3.axisBottom(x).tickSize(0));
 
     // Add Y axis
     const y = d3.scaleLinear()
-        .domain([0, 40])
+        // .domain([0, 40])
+        .domain([0, 6000])
         .range([height, 0]);
     svg.append("g")
         .call(d3.axisLeft(y));
@@ -57,7 +62,8 @@ d3.csv(data_url).then(data => {
         // Enter in data = loop group per group
         .data(data)
         .join("g")
-        .attr("transform", d => `translate(${x(d.group)}, 0)`)
+        // .attr("transform", d => `translate(${x(d.group)}, 0)`)
+        .attr("transform", d => `translate(${x(d.year)}, 0)`)
         .selectAll("rect")
         .data(function (d) { return subgroups.map(function (key) { return { key: key, value: d[key] }; }); })
         .join("rect")

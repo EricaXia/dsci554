@@ -57,8 +57,6 @@ d3.json(data_url).then(data => {
         .data(root.descendants().slice(1))
         .join("circle")
         .attr("fill", d => colorCircles(d))
-        // .attr("fill", d => d.children ? color(d.depth) : "white")  // color children white
-
         .attr("pointer-events", d => !d.children ? "none" : null)
         .on("mouseover", function () { d3.select(this).attr("stroke", "#000"); })
         .on("mouseout", function () { d3.select(this).attr("stroke", null); })
