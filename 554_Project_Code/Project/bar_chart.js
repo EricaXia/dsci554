@@ -1,3 +1,7 @@
+// data_url = "Project/d3layout_data/bar_test.csv"
+// data_url = "Project/d3layout_data/bar_test2.csv"
+data_url = "Project/d3layout_data/median_US_earnings.csv"
+
 // set the dimensions and margins of the graph
 const margin = { top: 10, right: 30, bottom: 20, left: 50 },
     width = 950 - margin.left - margin.right,
@@ -11,18 +15,13 @@ const svg = d3.select("#bar-chart")
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-// Parse the Data
-// data_url = "Project/d3layout_data/bar_test.csv"
-data_url = "Project/d3layout_data/bar_test2.csv"
-
 d3.csv(data_url).then(data => {
     console.log("DATA:", data)
 
     // List of subgroups = header of the csv files = soil condition here
     const subgroups = data.columns.slice(1)
 
-    // List of groups = value of the first column called group -> on the X axis
-    // const groups = data.map(d => d.group)
+    // List of groups = value of the first column 'year' -> on the X axis
     const groups = data.map(d => d.year)
 
     // console.log(groups)  // should be years
@@ -39,9 +38,10 @@ d3.csv(data_url).then(data => {
 
     // console.log(d3.max(data, d => d.male))
 
+    let plotMax = d3.max(data, d => parseInt(d.male)) * 1.4;
     // Add Y axis
     const y = d3.scaleLinear()
-        .domain([0, d3.max(data, d => parseInt(d.male))])
+        .domain([0, plotMax])
         .range([height, 0]);
     svg.append("g")
         .call(d3.axisLeft(y));
