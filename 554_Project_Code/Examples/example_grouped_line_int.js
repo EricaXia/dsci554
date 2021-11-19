@@ -1,30 +1,36 @@
-// const margin = { top: 50, right: 50, bottom: 50, left: 50 }
-// const h = 500 - margin.top - margin.bottom
-// const w = 700 - margin.left - margin.right
 
-// const formatDecimal = d3.format('.0')
+const margin = { top: 50, right: 50, bottom: 50, left: 50 }
+const h = 500 - margin.top - margin.bottom
+const w = 700 - margin.left - margin.right
 
-d3.csv('Project/d3layout_data/wages.csv').then((data) => {
+const formatDecimal = d3.format('.0')
+
+const data_url = 'Project/d3layout_data/ex_data.csv'
+
+d3.csv(data_url).then((data) => {
+  console.log("LINE CHArt")
   console.log(data)
+
 
   // Scales
   const x = d3.scaleLinear()
     .domain([1995, 2011])
     .range([0, w])
+
   const y = d3.scaleLinear()
     .domain([
-      d3.min([0, d3.min(data, function (d) { return d.value })]),
-      d3.max([0, d3.max(data, function (d) { return d.value })])
+      d3.min([0, d3.min(data, function (d) { return d.wvalue })]),
+      d3.max([0, d3.max(data, function (d) { return d.wvalue })])
     ])
     .range([h, 0])
 
   // Define the line
   const valueLine = d3.line()
     .x(function (d) { return x(d.year); })
-    .y(function (d) { return y(d.value); })
+    .y(function (d) { return y(d.wvalue); })
 
   // Create svg
-  const svg = d3.select("#line-chart")
+  const svg = d3.select("#example-line-chart")
     .append("svg")
     .style("width", w + margin.left + margin.right + "px")
     .style("height", h + margin.top + margin.bottom + "px")
@@ -36,7 +42,7 @@ d3.csv('Project/d3layout_data/wages.csv').then((data) => {
 
   //nest variable aka GROUP
   const nest = d3.groups(data,
-    d => d.country, d => d.gender)
+    d => d.state, d => d.lvalue)
 
   // X-axis
   const xAxis = d3.axisBottom()
@@ -50,7 +56,7 @@ d3.csv('Project/d3layout_data/wages.csv').then((data) => {
   // .ticks(5)
 
   // Create a dropdown menu
-  const legisMenu = d3.select("#cDropdown")
+  const legisMenu = d3.select("#legisDropdown")
 
   legisMenu
     .append("select")
@@ -91,15 +97,14 @@ d3.csv('Project/d3layout_data/wages.csv').then((data) => {
   } // initialGraph
 
   // Create initial graph
-  // initialGraph("AU")
   initialGraph("CA")
-  
+  // initialGraph("Australia")
 
 
   // Update the data
   const updateGraph = function (legis) {
 
-    // Filter the data to include only country of interest
+    // Filter the data to include only state of interest
     const selectLegis = nest.filter(([key,]) => key == legis)
 
     // Select all of the grouped elements and update the data
@@ -116,11 +121,11 @@ d3.csv('Project/d3layout_data/wages.csv').then((data) => {
 
   // Run update function when dropdown selection changes
   legisMenu.on('change', function () {
-    // Find which country was selected from the dropdown
+    // Find which state was selected from the dropdown
     const selectedLegis = d3.select(this)
       .select("select")
       .property("value")
-    // Run update function with the selected country
+    // Run update function with the selected state
     updateGraph(selectedLegis)
 
   });

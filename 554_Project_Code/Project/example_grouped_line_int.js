@@ -5,12 +5,14 @@ const w = 700 - margin.left - margin.right
 const formatDecimal = d3.format('.0')
 
 const data_url = 'Project/d3layout_data/ex_data.csv'
+
 d3.csv(data_url).then((data) => {
-  // console.log(data)
+  console.log('LINE CHART')
+  console.log(data)
 
   // Scales
   const x = d3.scaleLinear()
-    .domain([2000, 2005])
+    .domain([1995, 2011])
     .range([0, w])
   const y = d3.scaleLinear()
     .domain([
@@ -18,9 +20,6 @@ d3.csv(data_url).then((data) => {
       d3.max([0, d3.max(data, function (d) { return d.wvalue })])
     ])
     .range([h, 0])
-
-
-
 
   // Define the line
   const valueLine = d3.line()
@@ -95,7 +94,8 @@ d3.csv(data_url).then((data) => {
   } // initialGraph
 
   // Create initial graph
-  initialGraph("CA")
+  // initialGraph("CA")
+  initialGraph("AUS")
 
 
   // Update the data
