@@ -1,55 +1,939 @@
-year,AUS,gender,CAN,CZE,ECU,DEU,GTM,ISL,LVA,LUX,MLT,MEX,MNG,NZL,NOR,PAK,PHL,QAT,SGP,SVK,ESP,SWE,SYR,THA,UKR,GBR,URY,USA
-1995,1867.23,female,1867.23,1867.23,150.97,1858.0,1858.0,1858.0,1858.0,2197.0,2197.0,1166.13,1166.13,1166.13,1166.13,1838.0,1838.0,1838.0,1850.0,1850.0,1850.0,14700.0,14700.0,14700.0,66.0,66.0,66.0,3133
-1996,1923.89,female,1923.89,1923.89,161.673,1933.0,1933.0,1933.0,1933.0,2709.0,2709.0,1469.97,1469.97,1469.97,1469.97,1469.97,1469.97,1469.97,1979.0,1979.0,1979.0,15500.0,15500.0,15500.0,114.0,114.0,114.0,3216
-1997,1996.15,female,2015.22,2015.22,192.329,1985.0,1985.0,1985.0,1985.0,2280.08,2280.08,1759.2,1759.2,1759.2,18085.0,1879.75,1879.75,1879.75,2114.0,2114.0,2114.0,16200.0,16200.0,16200.0,132.0,971.533,971.533,3316
-1998,2043.6,female,2048.76,2048.76,158.344,2039.0,2039.0,107000.0,107000.0,2338.92,2338.92,2120.83,2120.83,1870.0,19418.0,2045.65,2045.65,2045.65,2256.0,2256.0,2256.0,16800.0,16800.0,16800.0,131.0,1016.6,1016.6,3388
-1999,2081.95,female,2109.29,2109.29,105.445,2105.0,2105.0,117000.0,117000.0,2427.25,2427.25,2444.29,2444.29,1937.0,20191.0,20191.0,20191.0,20191.0,2327.0,2327.0,2327.0,17600.0,17600.0,17600.0,149.0,1066.43,1066.43,3376
-2000,2187.25,female,2172.0,2172.0,107.72,2150.0,2150.0,129000.0,129000.0,2544.33,753.994,3057.1,59800.0,2015.0,21213.0,2014.09,2014.09,2014.09,2530.0,2530.0,2530.0,18400.0,18400.0,18400.0,191.0,1105.43,5312.62,3407
-2001,2286.27,female,2250.69,2250.69,143.69,2216.0,2216.0,144000.0,144000.0,2692.5,777.76,3407.51,61000.0,2094.0,22165.0,22165.0,5934.0,5934.0,2588.0,2588.0,2588.0,19200.0,19200.0,6290.98,256.0,1171.73,5430.9,3524
-2002,2347.15,female,2318.59,2318.59,214.04,2286.0,2286.0,157000.0,157000.0,2710.33,839.566,3670.07,67300.0,2154.0,23736.0,2029.92,6028.0,6028.0,2617.0,2617.0,2617.0,20000.0,20000.0,6183.83,310.0,1231.1,5480.62,3587
-2003,2450.61,female,2379.65,2379.65,236.35,2359.0,2359.0,167000.0,167000.0,2794.17,871.707,3949.62,76000.0,2267.0,24609.0,24609.0,6065.0,6065.0,2662.0,2662.0,2662.0,20700.0,20700.0,6328.33,379.0,1282.67,5756.95,3568
-2004,2552.77,female,2460.55,2460.55,303.73,2421.0,2421.0,177000.0,200.008,2872.83,877.087,4134.23,88000.0,2336.0,25579.0,2593.64,6196.0,6196.0,2773.0,2773.0,1247.0,21500.0,21500.0,6533.15,485.0,1337.27,6081.93,3532
-2005,2680.17,female,2556.15,18221.0,279.17,2475.0,2475.0,203000.0,204.0,2990.0,899.506,4310.79,92300.0,2425.0,26430.0,26430.0,6383.0,6383.0,2865.0,15394.0,1287.0,22100.0,22100.0,7018.65,675.0,1384.5,6666.76,3484
-2006,2790.67,female,2649.49,19305.2,300.14,2522.0,2522.0,226000.0,244.0,3111.75,962.997,4573.64,117325.0,2588.0,27653.0,3348.97,6719.0,4131.0,2966.0,16575.5,1359.0,22800.0,8834.0,7571.02,885.0,1443.87,7692.22,3444
-2007,2931.82,female,2743.74,20683.6,327.31,2590.0,2590.0,256000.0,323.0,3259.17,945.873,4790.71,159325.0,2739.0,29137.0,3567.05,6871.0,4939.0,3148.0,18340.6,1424.0,23500.0,9306.0,7801.03,1150.0,1490.23,9016.49,3616
-2008,3047.2,female,2857.75,21938.9,348.84,2661.0,2661.0,279000.0,417.0,3384.0,1001.23,4821.22,258075.0,2884.0,30800.0,3852.78,7266.0,5800.0,3332.0,20009.6,1555.5,24700.0,10977.0,8692.88,1565.0,1553.93,9608.99,3546
-2009,3181.43,female,2972.71,22413.9,367.23,2729.0,2729.0,293000.0,432.0,3482.0,1048.22,5101.59,279875.0,2979.0,32000.0,5188.56,7587.0,6106.0,3247.0,681.86,1609.6,25700.0,11779.0,8521.12,1677.0,1604.2,11295.1,3611
-2010,3341.43,female,3036.41,22666.4,416.51,2791.0,2791.0,309000.0,391.0,3563.0,1121.02,5067.75,314550.0,3120.0,33400.0,5821.0,8068.0,8068.0,3434.0,709.0,1623.86,26200.0,11981.3,9084.94,1974.0,1634.1,12281.6,3612
-2011,3473.27,female,3131.96,22389.0,460.38,2861.0,1707.15,321000.0,412.0,3656.0,1145.16,5142.26,381325.0,3180.0,34800.0,6422.0,8439.0,6094.0,3650.0,732.0,1640.84,26800.0,15592.0,9740.34,2272.0,1653.17,14151.4,3524
-1995,2846.68,male,2846.68,2846.68,197.029,2470.0,2470.0,2470.0,2470.0,2762.0,2762.0,1557.35,1557.35,1557.35,1557.35,2375.0,2375.0,2375.0,2517.0,2517.0,2517.0,17300.0,17300.0,17300.0,98.0,98.0,98.0,3513
-1996,2924.68,male,2924.68,2924.68,205.081,2539.0,2539.0,2539.0,2539.0,2809.0,2809.0,1840.28,1840.28,1840.28,1840.28,1840.28,1840.28,1840.28,2646.0,2646.0,2646.0,18600.0,18600.0,18600.0,167.0,167.0,167.0,3587
-1997,3013.51,male,2911.91,2911.91,232.19,2580.0,2580.0,2580.0,2580.0,2865.67,2865.67,2273.39,2273.39,2273.39,21606.0,3140.18,3140.18,3140.18,2781.0,2781.0,2781.0,19600.0,19600.0,19600.0,182.0,1711.23,1711.23,3554
-1998,3116.64,male,2954.55,2954.55,204.359,2639.0,2639.0,157000.0,157000.0,2928.08,2928.08,2689.65,2689.65,2951.0,23227.0,3162.44,3162.44,3162.44,3141.0,3141.0,3141.0,20400.0,20400.0,20400.0,176.0,1800.5,1800.5,3569
-1999,3172.43,male,3031.47,3031.47,127.807,2713.0,2713.0,170000.0,170000.0,3025.25,3025.25,3166.96,3166.96,2980.0,24200.0,24200.0,24200.0,24200.0,3222.0,3222.0,3222.0,21200.0,21200.0,21200.0,206.0,1860.73,1860.73,3664
-2000,3299.18,male,3129.79,3129.79,130.45,2732.0,2732.0,191000.0,191000.0,3143.92,952.754,3936.91,64700.0,3015.0,25408.0,3327.77,3327.77,3327.77,3518.0,3518.0,3518.0,22500.0,22500.0,22500.0,269.0,1932.23,7700.68,3689
-2001,3439.15,male,3226.38,3226.38,189.25,2800.0,2800.0,211000.0,211000.0,3319.0,985.844,4410.63,69200.0,3167.0,26600.0,26600.0,5713.0,5713.0,3606.0,3606.0,3606.0,23300.0,23300.0,6950.92,367.0,2037.1,7600.24,3648
-2002,3598.51,male,3286.57,3286.57,269.68,2889.0,2889.0,221000.0,221000.0,3385.42,1039.11,4657.35,75800.0,3198.0,28279.0,3653.82,5826.0,5826.0,3632.0,3632.0,3632.0,24100.0,24100.0,6940.23,447.0,2138.07,7743.67,3704
-2003,3790.26,male,3343.82,3343.82,273.84,2972.0,2972.0,234000.0,234000.0,3483.5,1044.15,4921.82,86900.0,3383.0,29205.0,29205.0,5963.0,5963.0,3698.0,3698.0,3698.0,24800.0,24800.0,7090.63,552.0,2197.0,7855.08,3826
-2004,3893.07,male,3414.06,3414.06,337.74,3034.0,3034.0,245000.0,235.842,3565.17,1033.65,5162.12,98300.0,3484.0,30217.0,4329.43,6051.0,6051.0,3825.0,3825.0,1721.0,25700.0,25700.0,7206.08,707.0,2228.63,8607.78,3942
-2005,4102.37,male,3519.75,24271.1,330.92,3088.0,3088.0,278000.0,249.0,3699.33,1070.58,5330.36,110000.0,3759.0,31201.0,31201.0,6412.0,6412.0,3962.0,21503.3,1775.0,26400.0,26400.0,7683.27,953.0,2274.57,8970.41,4386
-2006,4289.13,male,3638.83,25593.1,333.9,3138.0,3138.0,301000.0,296.0,3826.25,1104.19,5654.98,138125.0,3785.0,32672.0,5248.82,6906.0,5611.0,4081.0,22686.3,1845.0,27100.0,8669.0,8071.42,1216.0,2361.67,10474.9,4360
-2007,4502.88,male,3753.45,27488.8,384.22,3211.0,3211.0,332000.0,385.0,3961.92,1155.6,6071.33,186700.0,4104.0,34570.0,6100.15,7011.0,6884.0,4335.0,24726.7,1914.0,28000.0,8961.0,8314.91,1578.0,2420.6,12048.3,4471
-2008,4689.64,male,3912.91,29628.5,402.69,3294.0,3294.0,352000.0,492.0,4114.0,1208.86,6188.42,291250.0,4244.0,36700.0,7009.81,7282.0,8100.0,4560.0,26318.4,1990.86,29400.0,10552.0,9090.87,2080.0,2529.8,13563.2,4630
-2009,4903.38,male,3999.8,29952.6,421.06,3320.0,3320.0,360000.0,515.0,4203.0,1213.81,6186.39,322575.0,4298.0,37800.0,7997.0,7581.0,8484.0,4436.0,913.08,2063.5,30100.0,10967.0,8833.16,2173.0,2554.07,15824.1,4668
-2010,5152.77,male,4077.41,30192.1,456.17,3416.0,3416.0,374000.0,480.0,4316.0,1255.6,6243.12,370375.0,4461.0,39300.0,9017.0,7947.0,7947.0,4686.0,941.0,2096.53,30600.0,11227.2,9403.87,2538.0,2580.93,16579.1,4622
-2011,5373.88,male,4142.1,28233.6,488.69,3508.0,2086.96,393000.0,494.0,4212.0,1318.72,6191.62,470000.0,4582.0,40800.0,10211.0,8175.0,7882.0,4964.0,966.0,2118.46,31200.0,13502.0,10093.1,3035.0,2591.33,18819.2,4617
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4682
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4722
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4613
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4526
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4477
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4647
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4599
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4691
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4696
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4576
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4592
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4583
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4582
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4539
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4605
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4585
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4532
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4536
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4691
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,4788
+year,value,gender,country
+1995,1867.23,female,Australia
+1996,1923.89,female,Australia
+1997,1996.15,female,Australia
+1998,2043.6,female,Australia
+1999,2081.95,female,Australia
+2000,2187.25,female,Australia
+2001,2286.27,female,Australia
+2002,2347.15,female,Australia
+2003,2450.61,female,Australia
+2004,2552.77,female,Australia
+2005,2680.17,female,Australia
+2006,2790.67,female,Australia
+2007,2931.82,female,Australia
+2008,3047.2,female,Australia
+2009,3181.43,female,Australia
+2010,3341.43,female,Australia
+2011,3473.27,female,Australia
+1995,2846.68,male,Australia
+1996,2924.68,male,Australia
+1997,3013.51,male,Australia
+1998,3116.64,male,Australia
+1999,3172.43,male,Australia
+2000,3299.18,male,Australia
+2001,3439.15,male,Australia
+2002,3598.51,male,Australia
+2003,3790.26,male,Australia
+2004,3893.07,male,Australia
+2005,4102.37,male,Australia
+2006,4289.13,male,Australia
+2007,4502.88,male,Australia
+2008,4689.64,male,Australia
+2009,4903.38,male,Australia
+2010,5152.77,male,Australia
+2011,5373.88,male,Australia
+1995,1867.23,female,Canada
+1996,1923.89,female,Canada
+1997,2015.22,female,Canada
+1998,2048.76,female,Canada
+1999,2109.29,female,Canada
+2000,2172.0,female,Canada
+2001,2250.69,female,Canada
+2002,2318.59,female,Canada
+2003,2379.65,female,Canada
+2004,2460.55,female,Canada
+2005,2556.15,female,Canada
+2006,2649.49,female,Canada
+2007,2743.74,female,Canada
+2008,2857.75,female,Canada
+2009,2972.71,female,Canada
+2010,3036.41,female,Canada
+2011,3131.96,female,Canada
+1995,2846.68,male,Canada
+1996,2924.68,male,Canada
+1997,2911.91,male,Canada
+1998,2954.55,male,Canada
+1999,3031.47,male,Canada
+2000,3129.79,male,Canada
+2001,3226.38,male,Canada
+2002,3286.57,male,Canada
+2003,3343.82,male,Canada
+2004,3414.06,male,Canada
+2005,3519.75,male,Canada
+2006,3638.83,male,Canada
+2007,3753.45,male,Canada
+2008,3912.91,male,Canada
+2009,3999.8,male,Canada
+2010,4077.41,male,Canada
+2011,4142.1,male,Canada
+1995,1867.23,female,Czech Republic
+1996,1923.89,female,Czech Republic
+1997,2015.22,female,Czech Republic
+1998,2048.76,female,Czech Republic
+1999,2109.29,female,Czech Republic
+2000,2172.0,female,Czech Republic
+2001,2250.69,female,Czech Republic
+2002,2318.59,female,Czech Republic
+2003,2379.65,female,Czech Republic
+2004,2460.55,female,Czech Republic
+2005,18221.0,female,Czech Republic
+2006,19305.2,female,Czech Republic
+2007,20683.6,female,Czech Republic
+2008,21938.9,female,Czech Republic
+2009,22413.9,female,Czech Republic
+2010,22666.4,female,Czech Republic
+2011,22389.0,female,Czech Republic
+1995,2846.68,male,Czech Republic
+1996,2924.68,male,Czech Republic
+1997,2911.91,male,Czech Republic
+1998,2954.55,male,Czech Republic
+1999,3031.47,male,Czech Republic
+2000,3129.79,male,Czech Republic
+2001,3226.38,male,Czech Republic
+2002,3286.57,male,Czech Republic
+2003,3343.82,male,Czech Republic
+2004,3414.06,male,Czech Republic
+2005,24271.1,male,Czech Republic
+2006,25593.1,male,Czech Republic
+2007,27488.8,male,Czech Republic
+2008,29628.5,male,Czech Republic
+2009,29952.6,male,Czech Republic
+2010,30192.1,male,Czech Republic
+2011,28233.6,male,Czech Republic
+1995,150.97,female,Ecuador
+1996,161.673,female,Ecuador
+1997,192.329,female,Ecuador
+1998,158.344,female,Ecuador
+1999,105.445,female,Ecuador
+2000,107.72,female,Ecuador
+2001,143.69,female,Ecuador
+2002,214.04,female,Ecuador
+2003,236.35,female,Ecuador
+2004,303.73,female,Ecuador
+2005,279.17,female,Ecuador
+2006,300.14,female,Ecuador
+2007,327.31,female,Ecuador
+2008,348.84,female,Ecuador
+2009,367.23,female,Ecuador
+2010,416.51,female,Ecuador
+2011,460.38,female,Ecuador
+1995,197.029,male,Ecuador
+1996,205.081,male,Ecuador
+1997,232.19,male,Ecuador
+1998,204.359,male,Ecuador
+1999,127.807,male,Ecuador
+2000,130.45,male,Ecuador
+2001,189.25,male,Ecuador
+2002,269.68,male,Ecuador
+2003,273.84,male,Ecuador
+2004,337.74,male,Ecuador
+2005,330.92,male,Ecuador
+2006,333.9,male,Ecuador
+2007,384.22,male,Ecuador
+2008,402.69,male,Ecuador
+2009,421.06,male,Ecuador
+2010,456.17,male,Ecuador
+2011,488.69,male,Ecuador
+1995,1858.0,female,Germany
+1996,1933.0,female,Germany
+1997,1985.0,female,Germany
+1998,2039.0,female,Germany
+1999,2105.0,female,Germany
+2000,2150.0,female,Germany
+2001,2216.0,female,Germany
+2002,2286.0,female,Germany
+2003,2359.0,female,Germany
+2004,2421.0,female,Germany
+2005,2475.0,female,Germany
+2006,2522.0,female,Germany
+2007,2590.0,female,Germany
+2008,2661.0,female,Germany
+2009,2729.0,female,Germany
+2010,2791.0,female,Germany
+2011,2861.0,female,Germany
+1995,2470.0,male,Germany
+1996,2539.0,male,Germany
+1997,2580.0,male,Germany
+1998,2639.0,male,Germany
+1999,2713.0,male,Germany
+2000,2732.0,male,Germany
+2001,2800.0,male,Germany
+2002,2889.0,male,Germany
+2003,2972.0,male,Germany
+2004,3034.0,male,Germany
+2005,3088.0,male,Germany
+2006,3138.0,male,Germany
+2007,3211.0,male,Germany
+2008,3294.0,male,Germany
+2009,3320.0,male,Germany
+2010,3416.0,male,Germany
+2011,3508.0,male,Germany
+1995,1858.0,female,Guatemala
+1996,1933.0,female,Guatemala
+1997,1985.0,female,Guatemala
+1998,2039.0,female,Guatemala
+1999,2105.0,female,Guatemala
+2000,2150.0,female,Guatemala
+2001,2216.0,female,Guatemala
+2002,2286.0,female,Guatemala
+2003,2359.0,female,Guatemala
+2004,2421.0,female,Guatemala
+2005,2475.0,female,Guatemala
+2006,2522.0,female,Guatemala
+2007,2590.0,female,Guatemala
+2008,2661.0,female,Guatemala
+2009,2729.0,female,Guatemala
+2010,2791.0,female,Guatemala
+2011,1707.15,female,Guatemala
+1995,2470.0,male,Guatemala
+1996,2539.0,male,Guatemala
+1997,2580.0,male,Guatemala
+1998,2639.0,male,Guatemala
+1999,2713.0,male,Guatemala
+2000,2732.0,male,Guatemala
+2001,2800.0,male,Guatemala
+2002,2889.0,male,Guatemala
+2003,2972.0,male,Guatemala
+2004,3034.0,male,Guatemala
+2005,3088.0,male,Guatemala
+2006,3138.0,male,Guatemala
+2007,3211.0,male,Guatemala
+2008,3294.0,male,Guatemala
+2009,3320.0,male,Guatemala
+2010,3416.0,male,Guatemala
+2011,2086.96,male,Guatemala
+1995,1858.0,female,Iceland
+1996,1933.0,female,Iceland
+1997,1985.0,female,Iceland
+1998,107000.0,female,Iceland
+1999,117000.0,female,Iceland
+2000,129000.0,female,Iceland
+2001,144000.0,female,Iceland
+2002,157000.0,female,Iceland
+2003,167000.0,female,Iceland
+2004,177000.0,female,Iceland
+2005,203000.0,female,Iceland
+2006,226000.0,female,Iceland
+2007,256000.0,female,Iceland
+2008,279000.0,female,Iceland
+2009,293000.0,female,Iceland
+2010,309000.0,female,Iceland
+2011,321000.0,female,Iceland
+1995,2470.0,male,Iceland
+1996,2539.0,male,Iceland
+1997,2580.0,male,Iceland
+1998,157000.0,male,Iceland
+1999,170000.0,male,Iceland
+2000,191000.0,male,Iceland
+2001,211000.0,male,Iceland
+2002,221000.0,male,Iceland
+2003,234000.0,male,Iceland
+2004,245000.0,male,Iceland
+2005,278000.0,male,Iceland
+2006,301000.0,male,Iceland
+2007,332000.0,male,Iceland
+2008,352000.0,male,Iceland
+2009,360000.0,male,Iceland
+2010,374000.0,male,Iceland
+2011,393000.0,male,Iceland
+1995,1858.0,female,Latvia
+1996,1933.0,female,Latvia
+1997,1985.0,female,Latvia
+1998,107000.0,female,Latvia
+1999,117000.0,female,Latvia
+2000,129000.0,female,Latvia
+2001,144000.0,female,Latvia
+2002,157000.0,female,Latvia
+2003,167000.0,female,Latvia
+2004,200.008,female,Latvia
+2005,204.0,female,Latvia
+2006,244.0,female,Latvia
+2007,323.0,female,Latvia
+2008,417.0,female,Latvia
+2009,432.0,female,Latvia
+2010,391.0,female,Latvia
+2011,412.0,female,Latvia
+1995,2470.0,male,Latvia
+1996,2539.0,male,Latvia
+1997,2580.0,male,Latvia
+1998,157000.0,male,Latvia
+1999,170000.0,male,Latvia
+2000,191000.0,male,Latvia
+2001,211000.0,male,Latvia
+2002,221000.0,male,Latvia
+2003,234000.0,male,Latvia
+2004,235.842,male,Latvia
+2005,249.0,male,Latvia
+2006,296.0,male,Latvia
+2007,385.0,male,Latvia
+2008,492.0,male,Latvia
+2009,515.0,male,Latvia
+2010,480.0,male,Latvia
+2011,494.0,male,Latvia
+1995,2197.0,female,Luxembourg
+1996,2709.0,female,Luxembourg
+1997,2280.08,female,Luxembourg
+1998,2338.92,female,Luxembourg
+1999,2427.25,female,Luxembourg
+2000,2544.33,female,Luxembourg
+2001,2692.5,female,Luxembourg
+2002,2710.33,female,Luxembourg
+2003,2794.17,female,Luxembourg
+2004,2872.83,female,Luxembourg
+2005,2990.0,female,Luxembourg
+2006,3111.75,female,Luxembourg
+2007,3259.17,female,Luxembourg
+2008,3384.0,female,Luxembourg
+2009,3482.0,female,Luxembourg
+2010,3563.0,female,Luxembourg
+2011,3656.0,female,Luxembourg
+1995,2762.0,male,Luxembourg
+1996,2809.0,male,Luxembourg
+1997,2865.67,male,Luxembourg
+1998,2928.08,male,Luxembourg
+1999,3025.25,male,Luxembourg
+2000,3143.92,male,Luxembourg
+2001,3319.0,male,Luxembourg
+2002,3385.42,male,Luxembourg
+2003,3483.5,male,Luxembourg
+2004,3565.17,male,Luxembourg
+2005,3699.33,male,Luxembourg
+2006,3826.25,male,Luxembourg
+2007,3961.92,male,Luxembourg
+2008,4114.0,male,Luxembourg
+2009,4203.0,male,Luxembourg
+2010,4316.0,male,Luxembourg
+2011,4212.0,male,Luxembourg
+1995,2197.0,female,Malta
+1996,2709.0,female,Malta
+1997,2280.08,female,Malta
+1998,2338.92,female,Malta
+1999,2427.25,female,Malta
+2000,753.994,female,Malta
+2001,777.76,female,Malta
+2002,839.566,female,Malta
+2003,871.707,female,Malta
+2004,877.087,female,Malta
+2005,899.506,female,Malta
+2006,962.997,female,Malta
+2007,945.873,female,Malta
+2008,1001.23,female,Malta
+2009,1048.22,female,Malta
+2010,1121.02,female,Malta
+2011,1145.16,female,Malta
+1995,2762.0,male,Malta
+1996,2809.0,male,Malta
+1997,2865.67,male,Malta
+1998,2928.08,male,Malta
+1999,3025.25,male,Malta
+2000,952.754,male,Malta
+2001,985.844,male,Malta
+2002,1039.11,male,Malta
+2003,1044.15,male,Malta
+2004,1033.65,male,Malta
+2005,1070.58,male,Malta
+2006,1104.19,male,Malta
+2007,1155.6,male,Malta
+2008,1208.86,male,Malta
+2009,1213.81,male,Malta
+2010,1255.6,male,Malta
+2011,1318.72,male,Malta
+1995,1166.13,female,Mexico
+1996,1469.97,female,Mexico
+1997,1759.2,female,Mexico
+1998,2120.83,female,Mexico
+1999,2444.29,female,Mexico
+2000,3057.1,female,Mexico
+2001,3407.51,female,Mexico
+2002,3670.07,female,Mexico
+2003,3949.62,female,Mexico
+2004,4134.23,female,Mexico
+2005,4310.79,female,Mexico
+2006,4573.64,female,Mexico
+2007,4790.71,female,Mexico
+2008,4821.22,female,Mexico
+2009,5101.59,female,Mexico
+2010,5067.75,female,Mexico
+2011,5142.26,female,Mexico
+1995,1557.35,male,Mexico
+1996,1840.28,male,Mexico
+1997,2273.39,male,Mexico
+1998,2689.65,male,Mexico
+1999,3166.96,male,Mexico
+2000,3936.91,male,Mexico
+2001,4410.63,male,Mexico
+2002,4657.35,male,Mexico
+2003,4921.82,male,Mexico
+2004,5162.12,male,Mexico
+2005,5330.36,male,Mexico
+2006,5654.98,male,Mexico
+2007,6071.33,male,Mexico
+2008,6188.42,male,Mexico
+2009,6186.39,male,Mexico
+2010,6243.12,male,Mexico
+2011,6191.62,male,Mexico
+1995,1166.13,female,Mongolia
+1996,1469.97,female,Mongolia
+1997,1759.2,female,Mongolia
+1998,2120.83,female,Mongolia
+1999,2444.29,female,Mongolia
+2000,59800.0,female,Mongolia
+2001,61000.0,female,Mongolia
+2002,67300.0,female,Mongolia
+2003,76000.0,female,Mongolia
+2004,88000.0,female,Mongolia
+2005,92300.0,female,Mongolia
+2006,117325.0,female,Mongolia
+2007,159325.0,female,Mongolia
+2008,258075.0,female,Mongolia
+2009,279875.0,female,Mongolia
+2010,314550.0,female,Mongolia
+2011,381325.0,female,Mongolia
+1995,1557.35,male,Mongolia
+1996,1840.28,male,Mongolia
+1997,2273.39,male,Mongolia
+1998,2689.65,male,Mongolia
+1999,3166.96,male,Mongolia
+2000,64700.0,male,Mongolia
+2001,69200.0,male,Mongolia
+2002,75800.0,male,Mongolia
+2003,86900.0,male,Mongolia
+2004,98300.0,male,Mongolia
+2005,110000.0,male,Mongolia
+2006,138125.0,male,Mongolia
+2007,186700.0,male,Mongolia
+2008,291250.0,male,Mongolia
+2009,322575.0,male,Mongolia
+2010,370375.0,male,Mongolia
+2011,470000.0,male,Mongolia
+1995,1166.13,female,New Zealand
+1996,1469.97,female,New Zealand
+1997,1759.2,female,New Zealand
+1998,1870.0,female,New Zealand
+1999,1937.0,female,New Zealand
+2000,2015.0,female,New Zealand
+2001,2094.0,female,New Zealand
+2002,2154.0,female,New Zealand
+2003,2267.0,female,New Zealand
+2004,2336.0,female,New Zealand
+2005,2425.0,female,New Zealand
+2006,2588.0,female,New Zealand
+2007,2739.0,female,New Zealand
+2008,2884.0,female,New Zealand
+2009,2979.0,female,New Zealand
+2010,3120.0,female,New Zealand
+2011,3180.0,female,New Zealand
+1995,1557.35,male,New Zealand
+1996,1840.28,male,New Zealand
+1997,2273.39,male,New Zealand
+1998,2951.0,male,New Zealand
+1999,2980.0,male,New Zealand
+2000,3015.0,male,New Zealand
+2001,3167.0,male,New Zealand
+2002,3198.0,male,New Zealand
+2003,3383.0,male,New Zealand
+2004,3484.0,male,New Zealand
+2005,3759.0,male,New Zealand
+2006,3785.0,male,New Zealand
+2007,4104.0,male,New Zealand
+2008,4244.0,male,New Zealand
+2009,4298.0,male,New Zealand
+2010,4461.0,male,New Zealand
+2011,4582.0,male,New Zealand
+1995,1166.13,female,Norway
+1996,1469.97,female,Norway
+1997,18085.0,female,Norway
+1998,19418.0,female,Norway
+1999,20191.0,female,Norway
+2000,21213.0,female,Norway
+2001,22165.0,female,Norway
+2002,23736.0,female,Norway
+2003,24609.0,female,Norway
+2004,25579.0,female,Norway
+2005,26430.0,female,Norway
+2006,27653.0,female,Norway
+2007,29137.0,female,Norway
+2008,30800.0,female,Norway
+2009,32000.0,female,Norway
+2010,33400.0,female,Norway
+2011,34800.0,female,Norway
+1995,1557.35,male,Norway
+1996,1840.28,male,Norway
+1997,21606.0,male,Norway
+1998,23227.0,male,Norway
+1999,24200.0,male,Norway
+2000,25408.0,male,Norway
+2001,26600.0,male,Norway
+2002,28279.0,male,Norway
+2003,29205.0,male,Norway
+2004,30217.0,male,Norway
+2005,31201.0,male,Norway
+2006,32672.0,male,Norway
+2007,34570.0,male,Norway
+2008,36700.0,male,Norway
+2009,37800.0,male,Norway
+2010,39300.0,male,Norway
+2011,40800.0,male,Norway
+1995,1838.0,female,Pakistan
+1996,1469.97,female,Pakistan
+1997,1879.75,female,Pakistan
+1998,2045.65,female,Pakistan
+1999,20191.0,female,Pakistan
+2000,2014.09,female,Pakistan
+2001,22165.0,female,Pakistan
+2002,2029.92,female,Pakistan
+2003,24609.0,female,Pakistan
+2004,2593.64,female,Pakistan
+2005,26430.0,female,Pakistan
+2006,3348.97,female,Pakistan
+2007,3567.05,female,Pakistan
+2008,3852.78,female,Pakistan
+2009,5188.56,female,Pakistan
+2010,5821.0,female,Pakistan
+2011,6422.0,female,Pakistan
+1995,2375.0,male,Pakistan
+1996,1840.28,male,Pakistan
+1997,3140.18,male,Pakistan
+1998,3162.44,male,Pakistan
+1999,24200.0,male,Pakistan
+2000,3327.77,male,Pakistan
+2001,26600.0,male,Pakistan
+2002,3653.82,male,Pakistan
+2003,29205.0,male,Pakistan
+2004,4329.43,male,Pakistan
+2005,31201.0,male,Pakistan
+2006,5248.82,male,Pakistan
+2007,6100.15,male,Pakistan
+2008,7009.81,male,Pakistan
+2009,7997.0,male,Pakistan
+2010,9017.0,male,Pakistan
+2011,10211.0,male,Pakistan
+1995,1838.0,female,Philippines
+1996,1469.97,female,Philippines
+1997,1879.75,female,Philippines
+1998,2045.65,female,Philippines
+1999,20191.0,female,Philippines
+2000,2014.09,female,Philippines
+2001,5934.0,female,Philippines
+2002,6028.0,female,Philippines
+2003,6065.0,female,Philippines
+2004,6196.0,female,Philippines
+2005,6383.0,female,Philippines
+2006,6719.0,female,Philippines
+2007,6871.0,female,Philippines
+2008,7266.0,female,Philippines
+2009,7587.0,female,Philippines
+2010,8068.0,female,Philippines
+2011,8439.0,female,Philippines
+1995,2375.0,male,Philippines
+1996,1840.28,male,Philippines
+1997,3140.18,male,Philippines
+1998,3162.44,male,Philippines
+1999,24200.0,male,Philippines
+2000,3327.77,male,Philippines
+2001,5713.0,male,Philippines
+2002,5826.0,male,Philippines
+2003,5963.0,male,Philippines
+2004,6051.0,male,Philippines
+2005,6412.0,male,Philippines
+2006,6906.0,male,Philippines
+2007,7011.0,male,Philippines
+2008,7282.0,male,Philippines
+2009,7581.0,male,Philippines
+2010,7947.0,male,Philippines
+2011,8175.0,male,Philippines
+1995,1838.0,female,Qatar
+1996,1469.97,female,Qatar
+1997,1879.75,female,Qatar
+1998,2045.65,female,Qatar
+1999,20191.0,female,Qatar
+2000,2014.09,female,Qatar
+2001,5934.0,female,Qatar
+2002,6028.0,female,Qatar
+2003,6065.0,female,Qatar
+2004,6196.0,female,Qatar
+2005,6383.0,female,Qatar
+2006,4131.0,female,Qatar
+2007,4939.0,female,Qatar
+2008,5800.0,female,Qatar
+2009,6106.0,female,Qatar
+2010,8068.0,female,Qatar
+2011,6094.0,female,Qatar
+1995,2375.0,male,Qatar
+1996,1840.28,male,Qatar
+1997,3140.18,male,Qatar
+1998,3162.44,male,Qatar
+1999,24200.0,male,Qatar
+2000,3327.77,male,Qatar
+2001,5713.0,male,Qatar
+2002,5826.0,male,Qatar
+2003,5963.0,male,Qatar
+2004,6051.0,male,Qatar
+2005,6412.0,male,Qatar
+2006,5611.0,male,Qatar
+2007,6884.0,male,Qatar
+2008,8100.0,male,Qatar
+2009,8484.0,male,Qatar
+2010,7947.0,male,Qatar
+2011,7882.0,male,Qatar
+1995,1850.0,female,Singapore
+1996,1979.0,female,Singapore
+1997,2114.0,female,Singapore
+1998,2256.0,female,Singapore
+1999,2327.0,female,Singapore
+2000,2530.0,female,Singapore
+2001,2588.0,female,Singapore
+2002,2617.0,female,Singapore
+2003,2662.0,female,Singapore
+2004,2773.0,female,Singapore
+2005,2865.0,female,Singapore
+2006,2966.0,female,Singapore
+2007,3148.0,female,Singapore
+2008,3332.0,female,Singapore
+2009,3247.0,female,Singapore
+2010,3434.0,female,Singapore
+2011,3650.0,female,Singapore
+1995,2517.0,male,Singapore
+1996,2646.0,male,Singapore
+1997,2781.0,male,Singapore
+1998,3141.0,male,Singapore
+1999,3222.0,male,Singapore
+2000,3518.0,male,Singapore
+2001,3606.0,male,Singapore
+2002,3632.0,male,Singapore
+2003,3698.0,male,Singapore
+2004,3825.0,male,Singapore
+2005,3962.0,male,Singapore
+2006,4081.0,male,Singapore
+2007,4335.0,male,Singapore
+2008,4560.0,male,Singapore
+2009,4436.0,male,Singapore
+2010,4686.0,male,Singapore
+2011,4964.0,male,Singapore
+1995,1850.0,female,Slovak Republic
+1996,1979.0,female,Slovak Republic
+1997,2114.0,female,Slovak Republic
+1998,2256.0,female,Slovak Republic
+1999,2327.0,female,Slovak Republic
+2000,2530.0,female,Slovak Republic
+2001,2588.0,female,Slovak Republic
+2002,2617.0,female,Slovak Republic
+2003,2662.0,female,Slovak Republic
+2004,2773.0,female,Slovak Republic
+2005,15394.0,female,Slovak Republic
+2006,16575.5,female,Slovak Republic
+2007,18340.6,female,Slovak Republic
+2008,20009.6,female,Slovak Republic
+2009,681.86,female,Slovak Republic
+2010,709.0,female,Slovak Republic
+2011,732.0,female,Slovak Republic
+1995,2517.0,male,Slovak Republic
+1996,2646.0,male,Slovak Republic
+1997,2781.0,male,Slovak Republic
+1998,3141.0,male,Slovak Republic
+1999,3222.0,male,Slovak Republic
+2000,3518.0,male,Slovak Republic
+2001,3606.0,male,Slovak Republic
+2002,3632.0,male,Slovak Republic
+2003,3698.0,male,Slovak Republic
+2004,3825.0,male,Slovak Republic
+2005,21503.3,male,Slovak Republic
+2006,22686.3,male,Slovak Republic
+2007,24726.7,male,Slovak Republic
+2008,26318.4,male,Slovak Republic
+2009,913.08,male,Slovak Republic
+2010,941.0,male,Slovak Republic
+2011,966.0,male,Slovak Republic
+1995,1850.0,female,Spain
+1996,1979.0,female,Spain
+1997,2114.0,female,Spain
+1998,2256.0,female,Spain
+1999,2327.0,female,Spain
+2000,2530.0,female,Spain
+2001,2588.0,female,Spain
+2002,2617.0,female,Spain
+2003,2662.0,female,Spain
+2004,1247.0,female,Spain
+2005,1287.0,female,Spain
+2006,1359.0,female,Spain
+2007,1424.0,female,Spain
+2008,1555.5,female,Spain
+2009,1609.6,female,Spain
+2010,1623.86,female,Spain
+2011,1640.84,female,Spain
+1995,2517.0,male,Spain
+1996,2646.0,male,Spain
+1997,2781.0,male,Spain
+1998,3141.0,male,Spain
+1999,3222.0,male,Spain
+2000,3518.0,male,Spain
+2001,3606.0,male,Spain
+2002,3632.0,male,Spain
+2003,3698.0,male,Spain
+2004,1721.0,male,Spain
+2005,1775.0,male,Spain
+2006,1845.0,male,Spain
+2007,1914.0,male,Spain
+2008,1990.86,male,Spain
+2009,2063.5,male,Spain
+2010,2096.53,male,Spain
+2011,2118.46,male,Spain
+1995,14700.0,female,Sweden
+1996,15500.0,female,Sweden
+1997,16200.0,female,Sweden
+1998,16800.0,female,Sweden
+1999,17600.0,female,Sweden
+2000,18400.0,female,Sweden
+2001,19200.0,female,Sweden
+2002,20000.0,female,Sweden
+2003,20700.0,female,Sweden
+2004,21500.0,female,Sweden
+2005,22100.0,female,Sweden
+2006,22800.0,female,Sweden
+2007,23500.0,female,Sweden
+2008,24700.0,female,Sweden
+2009,25700.0,female,Sweden
+2010,26200.0,female,Sweden
+2011,26800.0,female,Sweden
+1995,17300.0,male,Sweden
+1996,18600.0,male,Sweden
+1997,19600.0,male,Sweden
+1998,20400.0,male,Sweden
+1999,21200.0,male,Sweden
+2000,22500.0,male,Sweden
+2001,23300.0,male,Sweden
+2002,24100.0,male,Sweden
+2003,24800.0,male,Sweden
+2004,25700.0,male,Sweden
+2005,26400.0,male,Sweden
+2006,27100.0,male,Sweden
+2007,28000.0,male,Sweden
+2008,29400.0,male,Sweden
+2009,30100.0,male,Sweden
+2010,30600.0,male,Sweden
+2011,31200.0,male,Sweden
+1995,14700.0,female,Syrian Arab Republic
+1996,15500.0,female,Syrian Arab Republic
+1997,16200.0,female,Syrian Arab Republic
+1998,16800.0,female,Syrian Arab Republic
+1999,17600.0,female,Syrian Arab Republic
+2000,18400.0,female,Syrian Arab Republic
+2001,19200.0,female,Syrian Arab Republic
+2002,20000.0,female,Syrian Arab Republic
+2003,20700.0,female,Syrian Arab Republic
+2004,21500.0,female,Syrian Arab Republic
+2005,22100.0,female,Syrian Arab Republic
+2006,8834.0,female,Syrian Arab Republic
+2007,9306.0,female,Syrian Arab Republic
+2008,10977.0,female,Syrian Arab Republic
+2009,11779.0,female,Syrian Arab Republic
+2010,11981.3,female,Syrian Arab Republic
+2011,15592.0,female,Syrian Arab Republic
+1995,17300.0,male,Syrian Arab Republic
+1996,18600.0,male,Syrian Arab Republic
+1997,19600.0,male,Syrian Arab Republic
+1998,20400.0,male,Syrian Arab Republic
+1999,21200.0,male,Syrian Arab Republic
+2000,22500.0,male,Syrian Arab Republic
+2001,23300.0,male,Syrian Arab Republic
+2002,24100.0,male,Syrian Arab Republic
+2003,24800.0,male,Syrian Arab Republic
+2004,25700.0,male,Syrian Arab Republic
+2005,26400.0,male,Syrian Arab Republic
+2006,8669.0,male,Syrian Arab Republic
+2007,8961.0,male,Syrian Arab Republic
+2008,10552.0,male,Syrian Arab Republic
+2009,10967.0,male,Syrian Arab Republic
+2010,11227.2,male,Syrian Arab Republic
+2011,13502.0,male,Syrian Arab Republic
+1995,14700.0,female,Thailand
+1996,15500.0,female,Thailand
+1997,16200.0,female,Thailand
+1998,16800.0,female,Thailand
+1999,17600.0,female,Thailand
+2000,18400.0,female,Thailand
+2001,6290.98,female,Thailand
+2002,6183.83,female,Thailand
+2003,6328.33,female,Thailand
+2004,6533.15,female,Thailand
+2005,7018.65,female,Thailand
+2006,7571.02,female,Thailand
+2007,7801.03,female,Thailand
+2008,8692.88,female,Thailand
+2009,8521.12,female,Thailand
+2010,9084.94,female,Thailand
+2011,9740.34,female,Thailand
+1995,17300.0,male,Thailand
+1996,18600.0,male,Thailand
+1997,19600.0,male,Thailand
+1998,20400.0,male,Thailand
+1999,21200.0,male,Thailand
+2000,22500.0,male,Thailand
+2001,6950.92,male,Thailand
+2002,6940.23,male,Thailand
+2003,7090.63,male,Thailand
+2004,7206.08,male,Thailand
+2005,7683.27,male,Thailand
+2006,8071.42,male,Thailand
+2007,8314.91,male,Thailand
+2008,9090.87,male,Thailand
+2009,8833.16,male,Thailand
+2010,9403.87,male,Thailand
+2011,10093.1,male,Thailand
+1995,66.0,female,Ukraine
+1996,114.0,female,Ukraine
+1997,132.0,female,Ukraine
+1998,131.0,female,Ukraine
+1999,149.0,female,Ukraine
+2000,191.0,female,Ukraine
+2001,256.0,female,Ukraine
+2002,310.0,female,Ukraine
+2003,379.0,female,Ukraine
+2004,485.0,female,Ukraine
+2005,675.0,female,Ukraine
+2006,885.0,female,Ukraine
+2007,1150.0,female,Ukraine
+2008,1565.0,female,Ukraine
+2009,1677.0,female,Ukraine
+2010,1974.0,female,Ukraine
+2011,2272.0,female,Ukraine
+1995,98.0,male,Ukraine
+1996,167.0,male,Ukraine
+1997,182.0,male,Ukraine
+1998,176.0,male,Ukraine
+1999,206.0,male,Ukraine
+2000,269.0,male,Ukraine
+2001,367.0,male,Ukraine
+2002,447.0,male,Ukraine
+2003,552.0,male,Ukraine
+2004,707.0,male,Ukraine
+2005,953.0,male,Ukraine
+2006,1216.0,male,Ukraine
+2007,1578.0,male,Ukraine
+2008,2080.0,male,Ukraine
+2009,2173.0,male,Ukraine
+2010,2538.0,male,Ukraine
+2011,3035.0,male,Ukraine
+1995,66.0,female,United Kingdom
+1996,114.0,female,United Kingdom
+1997,971.533,female,United Kingdom
+1998,1016.6,female,United Kingdom
+1999,1066.43,female,United Kingdom
+2000,1105.43,female,United Kingdom
+2001,1171.73,female,United Kingdom
+2002,1231.1,female,United Kingdom
+2003,1282.67,female,United Kingdom
+2004,1337.27,female,United Kingdom
+2005,1384.5,female,United Kingdom
+2006,1443.87,female,United Kingdom
+2007,1490.23,female,United Kingdom
+2008,1553.93,female,United Kingdom
+2009,1604.2,female,United Kingdom
+2010,1634.1,female,United Kingdom
+2011,1653.17,female,United Kingdom
+1995,98.0,male,United Kingdom
+1996,167.0,male,United Kingdom
+1997,1711.23,male,United Kingdom
+1998,1800.5,male,United Kingdom
+1999,1860.73,male,United Kingdom
+2000,1932.23,male,United Kingdom
+2001,2037.1,male,United Kingdom
+2002,2138.07,male,United Kingdom
+2003,2197.0,male,United Kingdom
+2004,2228.63,male,United Kingdom
+2005,2274.57,male,United Kingdom
+2006,2361.67,male,United Kingdom
+2007,2420.6,male,United Kingdom
+2008,2529.8,male,United Kingdom
+2009,2554.07,male,United Kingdom
+2010,2580.93,male,United Kingdom
+2011,2591.33,male,United Kingdom
+1995,66.0,female,Uruguay
+1996,114.0,female,Uruguay
+1997,971.533,female,Uruguay
+1998,1016.6,female,Uruguay
+1999,1066.43,female,Uruguay
+2000,5312.62,female,Uruguay
+2001,5430.9,female,Uruguay
+2002,5480.62,female,Uruguay
+2003,5756.95,female,Uruguay
+2004,6081.93,female,Uruguay
+2005,6666.76,female,Uruguay
+2006,7692.22,female,Uruguay
+2007,9016.49,female,Uruguay
+2008,9608.99,female,Uruguay
+2009,11295.1,female,Uruguay
+2010,12281.6,female,Uruguay
+2011,14151.4,female,Uruguay
+1995,98.0,male,Uruguay
+1996,167.0,male,Uruguay
+1997,1711.23,male,Uruguay
+1998,1800.5,male,Uruguay
+1999,1860.73,male,Uruguay
+2000,7700.68,male,Uruguay
+2001,7600.24,male,Uruguay
+2002,7743.67,male,Uruguay
+2003,7855.08,male,Uruguay
+2004,8607.78,male,Uruguay
+2005,8970.41,male,Uruguay
+2006,10474.9,male,Uruguay
+2007,12048.3,male,Uruguay
+2008,13563.2,male,Uruguay
+2009,15824.1,male,Uruguay
+2010,16579.1,male,Uruguay
+2011,18819.2,male,Uruguay
+1995,3133,female,United States
+1996,3216,female,United States
+1997,3316,female,United States
+1998,3388,female,United States
+1999,3376,female,United States
+2000,3407,female,United States
+2001,3524,female,United States
+2002,3587,female,United States
+2003,3568,female,United States
+2004,3532,female,United States
+2005,3484,female,United States
+2006,3444,female,United States
+2007,3616,female,United States
+2008,3546,female,United States
+2009,3611,female,United States
+2010,3612,female,United States
+2011,3524,female,United States
+2012,3513,female,United States
+2013,3587,female,United States
+2013,3554,female,United States
+2014,3569,female,United States
+2015,3664,female,United States
+2016,3689,female,United States
+2017,3648,female,United States
+2017,3704,female,United States
+2018,3826,female,United States
+2019,3942,female,United States
+1995,4386,male,United States
+1996,4360,male,United States
+1997,4471,male,United States
+1998,4630,male,United States
+1999,4668,male,United States
+2000,4622,male,United States
+2001,4617,male,United States
+2002,4682,male,United States
+2003,4722,male,United States
+2004,4613,male,United States
+2005,4526,male,United States
+2006,4477,male,United States
+2007,4647,male,United States
+2008,4599,male,United States
+2009,4691,male,United States
+2010,4696,male,United States
+2011,4576,male,United States
+2012,4592,male,United States
+2013,4583,male,United States
+2013,4582,male,United States
+2014,4539,male,United States
+2015,4605,male,United States
+2016,4585,male,United States
+2017,4532,male,United States
+2017,4536,male,United States
+2018,4691,male,United States
+2019,4788,male,United States

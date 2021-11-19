@@ -26,7 +26,6 @@ d3.csv(data_url).then((data) => {
   const valueLine = d3.line()
     .x(function (d) { return x(d.year); })
     .y(function (d) { return y(d.wvalue); })
-  // .attr('fill', 'white')
 
   // Create svg
   const svg = d3.select("#example-line-chart")
