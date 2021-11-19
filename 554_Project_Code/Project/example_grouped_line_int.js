@@ -41,17 +41,6 @@ d3.csv(data_url).then((data) => {
   const nest = d3.groups(data,
     d => d.state, d => d.lvalue)
 
-  // X-axis
-  const xAxis = d3.axisBottom()
-    .scale(x)
-    .ticks(5)
-    .tickFormat(d3.format("d"))
-
-  // Y-axis
-  const yAxis = d3.axisLeft()
-    .scale(y)
-  // .ticks(5)
-
   // Create a dropdown menu
   const legisMenu = d3.select("#legisDropdown")
 
@@ -66,6 +55,42 @@ d3.csv(data_url).then((data) => {
 
   // Function to create the initial graph
   const initialGraph = function (legis) {
+    const xAxis = d3.axisBottom()
+      .scale(x)
+      .ticks(5)
+      .tickFormat(d3.format("d"))
+    const yAxis = d3.axisLeft()
+      .scale(y)
+    // Create AXES
+    // X-axis
+    svg.append('g')
+      .attr('class', 'axis')
+      .attr('id', 'xAxis')
+      .attr('transform', 'translate(0,' + h + ')')
+      .call(xAxis)
+      .append('text') // X-axis Label
+      .attr('id', 'xAxisLabel')
+      .attr('fill', 'black')
+      .attr('y', -10)
+      .attr('x', w)
+      .attr('dy', '.71em')
+      .style('text-anchor', 'end')
+      .text('')
+
+    // Y-axis
+    svg.append('g')
+      .attr('class', 'axis')
+      .attr('id', 'yAxis')
+      .call(yAxis)
+      .append('text') // y-axis Label
+      .attr('id', 'yAxisLabel')
+      .attr('fill', 'black')
+      .attr('transform', 'rotate(-90)')
+      .attr('x', 0)
+      .attr('y', 5)
+      .attr('dy', '.71em')
+      .style('text-anchor', 'end')
+
     const selectLegis = nest.filter(([key,]) => key == legis)
     const selectLegisGroups = svg.selectAll(".legisGroups")
       .data(selectLegis, function (d) {
@@ -94,7 +119,6 @@ d3.csv(data_url).then((data) => {
   } // initialGraph
 
   // Create initial graph
-  // initialGraph("CA")
   initialGraph("AUS")
 
 
@@ -128,33 +152,4 @@ d3.csv(data_url).then((data) => {
   });
 
 
-  // Create AXES
-  // X-axis
-  svg.append('g')
-    .attr('class', 'axis')
-    .attr('id', 'xAxis')
-    .attr('transform', 'translate(0,' + h + ')')
-    .call(xAxis)
-    .append('text') // X-axis Label
-    .attr('id', 'xAxisLabel')
-    .attr('fill', 'black')
-    .attr('y', -10)
-    .attr('x', w)
-    .attr('dy', '.71em')
-    .style('text-anchor', 'end')
-    .text('')
-  // Y-axis
-  svg.append('g')
-    .attr('class', 'axis')
-    .attr('id', 'yAxis')
-    .call(yAxis)
-    .append('text') // y-axis Label
-    .attr('id', 'yAxisLabel')
-    .attr('fill', 'black')
-    .attr('transform', 'rotate(-90)')
-    .attr('x', 0)
-    .attr('y', 5)
-    .attr('dy', '.71em')
-    .style('text-anchor', 'end')
-
-})
+}) // .then
