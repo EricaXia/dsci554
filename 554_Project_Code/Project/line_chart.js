@@ -1,9 +1,9 @@
-// set the dimensions and margins of the graph
+url = "Project/d3layout_data/wages.csv"
+
 const margin = { top: 10, right: 30, bottom: 30, left: 60 },
     width = 800 - margin.left - margin.right,
     height = 450 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
 const svg = d3.select("#line-chart")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -11,16 +11,15 @@ const svg = d3.select("#line-chart")
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-//Read the data
-// d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/5_OneCatSevNumOrdered.csv").then( function(data) {
-url = "Project/d3layout_data/wages.csv"
 d3.csv(url).then((data) => {
-    // group the data: I want to draw one line per group
+    // console.log(data)
+    // draw one line per gender
     const sumstat = d3.group(data, d => d.gender);
 
-    // Add X axis --> it is a date format
+    // Add X axis as a date format
     const x = d3.scaleLinear()
-        .domain(d3.extent(data, function (d) { return d.year; }))
+        .domain([1995, 2011])
+        // .domain(d3.extent(data, function (d) { return d.year; }))
         .range([0, width]);
     svg.append("g")
         .attr("transform", `translate(0, ${height})`)
@@ -28,7 +27,7 @@ d3.csv(url).then((data) => {
 
     // Add Y axis
     const y = d3.scaleLinear()
-        .domain([0, d3.max(data, function (d) { return +d.value; })])
+        .domain([0, d3.max(data, function (d) { return +d.AUS; })])
         .range([height, 0]);
     svg.append("g")
         .call(d3.axisLeft(y));
@@ -47,8 +46,8 @@ d3.csv(url).then((data) => {
         .attr("d", function (d) {
             return d3.line()
                 .x(function (d) { return x(d.year); })
-                .y(function (d) { return y(+d.value); })
+                .y(function (d) { return y(+d.AUS); })
                 (d[1])
-        })
+        }) // d attr
 
-})
+}) // .then
