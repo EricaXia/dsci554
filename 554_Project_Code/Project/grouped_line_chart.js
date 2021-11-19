@@ -12,9 +12,9 @@ const svg = d3.select("#line-chart")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
 d3.csv(url).then((data) => {
-    console.log(data)
+    // console.log(data)
     // draw one line per gender
-    const sumstat = d3.group(data, d => d.gender);
+    let sumstat = d3.group(data, d => d.gender);
 
 
     // List of groups (here I have one group per column)
@@ -83,22 +83,38 @@ d3.csv(url).then((data) => {
                 (d[1])
         }) // d attr
 
-    // A function that update the chart
+    // A function that updates the chart
     function update(selectedGroup) {
-        // console.log(selectedGroup) // eg CAN
-        const dataFilter = data.map(function (d) { 
-            return { year: d.year, value: d[selectedGroup], gender: d.gender } })
+        console.log(selectedGroup, "selected")
+        const dataFilter = data.map(function (d) {
+            return { year: d.year, value: d[selectedGroup] }
+        })
+
         line
             .datum(dataFilter)
             .transition()
-            // .duration(1000)
-            .duration(600)
+            .duration(1000)
             .attr("d", d3.line()
                 .x(function (d) { return x(+d.year) })
                 .y(function (d) { return y(+d.value) })
             )
             .attr("stroke", function (d) { return color(d.gender) })
-    }
+
+        // line
+        //     .data(sumstat)
+        //     .join("path")
+        //     .attr("fill", "none")
+        //     .attr("stroke", function (d) { return color(d[0]) })
+        //     .attr("stroke-width", 3.0)
+        //     .attr("d", function (d) {
+        //         return d3.line()
+        //             .x(function (d) { return x(d.year); })
+        //             .y(function (d) { return y(+d.value); })
+        //             (d[1])
+        //     }) // d attr
+
+    } // update()
+
     // When the button is changed, run update()
     d3.select("#selectButton").on("change", function (event, d) {
         // recover the option chosen
