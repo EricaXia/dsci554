@@ -39,7 +39,7 @@ d3.csv(data_url).then((data) => {
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     .attr("class", "svg");
 
-  //nest variable
+  //nest variable aka GROUP
   var nest = d3.groups(data,
     d => d.state, d => d.lvalue)
 
@@ -67,7 +67,6 @@ d3.csv(data_url).then((data) => {
 
   // Function to create the initial graph
   var initialGraph = function (legis) {
-    // Filter the data to include only state of interest
     var selectLegis = nest.filter(([key,]) => key == legis)
     var selectLegisGroups = svg.selectAll(".legisGroups")
       .data(selectLegis, function (d) {
@@ -77,17 +76,22 @@ d3.csv(data_url).then((data) => {
       .append("g")
       .attr("class", "legisGroups")
 
+    // color palette
+    const color = d3.scaleOrdinal()
+      .range(['#e41a1c', '#377eb8'])
+
     var initialPath = selectLegisGroups.selectAll(".line")
       .data(([, values]) => values)
       .enter()
       .append("path")
-    // .style("fill","none"); // ADDED
+      .attr("fill", "none") // ADDED
+      .attr("stroke", function (d) { return color(d[0]) })
 
     initialPath
       .attr('d', (d) => valueLine(Array.from(d.values())[1]))
       .attr("class", "line")
 
-  }
+  } // initialGraph
 
   // Create initial graph
   initialGraph("CA")
@@ -107,19 +111,16 @@ d3.csv(data_url).then((data) => {
     selectLegisGroups.selectAll("path.line")
       .data(([, values]) => values)
       .transition()
-      .duration(1000)
-      // .attr("d", valueLine(([, values ]) => values))
+      .duration(800)
       .attr('d', (d) => valueLine(Array.from(d.values())[1]))
   }
 
   // Run update function when dropdown selection changes
   legisMenu.on('change', function () {
-
     // Find which state was selected from the dropdown
     var selectedLegis = d3.select(this)
       .select("select")
       .property("value")
-
     // Run update function with the selected state
     updateGraph(selectedLegis)
 
