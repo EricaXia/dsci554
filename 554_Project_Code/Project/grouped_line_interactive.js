@@ -31,9 +31,9 @@ d3.csv(data_url).then((data) => {
     d => d.state, d => d.lvalue)
 
   // Create a dropdown menu
-  const legisMenu = d3.select("#legisDropdown")
+  const countryMenu = d3.select("#countryDropdown")
 
-  legisMenu
+  countryMenu
     .append("select")
     .selectAll("option")
     .data(nest)
@@ -51,9 +51,6 @@ d3.csv(data_url).then((data) => {
   const y = d3.scaleLinear()
     .domain([0, 6000])
     .range([h, 0])
-  // .domain([
-  //   0, d3.max([0, d3.max(data, function (d) { return d.wvalue })])
-  // ])
 
 
   // Init graph
@@ -95,20 +92,20 @@ d3.csv(data_url).then((data) => {
       .attr('dy', '.71em')
       .style('text-anchor', 'end')
 
-    const selectLegis = nest.filter(([key,]) => key == legis)
-    const selectLegisGroups = svg.selectAll(".legisGroups")
-      .data(selectLegis, function (d) {
+    const selectCountry = nest.filter(([key,]) => key == legis)
+    const selectCountryGroups = svg.selectAll(".countryGroups")
+      .data(selectCountry, function (d) {
         return d ? d.key : this.key;
       })
       .enter()
       .append("g")
-      .attr("class", "legisGroups")
+      .attr("class", "countryGroups")
 
     // color palette
     const color = d3.scaleOrdinal()
       .range(['#e41a1c', '#377eb8'])
 
-    const initialPath = selectLegisGroups.selectAll(".line")
+    const initialPath = selectCountryGroups.selectAll(".line")
       .data(([, values]) => values)
       .enter()
       .append("path")
@@ -130,7 +127,7 @@ d3.csv(data_url).then((data) => {
   // Update the data
   const updateGraph = function (legis) {
     // Filter the data to include only state of interest
-    const selectLegis = nest.filter(([key,]) => key == legis)  // this is the ARRAY
+    const selectCountry = nest.filter(([key,]) => key == legis)  // this is the ARRAY
 
     // RESCALE Y AXIS for new country
     function getMax(maleArr) {
@@ -141,7 +138,7 @@ d3.csv(data_url).then((data) => {
       }
       return max;
     }
-    newMax = d3.map(selectLegis, d => getMax(d[1][1][1]))[0]
+    newMax = d3.map(selectCountry, d => getMax(d[1][1][1]))[0]
     y.domain([0, newMax]);
     yAxis = d3.axisLeft().scale(y)
     // REMOVE old Y-Axis
@@ -161,10 +158,10 @@ d3.csv(data_url).then((data) => {
       .style('text-anchor', 'end')
 
     // Select all of the grouped elements and update the data
-    const selectLegisGroups = svg.selectAll(".legisGroups")
-      .data(selectLegis)
+    const selectCountryGroups = svg.selectAll(".countryGroups")
+      .data(selectCountry)
     // Select all the lines and transition to new positions
-    selectLegisGroups.selectAll("path.line")
+    selectCountryGroups.selectAll("path.line")
       .data(([, values]) => values)
       .transition()
       .duration(600)
@@ -172,7 +169,7 @@ d3.csv(data_url).then((data) => {
   }
 
   // Run update function when dropdown selection changes
-  legisMenu.on('change', function () {
+  countryMenu.on('change', function () {
     // Find which state was selected from the dropdown
     const selectedLegis = d3.select(this)
       .select("select")
