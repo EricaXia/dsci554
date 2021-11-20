@@ -168,7 +168,7 @@ d3.csv(data_url).then((data) => {
     selectLegisGroups.selectAll("path.line")
       .data(([, values]) => values)
       .transition()
-      .duration(700)
+      .duration(600)
       .attr('d', (d) => valueLine(Array.from(d.values())[1]))
   }
 
