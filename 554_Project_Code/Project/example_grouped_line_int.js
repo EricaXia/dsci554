@@ -8,8 +8,8 @@ const formatDecimal = d3.format('.0')
 const data_url = 'Project/d3layout_data/wages.csv'
 
 d3.csv(data_url).then((data) => {
-  console.log('LINE CHART')
-  console.log(data)
+  // console.log('LINE CHART')
+  // console.log(data)
 
   // TODO: re-scale the y-axis every time drop down menu changes the country
   // Scales
@@ -19,8 +19,7 @@ d3.csv(data_url).then((data) => {
 
   const y = d3.scaleLinear()
     .domain([
-      d3.min([0, d3.min(data, function (d) { return d.wvalue })]),
-      d3.max([0, d3.max(data, function (d) { return d.wvalue })])
+      0, d3.max([0, d3.max(data, function (d) { return d.wvalue })])
     ])
     .range([h, 0])
 
@@ -58,11 +57,11 @@ d3.csv(data_url).then((data) => {
 
   // Function to create the initial graph
   const initialGraph = function (legis) {
-    const xAxis = d3.axisBottom()
+    let xAxis = d3.axisBottom()
       .scale(x)
       .ticks(5)
       .tickFormat(d3.format("d"))
-    const yAxis = d3.axisLeft()
+    let yAxis = d3.axisLeft()
       .scale(y)
     // Create AXES
     // X-axis
@@ -128,14 +127,30 @@ d3.csv(data_url).then((data) => {
 
   // Update the data
   const updateGraph = function (legis) {
-
     // Filter the data to include only state of interest
-    const selectLegis = nest.filter(([key,]) => key == legis)
+    const selectLegis = nest.filter(([key,]) => key == legis)  // this is the ARRAY
+    // console.log(selectLegis) // ['country', Array of values]
+
+    function getMax(maleArr) {
+      let max = 0;
+      for (let i = 0; i < maleArr.length; i++) {
+        if (max == 0 || parseInt(maleArr[i].wvalue) > parseInt(max))
+          max = maleArr[i].wvalue;
+      }
+      // console.log(max)
+      return max;
+    }
+
+    // newmax = d3.max(selectLegis, (d) => { getMax(d[1][1][1]) })
+    newMax = d3.map(selectLegis, d => getMax(d[1][1][1]))[0]
+    y.domain([0, newMax]);
+    // yAxis.scale(y);
+    let yAxis = d3.axisLeft()
+      .scale(y)
 
     // Select all of the grouped elements and update the data
     const selectLegisGroups = svg.selectAll(".legisGroups")
       .data(selectLegis)
-
     // Select all the lines and transition to new positions
     selectLegisGroups.selectAll("path.line")
       .data(([, values]) => values)
@@ -149,7 +164,8 @@ d3.csv(data_url).then((data) => {
     // Find which state was selected from the dropdown
     const selectedLegis = d3.select(this)
       .select("select")
-      .property("value")
+      .property("value")  // e.g. "Canada"
+
     // Run update function with the selected state
     updateGraph(selectedLegis)
 
