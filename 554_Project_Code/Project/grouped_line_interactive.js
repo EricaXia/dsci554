@@ -26,6 +26,25 @@ d3.csv(data_url).then((data) => {
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     .attr("class", "svg");
 
+
+  // Add a color legend
+  svg.append("text")
+    .attr('x', w - 140)
+    .attr('y', h - 16)
+    .attr('font-size', 12)
+    .text("Male")
+  svg.append("circle").attr("cx", w - 150).attr("cy", h - 20).attr("r", 6).style("fill", '#377eb8')
+
+  svg.append("text")
+  .attr('x', w - 80)
+  .attr('y', h - 16)
+  .attr('font-size', 12)
+  .text("Female")
+  svg.append("circle").attr("cx", w - 90).attr("cy", h - 20).attr("r", 6).style("fill", '#e41a1c')
+
+
+
+
   //nest variable aka GROUP
   const nest = d3.groups(data,
     d => d.state, d => d.lvalue)
@@ -170,15 +189,15 @@ d3.csv(data_url).then((data) => {
 
   // Run update function when dropdown selection changes
   countryMenu.on('change', function () {
-    // Find which state was selected from the dropdown
-    const selectedLegis = d3.select(this)
+    // Find which was selected from the dropdown
+    const selectedCountry = d3.select(this)
       .select("select")
       .property("value")  // e.g. "Canada"
-
-    // Run update function with the selected state
-    updateGraph(selectedLegis)
-
+    // Run update function with the selected one
+    updateGraph(selectedCountry)
   });
+
+
 
 
 }) // .then
