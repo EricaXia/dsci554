@@ -33,8 +33,246 @@ year,state,wvalue,lvalue
 2009,Australia,4903,male
 2010,Australia,5152,male
 2011,Australia,5373,male
-1995,Canada,1867,female
-1996,Canada,1923,female
+1995,Austria,1357,female
+1996,Austria,1357,female
+1997,Austria,1357,female
+1998,Austria,1375,female
+1999,Austria,1407,female
+2000,Austria,1433,female
+2001,Austria,1461,female
+2002,Austria,1494,female
+2003,Austria,1520,female
+2004,Austria,1541,female
+2005,Austria,1583,female
+2006,Austria,1631,female
+2007,Austria,1684,female
+2008,Austria,1738,female
+2009,Austria,1783,female
+2010,Austria,1803,female
+2011,Austria,1803,female
+1995,Austria,2262,male
+1996,Austria,2262,male
+1997,Austria,2262,male
+1998,Austria,2325,male
+1999,Austria,2373,male
+2000,Austria,2442,male
+2001,Austria,2455,male
+2002,Austria,2487,male
+2003,Austria,2523,male
+2004,Austria,2559,male
+2005,Austria,2618,male
+2006,Austria,2706,male
+2007,Austria,2814,male
+2008,Austria,2898,male
+2009,Austria,2909,male
+2010,Austria,2922,male
+2011,Austria,2922,male
+1995,Azerbaijan,20,female
+1996,Azerbaijan,20,female
+1997,Azerbaijan,20,female
+1998,Azerbaijan,20,female
+1999,Azerbaijan,20,female
+2000,Azerbaijan,27,female
+2001,Azerbaijan,30,female
+2002,Azerbaijan,36,female
+2003,Azerbaijan,46,female
+2004,Azerbaijan,58,female
+2005,Azerbaijan,75,female
+2006,Azerbaijan,91,female
+2007,Azerbaijan,140,female
+2008,Azerbaijan,184,female
+2009,Azerbaijan,184,female
+2010,Azerbaijan,226,female
+2011,Azerbaijan,226,female
+1995,Azerbaijan,45,male
+1996,Azerbaijan,45,male
+1997,Azerbaijan,45,male
+1998,Azerbaijan,45,male
+1999,Azerbaijan,45,male
+2000,Azerbaijan,59,male
+2001,Azerbaijan,72,male
+2002,Azerbaijan,84,male
+2003,Azerbaijan,103,male
+2004,Azerbaijan,131,male
+2005,Azerbaijan,162,male
+2006,Azerbaijan,192,male
+2007,Azerbaijan,277,male
+2008,Azerbaijan,324,male
+2009,Azerbaijan,324,male
+2010,Azerbaijan,413,male
+2011,Azerbaijan,413,male
+1995,Belarus,900421,female
+1996,Belarus,1449480,female
+1997,Belarus,2926400,female
+1998,Belarus,7304730,female
+1999,Belarus,31051000,female
+2000,Belarus,78700,female
+2001,Belarus,150434,female
+2002,Belarus,198805,female
+2003,Belarus,265471,female
+2004,Belarus,388228,female
+2005,Belarus,495046,female
+2006,Belarus,589475,female
+2007,Belarus,694843,female
+2008,Belarus,848048,female
+2009,Belarus,924671,female
+2010,Belarus,1373090,female
+2011,Belarus,1373090,female
+1995,Belarus,1139020,male
+1996,Belarus,1685960,male
+1997,Belarus,3620280,male
+1998,Belarus,8606160,male
+1999,Belarus,38540700,male
+2000,Belarus,97203,male
+2001,Belarus,181934,male
+2002,Belarus,245768,male
+2003,Belarus,334168,male
+2004,Belarus,478432,male
+2005,Belarus,625525,male
+2006,Belarus,738030,male
+2007,Belarus,886521,male
+2008,Belarus,1147780,male
+2009,Belarus,1240210,male
+2010,Belarus,1792070,male
+2011,Belarus,1792070,male
+1995,Belgium,1639,female
+1996,Belgium,1639,female
+1997,Belgium,1639,female
+1998,Belgium,1639,female
+1999,Belgium,1639,female
+2000,Belgium,1719,female
+2001,Belgium,1806,female
+2002,Belgium,1834,female
+2003,Belgium,1932,female
+2004,Belgium,2003,female
+2005,Belgium,2049,female
+2006,Belgium,2106,female
+2007,Belgium,2130,female
+2008,Belgium,2242,female
+2009,Belgium,2343,female
+2010,Belgium,2343,female
+2011,Belgium,2343,female
+1995,Belgium,2283,male
+1996,Belgium,2283,male
+1997,Belgium,2283,male
+1998,Belgium,2283,male
+1999,Belgium,2283,male
+2000,Belgium,2338,male
+2001,Belgium,2440,male
+2002,Belgium,2462,male
+2003,Belgium,2592,male
+2004,Belgium,2677,male
+2005,Belgium,2720,male
+2006,Belgium,2756,male
+2007,Belgium,2783,male
+2008,Belgium,2909,male
+2009,Belgium,2999,male
+2010,Belgium,2999,male
+2011,Belgium,2999,male
+1995,Brazil,300,female
+1996,Brazil,354,female
+1997,Brazil,376,female
+1998,Brazil,394,female
+1999,Brazil,398,female
+2000,Brazil,398,female
+2001,Brazil,448,female
+2002,Brazil,484,female
+2003,Brazil,529,female
+2004,Brazil,565,female
+2005,Brazil,624,female
+2006,Brazil,685,female
+2007,Brazil,741,female
+2008,Brazil,806,female
+2009,Brazil,870,female
+2010,Brazil,870,female
+2011,Brazil,870,female
+1995,Brazil,470,male
+1996,Brazil,523,male
+1997,Brazil,551,male
+1998,Brazil,580,male
+1999,Brazil,571,male
+2000,Brazil,571,male
+2001,Brazil,634,male
+2002,Brazil,680,male
+2003,Brazil,735,male
+2004,Brazil,781,male
+2005,Brazil,860,male
+2006,Brazil,940,male
+2007,Brazil,1021,male
+2008,Brazil,1107,male
+2009,Brazil,1204,male
+2010,Brazil,1204,male
+2011,Brazil,1204,male
+1995,Bulgaria,193,female
+1996,Bulgaria,193,female
+1997,Bulgaria,193,female
+1998,Bulgaria,193,female
+1999,Bulgaria,193,female
+2000,Bulgaria,193,female
+2001,Bulgaria,209,female
+2002,Bulgaria,227,female
+2003,Bulgaria,245,female
+2004,Bulgaria,264,female
+2005,Bulgaria,292,female
+2006,Bulgaria,327,female
+2007,Bulgaria,391,female
+2008,Bulgaria,490,female
+2009,Bulgaria,544,female
+2010,Bulgaria,579,female
+2011,Bulgaria,579,female
+1995,Bulgaria,256,male
+1996,Bulgaria,256,male
+1997,Bulgaria,256,male
+1998,Bulgaria,256,male
+1999,Bulgaria,256,male
+2000,Bulgaria,256,male
+2001,Bulgaria,272,male
+2002,Bulgaria,289,male
+2003,Bulgaria,302,male
+2004,Bulgaria,321,male
+2005,Bulgaria,355,male
+2006,Bulgaria,393,male
+2007,Bulgaria,469,male
+2008,Bulgaria,596,male
+2009,Bulgaria,672,male
+2010,Bulgaria,717,male
+2011,Bulgaria,717,male
+1995,Cambodia,165841,female
+1996,Cambodia,165841,female
+1997,Cambodia,165841,female
+1998,Cambodia,165841,female
+1999,Cambodia,165841,female
+2000,Cambodia,165841,female
+2001,Cambodia,165841,female
+2002,Cambodia,165841,female
+2003,Cambodia,165841,female
+2004,Cambodia,165841,female
+2005,Cambodia,165841,female
+2006,Cambodia,165841,female
+2007,Cambodia,228832,female
+2008,Cambodia,228832,female
+2009,Cambodia,258207,female
+2010,Cambodia,258207,female
+2011,Cambodia,258207,female
+1995,Cambodia,187576,male
+1996,Cambodia,187576,male
+1997,Cambodia,187576,male
+1998,Cambodia,187576,male
+1999,Cambodia,187576,male
+2000,Cambodia,187576,male
+2001,Cambodia,187576,male
+2002,Cambodia,187576,male
+2003,Cambodia,187576,male
+2004,Cambodia,187576,male
+2005,Cambodia,187576,male
+2006,Cambodia,187576,male
+2007,Cambodia,333916,male
+2008,Cambodia,333916,male
+2009,Cambodia,355560,male
+2010,Cambodia,355560,male
+2011,Cambodia,355560,male
+1995,Canada,2015,female
+1996,Canada,2015,female
 1997,Canada,2015,female
 1998,Canada,2048,female
 1999,Canada,2109,female
@@ -50,8 +288,8 @@ year,state,wvalue,lvalue
 2009,Canada,2972,female
 2010,Canada,3036,female
 2011,Canada,3131,female
-1995,Canada,2846,male
-1996,Canada,2924,male
+1995,Canada,2911,male
+1996,Canada,2911,male
 1997,Canada,2911,male
 1998,Canada,2954,male
 1999,Canada,3031,male
@@ -67,16 +305,152 @@ year,state,wvalue,lvalue
 2009,Canada,3999,male
 2010,Canada,4077,male
 2011,Canada,4142,male
-1995,Czech Republic,1867,female
-1996,Czech Republic,1923,female
-1997,Czech Republic,2015,female
-1998,Czech Republic,2048,female
-1999,Czech Republic,2109,female
-2000,Czech Republic,2172,female
-2001,Czech Republic,2250,female
-2002,Czech Republic,2318,female
-2003,Czech Republic,2379,female
-2004,Czech Republic,2460,female
+1995,Colombia,212843,female
+1996,Colombia,260200,female
+1997,Colombia,321083,female
+1998,Colombia,394930,female
+1999,Colombia,431387,female
+2000,Colombia,453552,female
+2001,Colombia,453552,female
+2002,Colombia,494526,female
+2003,Colombia,504443,female
+2004,Colombia,550941,female
+2005,Colombia,623537,female
+2006,Colombia,625285,female
+2007,Colombia,817793,female
+2008,Colombia,882040,female
+2009,Colombia,860458,female
+2010,Colombia,921469,female
+2011,Colombia,921469,female
+1995,Colombia,268634,male
+1996,Colombia,325746,male
+1997,Colombia,405830,male
+1998,Colombia,491450,male
+1999,Colombia,507983,male
+2000,Colombia,502015,male
+2001,Colombia,502015,male
+2002,Colombia,510819,male
+2003,Colombia,580873,male
+2004,Colombia,636941,male
+2005,Colombia,695383,male
+2006,Colombia,716076,male
+2007,Colombia,895364,male
+2008,Colombia,1003450,male
+2009,Colombia,974912,male
+2010,Colombia,1089160,male
+2011,Colombia,1089160,male
+1995,Costa Rica,56229,female
+1996,Costa Rica,69708,female
+1997,Costa Rica,83668,female
+1998,Costa Rica,94825,female
+1999,Costa Rica,96611,female
+2000,Costa Rica,111747,female
+2001,Costa Rica,133788,female
+2002,Costa Rica,139293,female
+2003,Costa Rica,157937,female
+2004,Costa Rica,171478,female
+2005,Costa Rica,181968,female
+2006,Costa Rica,213140,female
+2007,Costa Rica,237808,female
+2008,Costa Rica,271571,female
+2009,Costa Rica,340767,female
+2010,Costa Rica,368469,female
+2011,Costa Rica,368469,female
+1995,Costa Rica,73294,male
+1996,Costa Rica,83949,male
+1997,Costa Rica,95788,male
+1998,Costa Rica,117439,male
+1999,Costa Rica,123181,male
+2000,Costa Rica,138273,male
+2001,Costa Rica,161366,male
+2002,Costa Rica,177789,male
+2003,Costa Rica,187437,male
+2004,Costa Rica,205300,male
+2005,Costa Rica,224695,male
+2006,Costa Rica,253971,male
+2007,Costa Rica,298172,male
+2008,Costa Rica,339125,male
+2009,Costa Rica,390767,male
+2010,Costa Rica,425637,male
+2011,Costa Rica,425637,male
+1995,Croatia,5251,female
+1996,Croatia,5251,female
+1997,Croatia,5251,female
+1998,Croatia,5251,female
+1999,Croatia,5251,female
+2000,Croatia,5251,female
+2001,Croatia,5251,female
+2002,Croatia,5251,female
+2003,Croatia,5251,female
+2004,Croatia,5540,female
+2005,Croatia,5806,female
+2006,Croatia,6149,female
+2007,Croatia,6549,female
+2008,Croatia,7016,female
+2009,Croatia,7181,female
+2010,Croatia,7233,female
+2011,Croatia,7233,female
+1995,Croatia,5868,male
+1996,Croatia,5868,male
+1997,Croatia,5868,male
+1998,Croatia,5868,male
+1999,Croatia,5868,male
+2000,Croatia,5868,male
+2001,Croatia,5868,male
+2002,Croatia,5868,male
+2003,Croatia,5868,male
+2004,Croatia,6206,male
+2005,Croatia,6492,male
+2006,Croatia,6909,male
+2007,Croatia,7344,male
+2008,Croatia,7892,male
+2009,Croatia,8033,male
+2010,Croatia,8044,male
+2011,Croatia,8044,male
+1995,Cyprus,1078,female
+1996,Cyprus,1078,female
+1997,Cyprus,1078,female
+1998,Cyprus,1078,female
+1999,Cyprus,1078,female
+2000,Cyprus,1165,female
+2001,Cyprus,1225,female
+2002,Cyprus,1295,female
+2003,Cyprus,1374,female
+2004,Cyprus,1432,female
+2005,Cyprus,1510,female
+2006,Cyprus,1589,female
+2007,Cyprus,1651,female
+2008,Cyprus,1760,female
+2009,Cyprus,1824,female
+2010,Cyprus,1824,female
+2011,Cyprus,1824,female
+1995,Cyprus,1469,male
+1996,Cyprus,1469,male
+1997,Cyprus,1469,male
+1998,Cyprus,1469,male
+1999,Cyprus,1469,male
+2000,Cyprus,1572,male
+2001,Cyprus,1652,male
+2002,Cyprus,1729,male
+2003,Cyprus,1837,male
+2004,Cyprus,1912,male
+2005,Cyprus,2013,male
+2006,Cyprus,2100,male
+2007,Cyprus,2168,male
+2008,Cyprus,2267,male
+2009,Cyprus,2336,male
+2010,Cyprus,2336,male
+2011,Cyprus,2336,male
+1995,Czech Republic,18221,female
+1996,Czech Republic,18221,female
+1997,Czech Republic,18221,female
+1998,Czech Republic,18221,female
+1999,Czech Republic,18221,female
+2000,Czech Republic,18221,female
+2001,Czech Republic,18221,female
+2002,Czech Republic,18221,female
+2003,Czech Republic,18221,female
+2004,Czech Republic,18221,female
 2005,Czech Republic,18221,female
 2006,Czech Republic,19305,female
 2007,Czech Republic,20683,female
@@ -84,16 +458,16 @@ year,state,wvalue,lvalue
 2009,Czech Republic,22413,female
 2010,Czech Republic,22666,female
 2011,Czech Republic,22389,female
-1995,Czech Republic,2846,male
-1996,Czech Republic,2924,male
-1997,Czech Republic,2911,male
-1998,Czech Republic,2954,male
-1999,Czech Republic,3031,male
-2000,Czech Republic,3129,male
-2001,Czech Republic,3226,male
-2002,Czech Republic,3286,male
-2003,Czech Republic,3343,male
-2004,Czech Republic,3414,male
+1995,Czech Republic,24271,male
+1996,Czech Republic,24271,male
+1997,Czech Republic,24271,male
+1998,Czech Republic,24271,male
+1999,Czech Republic,24271,male
+2000,Czech Republic,24271,male
+2001,Czech Republic,24271,male
+2002,Czech Republic,24271,male
+2003,Czech Republic,24271,male
+2004,Czech Republic,24271,male
 2005,Czech Republic,24271,male
 2006,Czech Republic,25593,male
 2007,Czech Republic,27488,male
@@ -101,6 +475,74 @@ year,state,wvalue,lvalue
 2009,Czech Republic,29952,male
 2010,Czech Republic,30192,male
 2011,Czech Republic,28233,male
+1995,"Congo, Dem. Rep.",7731,female
+1996,"Congo, Dem. Rep.",7731,female
+1997,"Congo, Dem. Rep.",7731,female
+1998,"Congo, Dem. Rep.",7731,female
+1999,"Congo, Dem. Rep.",7731,female
+2000,"Congo, Dem. Rep.",7731,female
+2001,"Congo, Dem. Rep.",7731,female
+2002,"Congo, Dem. Rep.",7731,female
+2003,"Congo, Dem. Rep.",7731,female
+2004,"Congo, Dem. Rep.",7731,female
+2005,"Congo, Dem. Rep.",7731,female
+2006,"Congo, Dem. Rep.",7731,female
+2007,"Congo, Dem. Rep.",7731,female
+2008,"Congo, Dem. Rep.",7731,female
+2009,"Congo, Dem. Rep.",7731,female
+2010,"Congo, Dem. Rep.",7731,female
+2011,"Congo, Dem. Rep.",7731,female
+1995,"Congo, Dem. Rep.",12293,male
+1996,"Congo, Dem. Rep.",12293,male
+1997,"Congo, Dem. Rep.",12293,male
+1998,"Congo, Dem. Rep.",12293,male
+1999,"Congo, Dem. Rep.",12293,male
+2000,"Congo, Dem. Rep.",12293,male
+2001,"Congo, Dem. Rep.",12293,male
+2002,"Congo, Dem. Rep.",12293,male
+2003,"Congo, Dem. Rep.",12293,male
+2004,"Congo, Dem. Rep.",12293,male
+2005,"Congo, Dem. Rep.",12293,male
+2006,"Congo, Dem. Rep.",12293,male
+2007,"Congo, Dem. Rep.",12293,male
+2008,"Congo, Dem. Rep.",12293,male
+2009,"Congo, Dem. Rep.",12293,male
+2010,"Congo, Dem. Rep.",12293,male
+2011,"Congo, Dem. Rep.",12293,male
+1995,Denmark,32345,female
+1996,Denmark,32345,female
+1997,Denmark,32345,female
+1998,Denmark,32345,female
+1999,Denmark,32345,female
+2000,Denmark,32345,female
+2001,Denmark,32345,female
+2002,Denmark,32345,female
+2003,Denmark,32345,female
+2004,Denmark,32345,female
+2005,Denmark,32345,female
+2006,Denmark,32345,female
+2007,Denmark,32345,female
+2008,Denmark,32345,female
+2009,Denmark,32345,female
+2010,Denmark,33416,female
+2011,Denmark,33416,female
+1995,Denmark,38031,male
+1996,Denmark,38031,male
+1997,Denmark,38031,male
+1998,Denmark,38031,male
+1999,Denmark,38031,male
+2000,Denmark,38031,male
+2001,Denmark,38031,male
+2002,Denmark,38031,male
+2003,Denmark,38031,male
+2004,Denmark,38031,male
+2005,Denmark,38031,male
+2006,Denmark,38031,male
+2007,Denmark,38031,male
+2008,Denmark,38031,male
+2009,Denmark,38031,male
+2010,Denmark,39297,male
+2011,Denmark,39297,male
 1995,Ecuador,150,female
 1996,Ecuador,161,female
 1997,Ecuador,192,female
@@ -135,6 +577,210 @@ year,state,wvalue,lvalue
 2009,Ecuador,421,male
 2010,Ecuador,456,male
 2011,Ecuador,488,male
+1995,"Egypt, Arab Rep.",359,female
+1996,"Egypt, Arab Rep.",359,female
+1997,"Egypt, Arab Rep.",407,female
+1998,"Egypt, Arab Rep.",424,female
+1999,"Egypt, Arab Rep.",502,female
+2000,"Egypt, Arab Rep.",541,female
+2001,"Egypt, Arab Rep.",576,female
+2002,"Egypt, Arab Rep.",602,female
+2003,"Egypt, Arab Rep.",645,female
+2004,"Egypt, Arab Rep.",732,female
+2005,"Egypt, Arab Rep.",723,female
+2006,"Egypt, Arab Rep.",814,female
+2007,"Egypt, Arab Rep.",879,female
+2008,"Egypt, Arab Rep.",879,female
+2009,"Egypt, Arab Rep.",879,female
+2010,"Egypt, Arab Rep.",879,female
+2011,"Egypt, Arab Rep.",879,female
+1995,"Egypt, Arab Rep.",442,male
+1996,"Egypt, Arab Rep.",442,male
+1997,"Egypt, Arab Rep.",472,male
+1998,"Egypt, Arab Rep.",498,male
+1999,"Egypt, Arab Rep.",641,male
+2000,"Egypt, Arab Rep.",732,male
+2001,"Egypt, Arab Rep.",680,male
+2002,"Egypt, Arab Rep.",723,male
+2003,"Egypt, Arab Rep.",775,male
+2004,"Egypt, Arab Rep.",836,male
+2005,"Egypt, Arab Rep.",931,male
+2006,"Egypt, Arab Rep.",1022,male
+2007,"Egypt, Arab Rep.",1131,male
+2008,"Egypt, Arab Rep.",1131,male
+2009,"Egypt, Arab Rep.",1131,male
+2010,"Egypt, Arab Rep.",1131,male
+2011,"Egypt, Arab Rep.",1131,male
+1995,El Salvador,194,female
+1996,El Salvador,194,female
+1997,El Salvador,194,female
+1998,El Salvador,194,female
+1999,El Salvador,194,female
+2000,El Salvador,206,female
+2001,El Salvador,206,female
+2002,El Salvador,204,female
+2003,El Salvador,204,female
+2004,El Salvador,206,female
+2005,El Salvador,217,female
+2006,El Salvador,230,female
+2007,El Salvador,231,female
+2008,El Salvador,240,female
+2009,El Salvador,247,female
+2010,El Salvador,246,female
+2011,El Salvador,246,female
+1995,El Salvador,248,male
+1996,El Salvador,248,male
+1997,El Salvador,248,male
+1998,El Salvador,248,male
+1999,El Salvador,248,male
+2000,El Salvador,261,male
+2001,El Salvador,268,male
+2002,El Salvador,277,male
+2003,El Salvador,277,male
+2004,El Salvador,255,male
+2005,El Salvador,270,male
+2006,El Salvador,260,male
+2007,El Salvador,281,male
+2008,El Salvador,284,male
+2009,El Salvador,303,male
+2010,El Salvador,292,male
+2011,El Salvador,292,male
+1995,Estonia,450,female
+1996,Estonia,450,female
+1997,Estonia,450,female
+1998,Estonia,450,female
+1999,Estonia,450,female
+2000,Estonia,450,female
+2001,Estonia,450,female
+2002,Estonia,450,female
+2003,Estonia,450,female
+2004,Estonia,450,female
+2005,Estonia,450,female
+2006,Estonia,531,female
+2007,Estonia,640,female
+2008,Estonia,728,female
+2009,Estonia,728,female
+2010,Estonia,728,female
+2011,Estonia,728,female
+1995,Estonia,611,male
+1996,Estonia,611,male
+1997,Estonia,611,male
+1998,Estonia,611,male
+1999,Estonia,611,male
+2000,Estonia,611,male
+2001,Estonia,611,male
+2002,Estonia,611,male
+2003,Estonia,611,male
+2004,Estonia,611,male
+2005,Estonia,611,male
+2006,Estonia,735,male
+2007,Estonia,898,male
+2008,Estonia,979,male
+2009,Estonia,979,male
+2010,Estonia,979,male
+2011,Estonia,979,male
+1995,Finland,9413,female
+1996,Finland,9883,female
+1997,Finland,9912,female
+1998,Finland,10277,female
+1999,Finland,10312,female
+2000,Finland,11116,female
+2001,Finland,1957,female
+2002,Finland,2028,female
+2003,Finland,2107,female
+2004,Finland,2190,female
+2005,Finland,2275,female
+2006,Finland,2343,female
+2007,Finland,2433,female
+2008,Finland,2575,female
+2009,Finland,2667,female
+2010,Finland,2736,female
+2011,Finland,2736,female
+1995,Finland,11972,male
+1996,Finland,12426,male
+1997,Finland,12566,male
+1998,Finland,12984,male
+1999,Finland,13363,male
+2000,Finland,14111,male
+2001,Finland,2441,male
+2002,Finland,2523,male
+2003,Finland,2621,male
+2004,Finland,2708,male
+2005,Finland,2813,male
+2006,Finland,2922,male
+2007,Finland,3035,male
+2008,Finland,3185,male
+2009,Finland,3288,male
+2010,Finland,3358,male
+2011,Finland,3358,male
+1995,France,1820,female
+1996,France,1820,female
+1997,France,1820,female
+1998,France,1820,female
+1999,France,1853,female
+2000,France,1890,female
+2001,France,1940,female
+2002,France,2080,female
+2003,France,2140,female
+2004,France,2120,female
+2005,France,2190,female
+2006,France,2250,female
+2007,France,2320,female
+2008,France,2401,female
+2009,France,2461,female
+2010,France,2461,female
+2011,France,2461,female
+1995,France,2282,male
+1996,France,2282,male
+1997,France,2282,male
+1998,France,2282,male
+1999,France,2312,male
+2000,France,2320,male
+2001,France,2380,male
+2002,France,2600,male
+2003,France,2670,male
+2004,France,2610,male
+2005,France,2690,male
+2006,France,2760,male
+2007,France,2850,male
+2008,France,2955,male
+2009,France,2988,male
+2010,France,2988,male
+2011,France,2988,male
+1995,Georgia,47,female
+1996,Georgia,47,female
+1997,Georgia,47,female
+1998,Georgia,47,female
+1999,Georgia,47,female
+2000,Georgia,52,female
+2001,Georgia,63,female
+2002,Georgia,75,female
+2003,Georgia,85,female
+2004,Georgia,108,female
+2005,Georgia,131,female
+2006,Georgia,177,female
+2007,Georgia,240,female
+2008,Georgia,367,female
+2009,Georgia,398,female
+2010,Georgia,426,female
+2011,Georgia,426,female
+1995,Georgia,90,male
+1996,Georgia,90,male
+1997,Georgia,90,male
+1998,Georgia,90,male
+1999,Georgia,90,male
+2000,Georgia,95,male
+2001,Georgia,125,male
+2002,Georgia,150,male
+2003,Georgia,163,male
+2004,Georgia,200,male
+2005,Georgia,267,male
+2006,Georgia,362,male
+2007,Georgia,475,male
+2008,Georgia,678,male
+2009,Georgia,690,male
+2010,Georgia,742,male
+2011,Georgia,742,male
 1995,Germany,1858,female
 1996,Germany,1933,female
 1997,Germany,1985,female
@@ -169,43 +815,145 @@ year,state,wvalue,lvalue
 2009,Germany,3320,male
 2010,Germany,3416,male
 2011,Germany,3508,male
-1995,Guatemala,1858,female
-1996,Guatemala,1933,female
-1997,Guatemala,1985,female
-1998,Guatemala,2039,female
-1999,Guatemala,2105,female
-2000,Guatemala,2150,female
-2001,Guatemala,2216,female
-2002,Guatemala,2286,female
-2003,Guatemala,2359,female
-2004,Guatemala,2421,female
-2005,Guatemala,2475,female
-2006,Guatemala,2522,female
-2007,Guatemala,2590,female
-2008,Guatemala,2661,female
-2009,Guatemala,2729,female
-2010,Guatemala,2791,female
+1995,Ghana,86,female
+1996,Ghana,86,female
+1997,Ghana,86,female
+1998,Ghana,86,female
+1999,Ghana,86,female
+2000,Ghana,86,female
+2001,Ghana,86,female
+2002,Ghana,86,female
+2003,Ghana,86,female
+2004,Ghana,86,female
+2005,Ghana,86,female
+2006,Ghana,86,female
+2007,Ghana,86,female
+2008,Ghana,86,female
+2009,Ghana,86,female
+2010,Ghana,86,female
+2011,Ghana,86,female
+1995,Ghana,105,male
+1996,Ghana,105,male
+1997,Ghana,105,male
+1998,Ghana,105,male
+1999,Ghana,105,male
+2000,Ghana,105,male
+2001,Ghana,105,male
+2002,Ghana,105,male
+2003,Ghana,105,male
+2004,Ghana,105,male
+2005,Ghana,105,male
+2006,Ghana,105,male
+2007,Ghana,105,male
+2008,Ghana,105,male
+2009,Ghana,105,male
+2010,Ghana,105,male
+2011,Ghana,105,male
+1995,Guatemala,1707,female
+1996,Guatemala,1707,female
+1997,Guatemala,1707,female
+1998,Guatemala,1707,female
+1999,Guatemala,1707,female
+2000,Guatemala,1707,female
+2001,Guatemala,1707,female
+2002,Guatemala,1707,female
+2003,Guatemala,1707,female
+2004,Guatemala,1707,female
+2005,Guatemala,1707,female
+2006,Guatemala,1707,female
+2007,Guatemala,1707,female
+2008,Guatemala,1707,female
+2009,Guatemala,1707,female
+2010,Guatemala,1707,female
 2011,Guatemala,1707,female
-1995,Guatemala,2470,male
-1996,Guatemala,2539,male
-1997,Guatemala,2580,male
-1998,Guatemala,2639,male
-1999,Guatemala,2713,male
-2000,Guatemala,2732,male
-2001,Guatemala,2800,male
-2002,Guatemala,2889,male
-2003,Guatemala,2972,male
-2004,Guatemala,3034,male
-2005,Guatemala,3088,male
-2006,Guatemala,3138,male
-2007,Guatemala,3211,male
-2008,Guatemala,3294,male
-2009,Guatemala,3320,male
-2010,Guatemala,3416,male
+1995,Guatemala,2086,male
+1996,Guatemala,2086,male
+1997,Guatemala,2086,male
+1998,Guatemala,2086,male
+1999,Guatemala,2086,male
+2000,Guatemala,2086,male
+2001,Guatemala,2086,male
+2002,Guatemala,2086,male
+2003,Guatemala,2086,male
+2004,Guatemala,2086,male
+2005,Guatemala,2086,male
+2006,Guatemala,2086,male
+2007,Guatemala,2086,male
+2008,Guatemala,2086,male
+2009,Guatemala,2086,male
+2010,Guatemala,2086,male
 2011,Guatemala,2086,male
-1995,Iceland,1858,female
-1996,Iceland,1933,female
-1997,Iceland,1985,female
+1995,Guyana,2548,female
+1996,Guyana,2548,female
+1997,Guyana,2548,female
+1998,Guyana,2548,female
+1999,Guyana,2548,female
+2000,Guyana,2548,female
+2001,Guyana,2548,female
+2002,Guyana,2548,female
+2003,Guyana,2548,female
+2004,Guyana,2548,female
+2005,Guyana,2523,female
+2006,Guyana,2448,female
+2007,Guyana,2498,female
+2008,Guyana,2498,female
+2009,Guyana,2498,female
+2010,Guyana,2498,female
+2011,Guyana,2498,female
+1995,Guyana,2525,male
+1996,Guyana,2525,male
+1997,Guyana,2525,male
+1998,Guyana,2525,male
+1999,Guyana,2525,male
+2000,Guyana,2525,male
+2001,Guyana,2525,male
+2002,Guyana,2525,male
+2003,Guyana,2525,male
+2004,Guyana,2525,male
+2005,Guyana,2593,male
+2006,Guyana,2690,male
+2007,Guyana,2740,male
+2008,Guyana,2740,male
+2009,Guyana,2740,male
+2010,Guyana,2740,male
+2011,Guyana,2740,male
+1995,Honduras,1012,female
+1996,Honduras,1272,female
+1997,Honduras,1558,female
+1998,Honduras,1953,female
+1999,Honduras,2320,female
+2000,Honduras,2320,female
+2001,Honduras,3263,female
+2002,Honduras,3481,female
+2003,Honduras,4064,female
+2004,Honduras,4054,female
+2005,Honduras,4638,female
+2006,Honduras,4924,female
+2007,Honduras,5653,female
+2008,Honduras,6197,female
+2009,Honduras,7177,female
+2010,Honduras,7221,female
+2011,Honduras,7221,female
+1995,Honduras,1308,male
+1996,Honduras,1575,male
+1997,Honduras,1973,male
+1998,Honduras,2400,male
+1999,Honduras,2960,male
+2000,Honduras,2960,male
+2001,Honduras,3892,male
+2002,Honduras,4105,male
+2003,Honduras,4283,male
+2004,Honduras,4501,male
+2005,Honduras,4964,male
+2006,Honduras,5343,male
+2007,Honduras,6012,male
+2008,Honduras,6742,male
+2009,Honduras,7249,male
+2010,Honduras,7050,male
+2011,Honduras,7050,male
+1995,Iceland,107000,female
+1996,Iceland,107000,female
+1997,Iceland,107000,female
 1998,Iceland,107000,female
 1999,Iceland,117000,female
 2000,Iceland,129000,female
@@ -220,9 +968,9 @@ year,state,wvalue,lvalue
 2009,Iceland,293000,female
 2010,Iceland,309000,female
 2011,Iceland,321000,female
-1995,Iceland,2470,male
-1996,Iceland,2539,male
-1997,Iceland,2580,male
+1995,Iceland,157000,male
+1996,Iceland,157000,male
+1997,Iceland,157000,male
 1998,Iceland,157000,male
 1999,Iceland,170000,male
 2000,Iceland,191000,male
@@ -237,15 +985,219 @@ year,state,wvalue,lvalue
 2009,Iceland,360000,male
 2010,Iceland,374000,male
 2011,Iceland,393000,male
-1995,Latvia,1858,female
-1996,Latvia,1933,female
-1997,Latvia,1985,female
-1998,Latvia,107000,female
-1999,Latvia,117000,female
-2000,Latvia,129000,female
-2001,Latvia,144000,female
-2002,Latvia,157000,female
-2003,Latvia,167000,female
+1995,Iraq,292000,female
+1996,Iraq,292000,female
+1997,Iraq,292000,female
+1998,Iraq,292000,female
+1999,Iraq,292000,female
+2000,Iraq,292000,female
+2001,Iraq,292000,female
+2002,Iraq,292000,female
+2003,Iraq,292000,female
+2004,Iraq,292000,female
+2005,Iraq,292000,female
+2006,Iraq,292000,female
+2007,Iraq,292000,female
+2008,Iraq,292000,female
+2009,Iraq,292000,female
+2010,Iraq,292000,female
+2011,Iraq,292000,female
+1995,Iraq,357000,male
+1996,Iraq,357000,male
+1997,Iraq,357000,male
+1998,Iraq,357000,male
+1999,Iraq,357000,male
+2000,Iraq,357000,male
+2001,Iraq,357000,male
+2002,Iraq,357000,male
+2003,Iraq,357000,male
+2004,Iraq,357000,male
+2005,Iraq,357000,male
+2006,Iraq,357000,male
+2007,Iraq,357000,male
+2008,Iraq,357000,male
+2009,Iraq,357000,male
+2010,Iraq,357000,male
+2011,Iraq,357000,male
+1995,Ireland,1978,female
+1996,Ireland,1978,female
+1997,Ireland,1978,female
+1998,Ireland,1978,female
+1999,Ireland,1978,female
+2000,Ireland,1978,female
+2001,Ireland,1978,female
+2002,Ireland,1978,female
+2003,Ireland,1978,female
+2004,Ireland,1978,female
+2005,Ireland,1978,female
+2006,Ireland,2446,female
+2007,Ireland,2497,female
+2008,Ireland,2497,female
+2009,Ireland,2497,female
+2010,Ireland,2497,female
+2011,Ireland,2497,female
+1995,Ireland,2881,male
+1996,Ireland,2881,male
+1997,Ireland,2881,male
+1998,Ireland,2881,male
+1999,Ireland,2881,male
+2000,Ireland,2881,male
+2001,Ireland,2881,male
+2002,Ireland,2881,male
+2003,Ireland,2881,male
+2004,Ireland,2881,male
+2005,Ireland,2881,male
+2006,Ireland,3376,male
+2007,Ireland,3434,male
+2008,Ireland,3434,male
+2009,Ireland,3434,male
+2010,Ireland,3434,male
+2011,Ireland,3434,male
+1995,Israel,3008,female
+1996,Israel,3371,female
+1997,Israel,4050,female
+1998,Israel,4351,female
+1999,Israel,4657,female
+2000,Israel,5014,female
+2001,Israel,5160,female
+2002,Israel,5322,female
+2003,Israel,5232,female
+2004,Israel,5357,female
+2005,Israel,5419,female
+2006,Israel,5521,female
+2007,Israel,5949,female
+2008,Israel,6077,female
+2009,Israel,6280,female
+2010,Israel,6386,female
+2011,Israel,6386,female
+1995,Israel,4977,male
+1996,Israel,5596,male
+1997,Israel,6611,male
+1998,Israel,7087,male
+1999,Israel,7740,male
+2000,Israel,8146,male
+2001,Israel,8642,male
+2002,Israel,8645,male
+2003,Israel,8416,male
+2004,Israel,8459,male
+2005,Israel,8575,male
+2006,Israel,8712,male
+2007,Israel,9267,male
+2008,Israel,9627,male
+2009,Israel,9527,male
+2010,Israel,9720,male
+2011,Israel,9720,male
+1995,Japan,230700,female
+1996,Japan,230700,female
+1997,Japan,230700,female
+1998,Japan,230700,female
+1999,Japan,230700,female
+2000,Japan,235100,female
+2001,Japan,237100,female
+2002,Japan,238800,female
+2003,Japan,239400,female
+2004,Japan,241700,female
+2005,Japan,239000,female
+2006,Japan,238600,female
+2007,Japan,241700,female
+2008,Japan,243100,female
+2009,Japan,243200,female
+2010,Japan,243600,female
+2011,Japan,243600,female
+1995,Japan,367200,male
+1996,Japan,367200,male
+1997,Japan,367200,male
+1998,Japan,367200,male
+1999,Japan,367200,male
+2000,Japan,370300,male
+2001,Japan,373500,male
+2002,Japan,367700,male
+2003,Japan,368600,male
+2004,Japan,333900,male
+2005,Japan,372100,male
+2006,Japan,372700,male
+2007,Japan,372400,male
+2008,Japan,369300,male
+2009,Japan,354600,male
+2010,Japan,360000,male
+2011,Japan,360000,male
+1995,Jordan,210,female
+1996,Jordan,215,female
+1997,Jordan,225,female
+1998,Jordan,235,female
+1999,Jordan,235,female
+2000,Jordan,201,female
+2001,Jordan,211,female
+2002,Jordan,219,female
+2003,Jordan,226,female
+2004,Jordan,218,female
+2005,Jordan,231,female
+2006,Jordan,249,female
+2007,Jordan,277,female
+2008,Jordan,314,female
+2009,Jordan,327,female
+2010,Jordan,359,female
+2011,Jordan,359,female
+1995,Jordan,320,male
+1996,Jordan,333,male
+1997,Jordan,344,male
+1998,Jordan,359,male
+1999,Jordan,359,male
+2000,Jordan,234,male
+2001,Jordan,238,male
+2002,Jordan,246,male
+2003,Jordan,249,male
+2004,Jordan,250,male
+2005,Jordan,273,male
+2006,Jordan,291,male
+2007,Jordan,315,male
+2008,Jordan,364,male
+2009,Jordan,379,male
+2010,Jordan,403,male
+2011,Jordan,403,male
+1995,Kazakhstan,17304,female
+1996,Kazakhstan,17304,female
+1997,Kazakhstan,17304,female
+1998,Kazakhstan,17304,female
+1999,Kazakhstan,17304,female
+2000,Kazakhstan,17304,female
+2001,Kazakhstan,17304,female
+2002,Kazakhstan,17304,female
+2003,Kazakhstan,17304,female
+2004,Kazakhstan,21444,female
+2005,Kazakhstan,25564,female
+2006,Kazakhstan,30983,female
+2007,Kazakhstan,41202,female
+2008,Kazakhstan,46922,female
+2009,Kazakhstan,53009,female
+2010,Kazakhstan,61104,female
+2011,Kazakhstan,61104,female
+1995,Kazakhstan,28476,male
+1996,Kazakhstan,28476,male
+1997,Kazakhstan,28476,male
+1998,Kazakhstan,28476,male
+1999,Kazakhstan,28476,male
+2000,Kazakhstan,28476,male
+2001,Kazakhstan,28476,male
+2002,Kazakhstan,28476,male
+2003,Kazakhstan,28476,male
+2004,Kazakhstan,34647,male
+2005,Kazakhstan,41839,male
+2006,Kazakhstan,49737,male
+2007,Kazakhstan,62629,male
+2008,Kazakhstan,73507,male
+2009,Kazakhstan,81366,male
+2010,Kazakhstan,92764,male
+2011,Kazakhstan,92764,male
+1995,Latvia,200,female
+1996,Latvia,200,female
+1997,Latvia,200,female
+1998,Latvia,200,female
+1999,Latvia,200,female
+2000,Latvia,200,female
+2001,Latvia,200,female
+2002,Latvia,200,female
+2003,Latvia,200,female
 2004,Latvia,200,female
 2005,Latvia,204,female
 2006,Latvia,244,female
@@ -254,15 +1206,15 @@ year,state,wvalue,lvalue
 2009,Latvia,432,female
 2010,Latvia,391,female
 2011,Latvia,412,female
-1995,Latvia,2470,male
-1996,Latvia,2539,male
-1997,Latvia,2580,male
-1998,Latvia,157000,male
-1999,Latvia,170000,male
-2000,Latvia,191000,male
-2001,Latvia,211000,male
-2002,Latvia,221000,male
-2003,Latvia,234000,male
+1995,Latvia,235,male
+1996,Latvia,235,male
+1997,Latvia,235,male
+1998,Latvia,235,male
+1999,Latvia,235,male
+2000,Latvia,235,male
+2001,Latvia,235,male
+2002,Latvia,235,male
+2003,Latvia,235,male
 2004,Latvia,235,male
 2005,Latvia,249,male
 2006,Latvia,296,male
@@ -271,6 +1223,74 @@ year,state,wvalue,lvalue
 2009,Latvia,515,male
 2010,Latvia,480,male
 2011,Latvia,494,male
+1995,Lebanon,660000,female
+1996,Lebanon,660000,female
+1997,Lebanon,660000,female
+1998,Lebanon,660000,female
+1999,Lebanon,660000,female
+2000,Lebanon,660000,female
+2001,Lebanon,660000,female
+2002,Lebanon,660000,female
+2003,Lebanon,660000,female
+2004,Lebanon,660000,female
+2005,Lebanon,660000,female
+2006,Lebanon,660000,female
+2007,Lebanon,660000,female
+2008,Lebanon,660000,female
+2009,Lebanon,660000,female
+2010,Lebanon,660000,female
+2011,Lebanon,660000,female
+1995,Lebanon,702000,male
+1996,Lebanon,702000,male
+1997,Lebanon,702000,male
+1998,Lebanon,702000,male
+1999,Lebanon,702000,male
+2000,Lebanon,702000,male
+2001,Lebanon,702000,male
+2002,Lebanon,702000,male
+2003,Lebanon,702000,male
+2004,Lebanon,702000,male
+2005,Lebanon,702000,male
+2006,Lebanon,702000,male
+2007,Lebanon,702000,male
+2008,Lebanon,702000,male
+2009,Lebanon,702000,male
+2010,Lebanon,702000,male
+2011,Lebanon,702000,male
+1995,Lithuania,955,female
+1996,Lithuania,955,female
+1997,Lithuania,955,female
+1998,Lithuania,955,female
+1999,Lithuania,955,female
+2000,Lithuania,955,female
+2001,Lithuania,961,female
+2002,Lithuania,1009,female
+2003,Lithuania,1049,female
+2004,Lithuania,1109,female
+2005,Lithuania,1229,female
+2006,Lithuania,1431,female
+2007,Lithuania,1676,female
+2008,Lithuania,1928,female
+2009,Lithuania,1924,female
+2010,Lithuania,1844,female
+2011,Lithuania,1844,female
+1995,Lithuania,624,male
+1996,Lithuania,714,male
+1997,Lithuania,925,male
+1998,Lithuania,1161,male
+1999,Lithuania,1186,male
+2000,Lithuania,1170,male
+2001,Lithuania,1180,male
+2002,Lithuania,1243,male
+2003,Lithuania,1296,male
+2004,Lithuania,1365,male
+2005,Lithuania,1492,male
+2006,Lithuania,1742,male
+2007,Lithuania,2114,male
+2008,Lithuania,2387,male
+2009,Lithuania,2205,male
+2010,Lithuania,2151,male
+2011,Lithuania,2151,male
 1995,Luxembourg,2197,female
 1996,Luxembourg,2709,female
 1997,Luxembourg,2280,female
@@ -339,11 +1359,11 @@ year,state,wvalue,lvalue
 2009,Mexico,6186,male
 2010,Mexico,6243,male
 2011,Mexico,6191,male
-1995,Mongolia,1166,female
-1996,Mongolia,1469,female
-1997,Mongolia,1759,female
-1998,Mongolia,2120,female
-1999,Mongolia,2444,female
+1995,Mongolia,59800,female
+1996,Mongolia,59800,female
+1997,Mongolia,59800,female
+1998,Mongolia,59800,female
+1999,Mongolia,59800,female
 2000,Mongolia,59800,female
 2001,Mongolia,61000,female
 2002,Mongolia,67300,female
@@ -356,11 +1376,11 @@ year,state,wvalue,lvalue
 2009,Mongolia,279875,female
 2010,Mongolia,314550,female
 2011,Mongolia,381325,female
-1995,Mongolia,1557,male
-1996,Mongolia,1840,male
-1997,Mongolia,2273,male
-1998,Mongolia,2689,male
-1999,Mongolia,3166,male
+1995,Mongolia,64700,male
+1996,Mongolia,64700,male
+1997,Mongolia,64700,male
+1998,Mongolia,64700,male
+1999,Mongolia,64700,male
 2000,Mongolia,64700,male
 2001,Mongolia,69200,male
 2002,Mongolia,75800,male
@@ -373,9 +1393,111 @@ year,state,wvalue,lvalue
 2009,Mongolia,322575,male
 2010,Mongolia,370375,male
 2011,Mongolia,470000,male
-1995,New Zealand,1166,female
-1996,New Zealand,1469,female
-1997,New Zealand,1759,female
+1995,Myanmar,3963,female
+1996,Myanmar,3963,female
+1997,Myanmar,3963,female
+1998,Myanmar,3963,female
+1999,Myanmar,3963,female
+2000,Myanmar,3963,female
+2001,Myanmar,3327,female
+2002,Myanmar,3729,female
+2003,Myanmar,3872,female
+2004,Myanmar,5182,female
+2005,Myanmar,5407,female
+2006,Myanmar,17276,female
+2007,Myanmar,22176,female
+2008,Myanmar,30239,female
+2009,Myanmar,30239,female
+2010,Myanmar,30239,female
+2011,Myanmar,30239,female
+1995,Myanmar,2575,male
+1996,Myanmar,2575,male
+1997,Myanmar,2575,male
+1998,Myanmar,2575,male
+1999,Myanmar,2575,male
+2000,Myanmar,2575,male
+2001,Myanmar,3618,male
+2002,Myanmar,3969,male
+2003,Myanmar,4354,male
+2004,Myanmar,5699,male
+2005,Myanmar,6080,male
+2006,Myanmar,17922,male
+2007,Myanmar,25309,male
+2008,Myanmar,34424,male
+2009,Myanmar,34424,male
+2010,Myanmar,34424,male
+2011,Myanmar,34424,male
+1995,Nepal,1368,female
+1996,Nepal,1368,female
+1997,Nepal,1368,female
+1998,Nepal,1368,female
+1999,Nepal,1368,female
+2000,Nepal,1368,female
+2001,Nepal,1368,female
+2002,Nepal,1368,female
+2003,Nepal,1368,female
+2004,Nepal,1368,female
+2005,Nepal,1368,female
+2006,Nepal,1368,female
+2007,Nepal,1368,female
+2008,Nepal,3402,female
+2009,Nepal,3402,female
+2010,Nepal,3402,female
+2011,Nepal,3402,female
+1995,Nepal,2389,male
+1996,Nepal,2389,male
+1997,Nepal,2389,male
+1998,Nepal,2389,male
+1999,Nepal,2389,male
+2000,Nepal,2389,male
+2001,Nepal,2389,male
+2002,Nepal,2389,male
+2003,Nepal,2389,male
+2004,Nepal,2389,male
+2005,Nepal,2389,male
+2006,Nepal,2389,male
+2007,Nepal,2389,male
+2008,Nepal,5721,male
+2009,Nepal,5721,male
+2010,Nepal,5721,male
+2011,Nepal,5721,male
+1995,Netherlands,1422,female
+1996,Netherlands,1422,female
+1997,Netherlands,1422,female
+1998,Netherlands,1422,female
+1999,Netherlands,1422,female
+2000,Netherlands,1422,female
+2001,Netherlands,1422,female
+2002,Netherlands,1422,female
+2003,Netherlands,1422,female
+2004,Netherlands,1422,female
+2005,Netherlands,1422,female
+2006,Netherlands,1422,female
+2007,Netherlands,1467,female
+2008,Netherlands,1529,female
+2009,Netherlands,1591,female
+2010,Netherlands,1612,female
+2011,Netherlands,1612,female
+1995,Netherlands,2526,male
+1996,Netherlands,2526,male
+1997,Netherlands,2526,male
+1998,Netherlands,2526,male
+1999,Netherlands,2526,male
+2000,Netherlands,2526,male
+2001,Netherlands,2526,male
+2002,Netherlands,2526,male
+2003,Netherlands,2526,male
+2004,Netherlands,2526,male
+2005,Netherlands,2526,male
+2006,Netherlands,2526,male
+2007,Netherlands,2571,male
+2008,Netherlands,2649,male
+2009,Netherlands,2783,male
+2010,Netherlands,2806,male
+2011,Netherlands,2806,male
+1995,New Zealand,1870,female
+1996,New Zealand,1870,female
+1997,New Zealand,1870,female
 1998,New Zealand,1870,female
 1999,New Zealand,1937,female
 2000,New Zealand,2015,female
@@ -390,9 +1512,9 @@ year,state,wvalue,lvalue
 2009,New Zealand,2979,female
 2010,New Zealand,3120,female
 2011,New Zealand,3180,female
-1995,New Zealand,1557,male
-1996,New Zealand,1840,male
-1997,New Zealand,2273,male
+1995,New Zealand,2951,male
+1996,New Zealand,2951,male
+1997,New Zealand,2951,male
 1998,New Zealand,2951,male
 1999,New Zealand,2980,male
 2000,New Zealand,3015,male
@@ -407,8 +1529,8 @@ year,state,wvalue,lvalue
 2009,New Zealand,4298,male
 2010,New Zealand,4461,male
 2011,New Zealand,4582,male
-1995,Norway,1166,female
-1996,Norway,1469,female
+1995,Norway,18085,female
+1996,Norway,18085,female
 1997,Norway,18085,female
 1998,Norway,19418,female
 1999,Norway,20191,female
@@ -424,8 +1546,8 @@ year,state,wvalue,lvalue
 2009,Norway,32000,female
 2010,Norway,33400,female
 2011,Norway,34800,female
-1995,Norway,1557,male
-1996,Norway,1840,male
+1995,Norway,21606,male
+1996,Norway,21606,male
 1997,Norway,21606,male
 1998,Norway,23227,male
 1999,Norway,24200,male
@@ -441,17 +1563,51 @@ year,state,wvalue,lvalue
 2009,Norway,37800,male
 2010,Norway,39300,male
 2011,Norway,40800,male
+1995,Oman,177,female
+1996,Oman,177,female
+1997,Oman,177,female
+1998,Oman,177,female
+1999,Oman,177,female
+2000,Oman,177,female
+2001,Oman,177,female
+2002,Oman,177,female
+2003,Oman,177,female
+2004,Oman,177,female
+2005,Oman,177,female
+2006,Oman,177,female
+2007,Oman,195,female
+2008,Oman,211,female
+2009,Oman,222,female
+2010,Oman,222,female
+2011,Oman,222,female
+1995,Oman,177,male
+1996,Oman,177,male
+1997,Oman,177,male
+1998,Oman,177,male
+1999,Oman,177,male
+2000,Oman,177,male
+2001,Oman,177,male
+2002,Oman,177,male
+2003,Oman,177,male
+2004,Oman,177,male
+2005,Oman,177,male
+2006,Oman,177,male
+2007,Oman,197,male
+2008,Oman,218,male
+2009,Oman,229,male
+2010,Oman,229,male
+2011,Oman,229,male
 1995,Pakistan,1838,female
-1996,Pakistan,1469,female
+1996,Pakistan,1838,female
 1997,Pakistan,1879,female
 1998,Pakistan,2045,female
-1999,Pakistan,20191,female
+1999,Pakistan,2045,female
 2000,Pakistan,2014,female
-2001,Pakistan,22165,female
+2001,Pakistan,2014,female
 2002,Pakistan,2029,female
-2003,Pakistan,24609,female
+2003,Pakistan,2029,female
 2004,Pakistan,2593,female
-2005,Pakistan,26430,female
+2005,Pakistan,2593,female
 2006,Pakistan,3348,female
 2007,Pakistan,3567,female
 2008,Pakistan,3852,female
@@ -459,28 +1615,130 @@ year,state,wvalue,lvalue
 2010,Pakistan,5821,female
 2011,Pakistan,6422,female
 1995,Pakistan,2375,male
-1996,Pakistan,1840,male
+1996,Pakistan,2375,male
 1997,Pakistan,3140,male
 1998,Pakistan,3162,male
-1999,Pakistan,24200,male
+1999,Pakistan,3162,male
 2000,Pakistan,3327,male
-2001,Pakistan,26600,male
+2001,Pakistan,3327,male
 2002,Pakistan,3653,male
-2003,Pakistan,29205,male
+2003,Pakistan,3653,male
 2004,Pakistan,4329,male
-2005,Pakistan,31201,male
+2005,Pakistan,4329,male
 2006,Pakistan,5248,male
 2007,Pakistan,6100,male
 2008,Pakistan,7009,male
 2009,Pakistan,7997,male
 2010,Pakistan,9017,male
 2011,Pakistan,10211,male
-1995,Philippines,1838,female
-1996,Philippines,1469,female
-1997,Philippines,1879,female
-1998,Philippines,2045,female
-1999,Philippines,20191,female
-2000,Philippines,2014,female
+1995,Panama,360,female
+1996,Panama,374,female
+1997,Panama,378,female
+1998,Panama,394,female
+1999,Panama,409,female
+2000,Panama,428,female
+2001,Panama,409,female
+2002,Panama,414,female
+2003,Panama,414,female
+2004,Panama,412,female
+2005,Panama,412,female
+2006,Panama,421,female
+2007,Panama,434,female
+2008,Panama,465,female
+2009,Panama,508,female
+2010,Panama,546,female
+2011,Panama,546,female
+1995,Panama,494,male
+1996,Panama,495,male
+1997,Panama,511,male
+1998,Panama,489,male
+1999,Panama,507,male
+2000,Panama,528,male
+2001,Panama,498,male
+2002,Panama,507,male
+2003,Panama,514,male
+2004,Panama,505,male
+2005,Panama,493,male
+2006,Panama,512,male
+2007,Panama,508,male
+2008,Panama,532,male
+2009,Panama,578,male
+2010,Panama,615,male
+2011,Panama,615,male
+1995,Paraguay,477383,female
+1996,Paraguay,518742,female
+1997,Paraguay,645623,female
+1998,Paraguay,645623,female
+1999,Paraguay,736440,female
+2000,Paraguay,775328,female
+2001,Paraguay,775328,female
+2002,Paraguay,738969,female
+2003,Paraguay,871226,female
+2004,Paraguay,854430,female
+2005,Paraguay,948638,female
+2006,Paraguay,1029510,female
+2007,Paraguay,1043390,female
+2008,Paraguay,1172000,female
+2009,Paraguay,1172000,female
+2010,Paraguay,1172000,female
+2011,Paraguay,1172000,female
+1995,Paraguay,682836,male
+1996,Paraguay,705829,male
+1997,Paraguay,847592,male
+1998,Paraguay,847592,male
+1999,Paraguay,935662,male
+2000,Paraguay,975588,male
+2001,Paraguay,975588,male
+2002,Paraguay,981016,male
+2003,Paraguay,1135880,male
+2004,Paraguay,1068100,male
+2005,Paraguay,1249880,male
+2006,Paraguay,1314990,male
+2007,Paraguay,1388700,male
+2008,Paraguay,1555140,male
+2009,Paraguay,1555140,male
+2010,Paraguay,1555140,male
+2011,Paraguay,1555140,male
+1995,Peru,478,female
+1996,Peru,478,female
+1997,Peru,701,female
+1998,Peru,914,female
+1999,Peru,912,female
+2000,Peru,998,female
+2001,Peru,824,female
+2002,Peru,904,female
+2003,Peru,953,female
+2004,Peru,640,female
+2005,Peru,675,female
+2006,Peru,726,female
+2007,Peru,809,female
+2008,Peru,792,female
+2009,Peru,891,female
+2010,Peru,891,female
+2011,Peru,891,female
+1995,Peru,740,male
+1996,Peru,740,male
+1997,Peru,1006,male
+1998,Peru,1148,male
+1999,Peru,1357,male
+2000,Peru,1245,male
+2001,Peru,1284,male
+2002,Peru,1257,male
+2003,Peru,1245,male
+2004,Peru,910,male
+2005,Peru,927,male
+2006,Peru,955,male
+2007,Peru,1029,male
+2008,Peru,1137,male
+2009,Peru,1208,male
+2010,Peru,1240,male
+2011,Peru,1240,male
+1995,Philippines,5934,female
+1996,Philippines,5934,female
+1997,Philippines,5934,female
+1998,Philippines,5934,female
+1999,Philippines,5934,female
+2000,Philippines,5934,female
 2001,Philippines,5934,female
 2002,Philippines,6028,female
 2003,Philippines,6065,female
@@ -492,12 +1750,12 @@ year,state,wvalue,lvalue
 2009,Philippines,7587,female
 2010,Philippines,8068,female
 2011,Philippines,8439,female
-1995,Philippines,2375,male
-1996,Philippines,1840,male
-1997,Philippines,3140,male
-1998,Philippines,3162,male
-1999,Philippines,24200,male
-2000,Philippines,3327,male
+1995,Philippines,5713,male
+1996,Philippines,5713,male
+1997,Philippines,5713,male
+1998,Philippines,5713,male
+1999,Philippines,5713,male
+2000,Philippines,5713,male
 2001,Philippines,5713,male
 2002,Philippines,5826,male
 2003,Philippines,5963,male
@@ -509,40 +1767,176 @@ year,state,wvalue,lvalue
 2009,Philippines,7581,male
 2010,Philippines,7947,male
 2011,Philippines,8175,male
-1995,Qatar,1838,female
-1996,Qatar,1469,female
-1997,Qatar,1879,female
-1998,Qatar,2045,female
-1999,Qatar,20191,female
-2000,Qatar,2014,female
-2001,Qatar,5934,female
-2002,Qatar,6028,female
-2003,Qatar,6065,female
-2004,Qatar,6196,female
-2005,Qatar,6383,female
+1995,Poland,634,female
+1996,Poland,747,female
+1997,Poland,1000,female
+1998,Poland,1162,female
+1999,Poland,1591,female
+2000,Poland,1591,female
+2001,Poland,1988,female
+2002,Poland,2015,female
+2003,Poland,2015,female
+2004,Poland,2150,female
+2005,Poland,2150,female
+2006,Poland,2385,female
+2007,Poland,2385,female
+2008,Poland,2892,female
+2009,Poland,2892,female
+2010,Poland,3256,female
+2011,Poland,3256,female
+1995,Poland,831,male
+1996,Poland,943,male
+1997,Poland,1278,male
+1998,Poland,1440,male
+1999,Poland,1990,male
+2000,Poland,1990,male
+2001,Poland,2429,male
+2002,Poland,2425,male
+2003,Poland,2425,male
+2004,Poland,2571,male
+2005,Poland,2571,male
+2006,Poland,2903,male
+2007,Poland,2903,male
+2008,Poland,3557,male
+2009,Poland,3557,male
+2010,Poland,3831,male
+2011,Poland,3831,male
+1995,Portugal,474,female
+1996,Portugal,506,female
+1997,Portugal,521,female
+1998,Portugal,553,female
+1999,Portugal,574,female
+2000,Portugal,604,female
+2001,Portugal,604,female
+2002,Portugal,696,female
+2003,Portugal,719,female
+2004,Portugal,745,female
+2005,Portugal,776,female
+2006,Portugal,799,female
+2007,Portugal,827,female
+2008,Portugal,871,female
+2009,Portugal,899,female
+2010,Portugal,899,female
+2011,Portugal,899,female
+1995,Portugal,655,male
+1996,Portugal,694,male
+1997,Portugal,717,male
+1998,Portugal,763,male
+1999,Portugal,788,male
+2000,Portugal,817,male
+2001,Portugal,817,male
+2002,Portugal,901,male
+2003,Portugal,941,male
+2004,Portugal,971,male
+2005,Portugal,1003,male
+2006,Portugal,1034,male
+2007,Portugal,1065,male
+2008,Portugal,1112,male
+2009,Portugal,1138,male
+2010,Portugal,1138,male
+2011,Portugal,1138,male
+1995,Qatar,4131,female
+1996,Qatar,4131,female
+1997,Qatar,4131,female
+1998,Qatar,4131,female
+1999,Qatar,4131,female
+2000,Qatar,4131,female
+2001,Qatar,4131,female
+2002,Qatar,4131,female
+2003,Qatar,4131,female
+2004,Qatar,4131,female
+2005,Qatar,4131,female
 2006,Qatar,4131,female
 2007,Qatar,4939,female
 2008,Qatar,5800,female
 2009,Qatar,6106,female
-2010,Qatar,8068,female
+2010,Qatar,6106,female
 2011,Qatar,6094,female
-1995,Qatar,2375,male
-1996,Qatar,1840,male
-1997,Qatar,3140,male
-1998,Qatar,3162,male
-1999,Qatar,24200,male
-2000,Qatar,3327,male
-2001,Qatar,5713,male
-2002,Qatar,5826,male
-2003,Qatar,5963,male
-2004,Qatar,6051,male
-2005,Qatar,6412,male
+1995,Qatar,5611,male
+1996,Qatar,5611,male
+1997,Qatar,5611,male
+1998,Qatar,5611,male
+1999,Qatar,5611,male
+2000,Qatar,5611,male
+2001,Qatar,5611,male
+2002,Qatar,5611,male
+2003,Qatar,5611,male
+2004,Qatar,5611,male
+2005,Qatar,5611,male
 2006,Qatar,5611,male
 2007,Qatar,6884,male
 2008,Qatar,8100,male
 2009,Qatar,8484,male
-2010,Qatar,7947,male
+2010,Qatar,8484,male
 2011,Qatar,7882,male
+1995,"Korea, Rep.",823143,female
+1996,"Korea, Rep.",935926,female
+1997,"Korea, Rep.",1015310,female
+1998,"Korea, Rep.",1006270,female
+1999,"Korea, Rep.",1089710,female
+2000,"Korea, Rep.",1178410,female
+2001,"Korea, Rep.",1256900,female
+2002,"Korea, Rep.",1392980,female
+2003,"Korea, Rep.",1500900,female
+2004,"Korea, Rep.",1579420,female
+2005,"Korea, Rep.",1696850,female
+2006,"Korea, Rep.",1811490,female
+2007,"Korea, Rep.",1811490,female
+2008,"Korea, Rep.",1811490,female
+2009,"Korea, Rep.",1811490,female
+2010,"Korea, Rep.",1811490,female
+2011,"Korea, Rep.",1811490,female
+1995,"Korea, Rep.",1381770,male
+1996,"Korea, Rep.",1536020,male
+1997,"Korea, Rep.",1635360,male
+1998,"Korea, Rep.",1579340,male
+1999,"Korea, Rep.",1734650,male
+2000,"Korea, Rep.",1884550,male
+2001,"Korea, Rep.",1975780,male
+2002,"Korea, Rep.",2193340,male
+2003,"Korea, Rep.",2406380,male
+2004,"Korea, Rep.",2557510,male
+2005,"Korea, Rep.",2719260,male
+2006,"Korea, Rep.",2870930,male
+2007,"Korea, Rep.",2870930,male
+2008,"Korea, Rep.",2870930,male
+2009,"Korea, Rep.",2870930,male
+2010,"Korea, Rep.",2870930,male
+2011,"Korea, Rep.",2870930,male
+1995,Romania,591,female
+1996,Romania,591,female
+1997,Romania,591,female
+1998,Romania,591,female
+1999,Romania,591,female
+2000,Romania,591,female
+2001,Romania,591,female
+2002,Romania,591,female
+2003,Romania,591,female
+2004,Romania,743,female
+2005,Romania,891,female
+2006,Romania,1062,female
+2007,Romania,1312,female
+2008,Romania,1700,female
+2009,Romania,1775,female
+2010,Romania,1786,female
+2011,Romania,1786,female
+1995,Romania,727,male
+1996,Romania,727,male
+1997,Romania,727,male
+1998,Romania,727,male
+1999,Romania,727,male
+2000,Romania,727,male
+2001,Romania,727,male
+2002,Romania,727,male
+2003,Romania,727,male
+2004,Romania,886,male
+2005,Romania,1037,male
+2006,Romania,1222,male
+2007,Romania,1468,male
+2008,Romania,1814,male
+2009,Romania,1906,male
+2010,Romania,2007,male
+2011,Romania,2007,male
 1995,Singapore,1850,female
 1996,Singapore,1979,female
 1997,Singapore,2114,female
@@ -577,16 +1971,16 @@ year,state,wvalue,lvalue
 2009,Singapore,4436,male
 2010,Singapore,4686,male
 2011,Singapore,4964,male
-1995,Slovak Republic,1850,female
-1996,Slovak Republic,1979,female
-1997,Slovak Republic,2114,female
-1998,Slovak Republic,2256,female
-1999,Slovak Republic,2327,female
-2000,Slovak Republic,2530,female
-2001,Slovak Republic,2588,female
-2002,Slovak Republic,2617,female
-2003,Slovak Republic,2662,female
-2004,Slovak Republic,2773,female
+1995,Slovak Republic,15394,female
+1996,Slovak Republic,15394,female
+1997,Slovak Republic,15394,female
+1998,Slovak Republic,15394,female
+1999,Slovak Republic,15394,female
+2000,Slovak Republic,15394,female
+2001,Slovak Republic,15394,female
+2002,Slovak Republic,15394,female
+2003,Slovak Republic,15394,female
+2004,Slovak Republic,15394,female
 2005,Slovak Republic,15394,female
 2006,Slovak Republic,16575,female
 2007,Slovak Republic,18340,female
@@ -594,16 +1988,16 @@ year,state,wvalue,lvalue
 2009,Slovak Republic,681,female
 2010,Slovak Republic,709,female
 2011,Slovak Republic,732,female
-1995,Slovak Republic,2517,male
-1996,Slovak Republic,2646,male
-1997,Slovak Republic,2781,male
-1998,Slovak Republic,3141,male
-1999,Slovak Republic,3222,male
-2000,Slovak Republic,3518,male
-2001,Slovak Republic,3606,male
-2002,Slovak Republic,3632,male
-2003,Slovak Republic,3698,male
-2004,Slovak Republic,3825,male
+1995,Slovak Republic,21503,male
+1996,Slovak Republic,21503,male
+1997,Slovak Republic,21503,male
+1998,Slovak Republic,21503,male
+1999,Slovak Republic,21503,male
+2000,Slovak Republic,21503,male
+2001,Slovak Republic,21503,male
+2002,Slovak Republic,21503,male
+2003,Slovak Republic,21503,male
+2004,Slovak Republic,21503,male
 2005,Slovak Republic,21503,male
 2006,Slovak Republic,22686,male
 2007,Slovak Republic,24726,male
@@ -611,15 +2005,15 @@ year,state,wvalue,lvalue
 2009,Slovak Republic,913,male
 2010,Slovak Republic,941,male
 2011,Slovak Republic,966,male
-1995,Spain,1850,female
-1996,Spain,1979,female
-1997,Spain,2114,female
-1998,Spain,2256,female
-1999,Spain,2327,female
-2000,Spain,2530,female
-2001,Spain,2588,female
-2002,Spain,2617,female
-2003,Spain,2662,female
+1995,Spain,1247,female
+1996,Spain,1247,female
+1997,Spain,1247,female
+1998,Spain,1247,female
+1999,Spain,1247,female
+2000,Spain,1247,female
+2001,Spain,1247,female
+2002,Spain,1247,female
+2003,Spain,1247,female
 2004,Spain,1247,female
 2005,Spain,1287,female
 2006,Spain,1359,female
@@ -628,15 +2022,15 @@ year,state,wvalue,lvalue
 2009,Spain,1609,female
 2010,Spain,1623,female
 2011,Spain,1640,female
-1995,Spain,2517,male
-1996,Spain,2646,male
-1997,Spain,2781,male
-1998,Spain,3141,male
-1999,Spain,3222,male
-2000,Spain,3518,male
-2001,Spain,3606,male
-2002,Spain,3632,male
-2003,Spain,3698,male
+1995,Spain,1721,male
+1996,Spain,1721,male
+1997,Spain,1721,male
+1998,Spain,1721,male
+1999,Spain,1721,male
+2000,Spain,1721,male
+2001,Spain,1721,male
+2002,Spain,1721,male
+2003,Spain,1721,male
 2004,Spain,1721,male
 2005,Spain,1775,male
 2006,Spain,1845,male
@@ -645,6 +2039,74 @@ year,state,wvalue,lvalue
 2009,Spain,2063,male
 2010,Spain,2096,male
 2011,Spain,2118,male
+1995,Sri Lanka,2925,female
+1996,Sri Lanka,2925,female
+1997,Sri Lanka,2925,female
+1998,Sri Lanka,3010,female
+1999,Sri Lanka,3190,female
+2000,Sri Lanka,3597,female
+2001,Sri Lanka,3888,female
+2002,Sri Lanka,4615,female
+2003,Sri Lanka,4808,female
+2004,Sri Lanka,5239,female
+2005,Sri Lanka,5803,female
+2006,Sri Lanka,6536,female
+2007,Sri Lanka,7314,female
+2008,Sri Lanka,8322,female
+2009,Sri Lanka,8322,female
+2010,Sri Lanka,8322,female
+2011,Sri Lanka,8322,female
+1995,Sri Lanka,3157,male
+1996,Sri Lanka,3157,male
+1997,Sri Lanka,3157,male
+1998,Sri Lanka,3580,male
+1999,Sri Lanka,3726,male
+2000,Sri Lanka,4096,male
+2001,Sri Lanka,4407,male
+2002,Sri Lanka,5120,male
+2003,Sri Lanka,5382,male
+2004,Sri Lanka,5894,male
+2005,Sri Lanka,6257,male
+2006,Sri Lanka,6963,male
+2007,Sri Lanka,7659,male
+2008,Sri Lanka,9319,male
+2009,Sri Lanka,9319,male
+2010,Sri Lanka,9319,male
+2011,Sri Lanka,9319,male
+1995,Eswatini,1100,female
+1996,Eswatini,1167,female
+1997,Eswatini,1365,female
+1998,Eswatini,1494,female
+1999,Eswatini,1776,female
+2000,Eswatini,1681,female
+2001,Eswatini,1681,female
+2002,Eswatini,1681,female
+2003,Eswatini,1681,female
+2004,Eswatini,1681,female
+2005,Eswatini,1681,female
+2006,Eswatini,1681,female
+2007,Eswatini,1681,female
+2008,Eswatini,1681,female
+2009,Eswatini,1681,female
+2010,Eswatini,1681,female
+2011,Eswatini,1681,female
+1995,Eswatini,1087,male
+1996,Eswatini,1192,male
+1997,Eswatini,1564,male
+1998,Eswatini,1661,male
+1999,Eswatini,1962,male
+2000,Eswatini,1791,male
+2001,Eswatini,1791,male
+2002,Eswatini,1791,male
+2003,Eswatini,1791,male
+2004,Eswatini,1791,male
+2005,Eswatini,1791,male
+2006,Eswatini,1791,male
+2007,Eswatini,1791,male
+2008,Eswatini,1791,male
+2009,Eswatini,1791,male
+2010,Eswatini,1791,male
+2011,Eswatini,1791,male
 1995,Sweden,14700,female
 1996,Sweden,15500,female
 1997,Sweden,16200,female
@@ -679,46 +2141,80 @@ year,state,wvalue,lvalue
 2009,Sweden,30100,male
 2010,Sweden,30600,male
 2011,Sweden,31200,male
-1995,Syrian Arab Republic,14700,female
-1996,Syrian Arab Republic,15500,female
-1997,Syrian Arab Republic,16200,female
-1998,Syrian Arab Republic,16800,female
-1999,Syrian Arab Republic,17600,female
-2000,Syrian Arab Republic,18400,female
-2001,Syrian Arab Republic,19200,female
-2002,Syrian Arab Republic,20000,female
-2003,Syrian Arab Republic,20700,female
-2004,Syrian Arab Republic,21500,female
-2005,Syrian Arab Republic,22100,female
+1995,Switzerland,4509,female
+1996,Switzerland,4509,female
+1997,Switzerland,4509,female
+1998,Switzerland,4686,female
+1999,Switzerland,4686,female
+2000,Switzerland,4844,female
+2001,Switzerland,4844,female
+2002,Switzerland,5116,female
+2003,Switzerland,5116,female
+2004,Switzerland,5314,female
+2005,Switzerland,5314,female
+2006,Switzerland,5517,female
+2007,Switzerland,5517,female
+2008,Switzerland,5707,female
+2009,Switzerland,5707,female
+2010,Switzerland,5902,female
+2011,Switzerland,5902,female
+1995,Switzerland,6057,male
+1996,Switzerland,6057,male
+1997,Switzerland,6057,male
+1998,Switzerland,6259,male
+1999,Switzerland,6259,male
+2000,Switzerland,6487,male
+2001,Switzerland,6487,male
+2002,Switzerland,6773,male
+2003,Switzerland,6773,male
+2004,Switzerland,6975,male
+2005,Switzerland,6975,male
+2006,Switzerland,7234,male
+2007,Switzerland,7234,male
+2008,Switzerland,7560,male
+2009,Switzerland,7560,male
+2010,Switzerland,7690,male
+2011,Switzerland,7690,male
+1995,Syrian Arab Republic,8834,female
+1996,Syrian Arab Republic,8834,female
+1997,Syrian Arab Republic,8834,female
+1998,Syrian Arab Republic,8834,female
+1999,Syrian Arab Republic,8834,female
+2000,Syrian Arab Republic,8834,female
+2001,Syrian Arab Republic,8834,female
+2002,Syrian Arab Republic,8834,female
+2003,Syrian Arab Republic,8834,female
+2004,Syrian Arab Republic,8834,female
+2005,Syrian Arab Republic,8834,female
 2006,Syrian Arab Republic,8834,female
 2007,Syrian Arab Republic,9306,female
 2008,Syrian Arab Republic,10977,female
 2009,Syrian Arab Republic,11779,female
 2010,Syrian Arab Republic,11981,female
 2011,Syrian Arab Republic,15592,female
-1995,Syrian Arab Republic,17300,male
-1996,Syrian Arab Republic,18600,male
-1997,Syrian Arab Republic,19600,male
-1998,Syrian Arab Republic,20400,male
-1999,Syrian Arab Republic,21200,male
-2000,Syrian Arab Republic,22500,male
-2001,Syrian Arab Republic,23300,male
-2002,Syrian Arab Republic,24100,male
-2003,Syrian Arab Republic,24800,male
-2004,Syrian Arab Republic,25700,male
-2005,Syrian Arab Republic,26400,male
+1995,Syrian Arab Republic,8669,male
+1996,Syrian Arab Republic,8669,male
+1997,Syrian Arab Republic,8669,male
+1998,Syrian Arab Republic,8669,male
+1999,Syrian Arab Republic,8669,male
+2000,Syrian Arab Republic,8669,male
+2001,Syrian Arab Republic,8669,male
+2002,Syrian Arab Republic,8669,male
+2003,Syrian Arab Republic,8669,male
+2004,Syrian Arab Republic,8669,male
+2005,Syrian Arab Republic,8669,male
 2006,Syrian Arab Republic,8669,male
 2007,Syrian Arab Republic,8961,male
 2008,Syrian Arab Republic,10552,male
 2009,Syrian Arab Republic,10967,male
 2010,Syrian Arab Republic,11227,male
 2011,Syrian Arab Republic,13502,male
-1995,Thailand,14700,female
-1996,Thailand,15500,female
-1997,Thailand,16200,female
-1998,Thailand,16800,female
-1999,Thailand,17600,female
-2000,Thailand,18400,female
+1995,Thailand,6290,female
+1996,Thailand,6290,female
+1997,Thailand,6290,female
+1998,Thailand,6290,female
+1999,Thailand,6290,female
+2000,Thailand,6290,female
 2001,Thailand,6290,female
 2002,Thailand,6183,female
 2003,Thailand,6328,female
@@ -730,12 +2226,12 @@ year,state,wvalue,lvalue
 2009,Thailand,8521,female
 2010,Thailand,9084,female
 2011,Thailand,9740,female
-1995,Thailand,17300,male
-1996,Thailand,18600,male
-1997,Thailand,19600,male
-1998,Thailand,20400,male
-1999,Thailand,21200,male
-2000,Thailand,22500,male
+1995,Thailand,6950,male
+1996,Thailand,6950,male
+1997,Thailand,6950,male
+1998,Thailand,6950,male
+1999,Thailand,6950,male
+2000,Thailand,6950,male
 2001,Thailand,6950,male
 2002,Thailand,6940,male
 2003,Thailand,7090,male
@@ -747,6 +2243,74 @@ year,state,wvalue,lvalue
 2009,Thailand,8833,male
 2010,Thailand,9403,male
 2011,Thailand,10093,male
+1995,Timor-Leste,176,female
+1996,Timor-Leste,176,female
+1997,Timor-Leste,176,female
+1998,Timor-Leste,176,female
+1999,Timor-Leste,176,female
+2000,Timor-Leste,176,female
+2001,Timor-Leste,176,female
+2002,Timor-Leste,176,female
+2003,Timor-Leste,176,female
+2004,Timor-Leste,176,female
+2005,Timor-Leste,176,female
+2006,Timor-Leste,176,female
+2007,Timor-Leste,176,female
+2008,Timor-Leste,176,female
+2009,Timor-Leste,176,female
+2010,Timor-Leste,176,female
+2011,Timor-Leste,176,female
+1995,Timor-Leste,173,male
+1996,Timor-Leste,173,male
+1997,Timor-Leste,173,male
+1998,Timor-Leste,173,male
+1999,Timor-Leste,173,male
+2000,Timor-Leste,173,male
+2001,Timor-Leste,173,male
+2002,Timor-Leste,173,male
+2003,Timor-Leste,173,male
+2004,Timor-Leste,173,male
+2005,Timor-Leste,173,male
+2006,Timor-Leste,173,male
+2007,Timor-Leste,173,male
+2008,Timor-Leste,173,male
+2009,Timor-Leste,173,male
+2010,Timor-Leste,173,male
+2011,Timor-Leste,173,male
+1995,Turkey,1091,female
+1996,Turkey,1091,female
+1997,Turkey,1091,female
+1998,Turkey,1091,female
+1999,Turkey,1091,female
+2000,Turkey,1091,female
+2001,Turkey,1091,female
+2002,Turkey,1091,female
+2003,Turkey,1091,female
+2004,Turkey,1091,female
+2005,Turkey,1091,female
+2006,Turkey,1091,female
+2007,Turkey,1091,female
+2008,Turkey,1091,female
+2009,Turkey,1091,female
+2010,Turkey,1518,female
+2011,Turkey,1518,female
+1995,Turkey,1106,male
+1996,Turkey,1106,male
+1997,Turkey,1106,male
+1998,Turkey,1106,male
+1999,Turkey,1106,male
+2000,Turkey,1106,male
+2001,Turkey,1106,male
+2002,Turkey,1106,male
+2003,Turkey,1106,male
+2004,Turkey,1106,male
+2005,Turkey,1106,male
+2006,Turkey,1106,male
+2007,Turkey,1106,male
+2008,Turkey,1106,male
+2009,Turkey,1106,male
+2010,Turkey,1509,male
+2011,Turkey,1509,male
 1995,Ukraine,66,female
 1996,Ukraine,114,female
 1997,Ukraine,132,female
@@ -781,8 +2345,8 @@ year,state,wvalue,lvalue
 2009,Ukraine,2173,male
 2010,Ukraine,2538,male
 2011,Ukraine,3035,male
-1995,United Kingdom,66,female
-1996,United Kingdom,114,female
+1995,United Kingdom,971,female
+1996,United Kingdom,971,female
 1997,United Kingdom,971,female
 1998,United Kingdom,1016,female
 1999,United Kingdom,1066,female
@@ -798,8 +2362,8 @@ year,state,wvalue,lvalue
 2009,United Kingdom,1604,female
 2010,United Kingdom,1634,female
 2011,United Kingdom,1653,female
-1995,United Kingdom,98,male
-1996,United Kingdom,167,male
+1995,United Kingdom,1711,male
+1996,United Kingdom,1711,male
 1997,United Kingdom,1711,male
 1998,United Kingdom,1800,male
 1999,United Kingdom,1860,male
@@ -815,11 +2379,11 @@ year,state,wvalue,lvalue
 2009,United Kingdom,2554,male
 2010,United Kingdom,2580,male
 2011,United Kingdom,2591,male
-1995,Uruguay,66,female
-1996,Uruguay,114,female
-1997,Uruguay,971,female
-1998,Uruguay,1016,female
-1999,Uruguay,1066,female
+1995,Uruguay,5312,female
+1996,Uruguay,5312,female
+1997,Uruguay,5312,female
+1998,Uruguay,5312,female
+1999,Uruguay,5312,female
 2000,Uruguay,5312,female
 2001,Uruguay,5430,female
 2002,Uruguay,5480,female
@@ -832,11 +2396,11 @@ year,state,wvalue,lvalue
 2009,Uruguay,11295,female
 2010,Uruguay,12281,female
 2011,Uruguay,14151,female
-1995,Uruguay,98,male
-1996,Uruguay,167,male
-1997,Uruguay,1711,male
-1998,Uruguay,1800,male
-1999,Uruguay,1860,male
+1995,Uruguay,7700,male
+1996,Uruguay,7700,male
+1997,Uruguay,7700,male
+1998,Uruguay,7700,male
+1999,Uruguay,7700,male
 2000,Uruguay,7700,male
 2001,Uruguay,7600,male
 2002,Uruguay,7743,male
@@ -849,6 +2413,74 @@ year,state,wvalue,lvalue
 2009,Uruguay,15824,male
 2010,Uruguay,16579,male
 2011,Uruguay,18819,male
+1995,"Venezuela, RB",39,female
+1996,"Venezuela, RB",64,female
+1997,"Venezuela, RB",114,female
+1998,"Venezuela, RB",149,female
+1999,"Venezuela, RB",173,female
+2000,"Venezuela, RB",188,female
+2001,"Venezuela, RB",234,female
+2002,"Venezuela, RB",261,female
+2003,"Venezuela, RB",283,female
+2004,"Venezuela, RB",381,female
+2005,"Venezuela, RB",504,female
+2006,"Venezuela, RB",654,female
+2007,"Venezuela, RB",852,female
+2008,"Venezuela, RB",1126,female
+2009,"Venezuela, RB",1427,female
+2010,"Venezuela, RB",1815,female
+2011,"Venezuela, RB",1815,female
+1995,"Venezuela, RB",42,male
+1996,"Venezuela, RB",72,male
+1997,"Venezuela, RB",126,male
+1998,"Venezuela, RB",165,male
+1999,"Venezuela, RB",188,male
+2000,"Venezuela, RB",202,male
+2001,"Venezuela, RB",244,male
+2002,"Venezuela, RB",271,male
+2003,"Venezuela, RB",311,male
+2004,"Venezuela, RB",413,male
+2005,"Venezuela, RB",541,male
+2006,"Venezuela, RB",713,male
+2007,"Venezuela, RB",923,male
+2008,"Venezuela, RB",1244,male
+2009,"Venezuela, RB",1513,male
+2010,"Venezuela, RB",1928,male
+2011,"Venezuela, RB",1928,male
+1995,Vietnam,1280000,female
+1996,Vietnam,1280000,female
+1997,Vietnam,1280000,female
+1998,Vietnam,1280000,female
+1999,Vietnam,1280000,female
+2000,Vietnam,1280000,female
+2001,Vietnam,1280000,female
+2002,Vietnam,1280000,female
+2003,Vietnam,1280000,female
+2004,Vietnam,1280000,female
+2005,Vietnam,1280000,female
+2006,Vietnam,1280000,female
+2007,Vietnam,1280000,female
+2008,Vietnam,1280000,female
+2009,Vietnam,2175000,female
+2010,Vietnam,2297000,female
+2011,Vietnam,2297000,female
+1995,Vietnam,1464000,male
+1996,Vietnam,1464000,male
+1997,Vietnam,1464000,male
+1998,Vietnam,1464000,male
+1999,Vietnam,1464000,male
+2000,Vietnam,1464000,male
+2001,Vietnam,1464000,male
+2002,Vietnam,1464000,male
+2003,Vietnam,1464000,male
+2004,Vietnam,1464000,male
+2005,Vietnam,1464000,male
+2006,Vietnam,1464000,male
+2007,Vietnam,1464000,male
+2008,Vietnam,1464000,male
+2009,Vietnam,2562000,male
+2010,Vietnam,2668000,male
+2011,Vietnam,2668000,male
 1995,United States,3133,female
 1996,United States,3216,female
 1997,United States,3316,female
