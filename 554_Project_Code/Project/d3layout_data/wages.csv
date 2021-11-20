@@ -1,939 +1,905 @@
-year,country,value,gender
-1995,AUS,1867,female
-1996,AUS,1923,female
-1997,AUS,1996,female
-1998,AUS,2043,female
-1999,AUS,2081,female
-2000,AUS,2187,female
-2001,AUS,2286,female
-2002,AUS,2347,female
-2003,AUS,2450,female
-2004,AUS,2552,female
-2005,AUS,2680,female
-2006,AUS,2790,female
-2007,AUS,2931,female
-2008,AUS,3047,female
-2009,AUS,3181,female
-2010,AUS,3341,female
-2011,AUS,3473,female
-1995,AUS,2846,male
-1996,AUS,2924,male
-1997,AUS,3013,male
-1998,AUS,3116,male
-1999,AUS,3172,male
-2000,AUS,3299,male
-2001,AUS,3439,male
-2002,AUS,3598,male
-2003,AUS,3790,male
-2004,AUS,3893,male
-2005,AUS,4102,male
-2006,AUS,4289,male
-2007,AUS,4502,male
-2008,AUS,4689,male
-2009,AUS,4903,male
-2010,AUS,5152,male
-2011,AUS,5373,male
-1995,CAN,1867,female
-1996,CAN,1923,female
-1997,CAN,2015,female
-1998,CAN,2048,female
-1999,CAN,2109,female
-2000,CAN,2172,female
-2001,CAN,2250,female
-2002,CAN,2318,female
-2003,CAN,2379,female
-2004,CAN,2460,female
-2005,CAN,2556,female
-2006,CAN,2649,female
-2007,CAN,2743,female
-2008,CAN,2857,female
-2009,CAN,2972,female
-2010,CAN,3036,female
-2011,CAN,3131,female
-1995,CAN,2846,male
-1996,CAN,2924,male
-1997,CAN,2911,male
-1998,CAN,2954,male
-1999,CAN,3031,male
-2000,CAN,3129,male
-2001,CAN,3226,male
-2002,CAN,3286,male
-2003,CAN,3343,male
-2004,CAN,3414,male
-2005,CAN,3519,male
-2006,CAN,3638,male
-2007,CAN,3753,male
-2008,CAN,3912,male
-2009,CAN,3999,male
-2010,CAN,4077,male
-2011,CAN,4142,male
-1995,CZE,1867,female
-1996,CZE,1923,female
-1997,CZE,2015,female
-1998,CZE,2048,female
-1999,CZE,2109,female
-2000,CZE,2172,female
-2001,CZE,2250,female
-2002,CZE,2318,female
-2003,CZE,2379,female
-2004,CZE,2460,female
-2005,CZE,18221,female
-2006,CZE,19305,female
-2007,CZE,20683,female
-2008,CZE,21938,female
-2009,CZE,22413,female
-2010,CZE,22666,female
-2011,CZE,22389,female
-1995,CZE,2846,male
-1996,CZE,2924,male
-1997,CZE,2911,male
-1998,CZE,2954,male
-1999,CZE,3031,male
-2000,CZE,3129,male
-2001,CZE,3226,male
-2002,CZE,3286,male
-2003,CZE,3343,male
-2004,CZE,3414,male
-2005,CZE,24271,male
-2006,CZE,25593,male
-2007,CZE,27488,male
-2008,CZE,29628,male
-2009,CZE,29952,male
-2010,CZE,30192,male
-2011,CZE,28233,male
-1995,ECU,150,female
-1996,ECU,161,female
-1997,ECU,192,female
-1998,ECU,158,female
-1999,ECU,105,female
-2000,ECU,107,female
-2001,ECU,143,female
-2002,ECU,214,female
-2003,ECU,236,female
-2004,ECU,303,female
-2005,ECU,279,female
-2006,ECU,300,female
-2007,ECU,327,female
-2008,ECU,348,female
-2009,ECU,367,female
-2010,ECU,416,female
-2011,ECU,460,female
-1995,ECU,197,male
-1996,ECU,205,male
-1997,ECU,232,male
-1998,ECU,204,male
-1999,ECU,127,male
-2000,ECU,130,male
-2001,ECU,189,male
-2002,ECU,269,male
-2003,ECU,273,male
-2004,ECU,337,male
-2005,ECU,330,male
-2006,ECU,333,male
-2007,ECU,384,male
-2008,ECU,402,male
-2009,ECU,421,male
-2010,ECU,456,male
-2011,ECU,488,male
-1995,DEU,1858,female
-1996,DEU,1933,female
-1997,DEU,1985,female
-1998,DEU,2039,female
-1999,DEU,2105,female
-2000,DEU,2150,female
-2001,DEU,2216,female
-2002,DEU,2286,female
-2003,DEU,2359,female
-2004,DEU,2421,female
-2005,DEU,2475,female
-2006,DEU,2522,female
-2007,DEU,2590,female
-2008,DEU,2661,female
-2009,DEU,2729,female
-2010,DEU,2791,female
-2011,DEU,2861,female
-1995,DEU,2470,male
-1996,DEU,2539,male
-1997,DEU,2580,male
-1998,DEU,2639,male
-1999,DEU,2713,male
-2000,DEU,2732,male
-2001,DEU,2800,male
-2002,DEU,2889,male
-2003,DEU,2972,male
-2004,DEU,3034,male
-2005,DEU,3088,male
-2006,DEU,3138,male
-2007,DEU,3211,male
-2008,DEU,3294,male
-2009,DEU,3320,male
-2010,DEU,3416,male
-2011,DEU,3508,male
-1995,GTM,1858,female
-1996,GTM,1933,female
-1997,GTM,1985,female
-1998,GTM,2039,female
-1999,GTM,2105,female
-2000,GTM,2150,female
-2001,GTM,2216,female
-2002,GTM,2286,female
-2003,GTM,2359,female
-2004,GTM,2421,female
-2005,GTM,2475,female
-2006,GTM,2522,female
-2007,GTM,2590,female
-2008,GTM,2661,female
-2009,GTM,2729,female
-2010,GTM,2791,female
-2011,GTM,1707,female
-1995,GTM,2470,male
-1996,GTM,2539,male
-1997,GTM,2580,male
-1998,GTM,2639,male
-1999,GTM,2713,male
-2000,GTM,2732,male
-2001,GTM,2800,male
-2002,GTM,2889,male
-2003,GTM,2972,male
-2004,GTM,3034,male
-2005,GTM,3088,male
-2006,GTM,3138,male
-2007,GTM,3211,male
-2008,GTM,3294,male
-2009,GTM,3320,male
-2010,GTM,3416,male
-2011,GTM,2086,male
-1995,ISL,1858,female
-1996,ISL,1933,female
-1997,ISL,1985,female
-1998,ISL,107000,female
-1999,ISL,117000,female
-2000,ISL,129000,female
-2001,ISL,144000,female
-2002,ISL,157000,female
-2003,ISL,167000,female
-2004,ISL,177000,female
-2005,ISL,203000,female
-2006,ISL,226000,female
-2007,ISL,256000,female
-2008,ISL,279000,female
-2009,ISL,293000,female
-2010,ISL,309000,female
-2011,ISL,321000,female
-1995,ISL,2470,male
-1996,ISL,2539,male
-1997,ISL,2580,male
-1998,ISL,157000,male
-1999,ISL,170000,male
-2000,ISL,191000,male
-2001,ISL,211000,male
-2002,ISL,221000,male
-2003,ISL,234000,male
-2004,ISL,245000,male
-2005,ISL,278000,male
-2006,ISL,301000,male
-2007,ISL,332000,male
-2008,ISL,352000,male
-2009,ISL,360000,male
-2010,ISL,374000,male
-2011,ISL,393000,male
-1995,LVA,1858,female
-1996,LVA,1933,female
-1997,LVA,1985,female
-1998,LVA,107000,female
-1999,LVA,117000,female
-2000,LVA,129000,female
-2001,LVA,144000,female
-2002,LVA,157000,female
-2003,LVA,167000,female
-2004,LVA,200,female
-2005,LVA,204,female
-2006,LVA,244,female
-2007,LVA,323,female
-2008,LVA,417,female
-2009,LVA,432,female
-2010,LVA,391,female
-2011,LVA,412,female
-1995,LVA,2470,male
-1996,LVA,2539,male
-1997,LVA,2580,male
-1998,LVA,157000,male
-1999,LVA,170000,male
-2000,LVA,191000,male
-2001,LVA,211000,male
-2002,LVA,221000,male
-2003,LVA,234000,male
-2004,LVA,235,male
-2005,LVA,249,male
-2006,LVA,296,male
-2007,LVA,385,male
-2008,LVA,492,male
-2009,LVA,515,male
-2010,LVA,480,male
-2011,LVA,494,male
-1995,LUX,2197,female
-1996,LUX,2709,female
-1997,LUX,2280,female
-1998,LUX,2338,female
-1999,LUX,2427,female
-2000,LUX,2544,female
-2001,LUX,2692,female
-2002,LUX,2710,female
-2003,LUX,2794,female
-2004,LUX,2872,female
-2005,LUX,2990,female
-2006,LUX,3111,female
-2007,LUX,3259,female
-2008,LUX,3384,female
-2009,LUX,3482,female
-2010,LUX,3563,female
-2011,LUX,3656,female
-1995,LUX,2762,male
-1996,LUX,2809,male
-1997,LUX,2865,male
-1998,LUX,2928,male
-1999,LUX,3025,male
-2000,LUX,3143,male
-2001,LUX,3319,male
-2002,LUX,3385,male
-2003,LUX,3483,male
-2004,LUX,3565,male
-2005,LUX,3699,male
-2006,LUX,3826,male
-2007,LUX,3961,male
-2008,LUX,4114,male
-2009,LUX,4203,male
-2010,LUX,4316,male
-2011,LUX,4212,male
-1995,MLT,2197,female
-1996,MLT,2709,female
-1997,MLT,2280,female
-1998,MLT,2338,female
-1999,MLT,2427,female
-2000,MLT,753,female
-2001,MLT,777,female
-2002,MLT,839,female
-2003,MLT,871,female
-2004,MLT,877,female
-2005,MLT,899,female
-2006,MLT,962,female
-2007,MLT,945,female
-2008,MLT,1001,female
-2009,MLT,1048,female
-2010,MLT,1121,female
-2011,MLT,1145,female
-1995,MLT,2762,male
-1996,MLT,2809,male
-1997,MLT,2865,male
-1998,MLT,2928,male
-1999,MLT,3025,male
-2000,MLT,952,male
-2001,MLT,985,male
-2002,MLT,1039,male
-2003,MLT,1044,male
-2004,MLT,1033,male
-2005,MLT,1070,male
-2006,MLT,1104,male
-2007,MLT,1155,male
-2008,MLT,1208,male
-2009,MLT,1213,male
-2010,MLT,1255,male
-2011,MLT,1318,male
-1995,MEX,1166,female
-1996,MEX,1469,female
-1997,MEX,1759,female
-1998,MEX,2120,female
-1999,MEX,2444,female
-2000,MEX,3057,female
-2001,MEX,3407,female
-2002,MEX,3670,female
-2003,MEX,3949,female
-2004,MEX,4134,female
-2005,MEX,4310,female
-2006,MEX,4573,female
-2007,MEX,4790,female
-2008,MEX,4821,female
-2009,MEX,5101,female
-2010,MEX,5067,female
-2011,MEX,5142,female
-1995,MEX,1557,male
-1996,MEX,1840,male
-1997,MEX,2273,male
-1998,MEX,2689,male
-1999,MEX,3166,male
-2000,MEX,3936,male
-2001,MEX,4410,male
-2002,MEX,4657,male
-2003,MEX,4921,male
-2004,MEX,5162,male
-2005,MEX,5330,male
-2006,MEX,5654,male
-2007,MEX,6071,male
-2008,MEX,6188,male
-2009,MEX,6186,male
-2010,MEX,6243,male
-2011,MEX,6191,male
-1995,MNG,1166,female
-1996,MNG,1469,female
-1997,MNG,1759,female
-1998,MNG,2120,female
-1999,MNG,2444,female
-2000,MNG,59800,female
-2001,MNG,61000,female
-2002,MNG,67300,female
-2003,MNG,76000,female
-2004,MNG,88000,female
-2005,MNG,92300,female
-2006,MNG,117325,female
-2007,MNG,159325,female
-2008,MNG,258075,female
-2009,MNG,279875,female
-2010,MNG,314550,female
-2011,MNG,381325,female
-1995,MNG,1557,male
-1996,MNG,1840,male
-1997,MNG,2273,male
-1998,MNG,2689,male
-1999,MNG,3166,male
-2000,MNG,64700,male
-2001,MNG,69200,male
-2002,MNG,75800,male
-2003,MNG,86900,male
-2004,MNG,98300,male
-2005,MNG,110000,male
-2006,MNG,138125,male
-2007,MNG,186700,male
-2008,MNG,291250,male
-2009,MNG,322575,male
-2010,MNG,370375,male
-2011,MNG,470000,male
-1995,NZL,1166,female
-1996,NZL,1469,female
-1997,NZL,1759,female
-1998,NZL,1870,female
-1999,NZL,1937,female
-2000,NZL,2015,female
-2001,NZL,2094,female
-2002,NZL,2154,female
-2003,NZL,2267,female
-2004,NZL,2336,female
-2005,NZL,2425,female
-2006,NZL,2588,female
-2007,NZL,2739,female
-2008,NZL,2884,female
-2009,NZL,2979,female
-2010,NZL,3120,female
-2011,NZL,3180,female
-1995,NZL,1557,male
-1996,NZL,1840,male
-1997,NZL,2273,male
-1998,NZL,2951,male
-1999,NZL,2980,male
-2000,NZL,3015,male
-2001,NZL,3167,male
-2002,NZL,3198,male
-2003,NZL,3383,male
-2004,NZL,3484,male
-2005,NZL,3759,male
-2006,NZL,3785,male
-2007,NZL,4104,male
-2008,NZL,4244,male
-2009,NZL,4298,male
-2010,NZL,4461,male
-2011,NZL,4582,male
-1995,NOR,1166,female
-1996,NOR,1469,female
-1997,NOR,18085,female
-1998,NOR,19418,female
-1999,NOR,20191,female
-2000,NOR,21213,female
-2001,NOR,22165,female
-2002,NOR,23736,female
-2003,NOR,24609,female
-2004,NOR,25579,female
-2005,NOR,26430,female
-2006,NOR,27653,female
-2007,NOR,29137,female
-2008,NOR,30800,female
-2009,NOR,32000,female
-2010,NOR,33400,female
-2011,NOR,34800,female
-1995,NOR,1557,male
-1996,NOR,1840,male
-1997,NOR,21606,male
-1998,NOR,23227,male
-1999,NOR,24200,male
-2000,NOR,25408,male
-2001,NOR,26600,male
-2002,NOR,28279,male
-2003,NOR,29205,male
-2004,NOR,30217,male
-2005,NOR,31201,male
-2006,NOR,32672,male
-2007,NOR,34570,male
-2008,NOR,36700,male
-2009,NOR,37800,male
-2010,NOR,39300,male
-2011,NOR,40800,male
-1995,PAK,1838,female
-1996,PAK,1469,female
-1997,PAK,1879,female
-1998,PAK,2045,female
-1999,PAK,20191,female
-2000,PAK,2014,female
-2001,PAK,22165,female
-2002,PAK,2029,female
-2003,PAK,24609,female
-2004,PAK,2593,female
-2005,PAK,26430,female
-2006,PAK,3348,female
-2007,PAK,3567,female
-2008,PAK,3852,female
-2009,PAK,5188,female
-2010,PAK,5821,female
-2011,PAK,6422,female
-1995,PAK,2375,male
-1996,PAK,1840,male
-1997,PAK,3140,male
-1998,PAK,3162,male
-1999,PAK,24200,male
-2000,PAK,3327,male
-2001,PAK,26600,male
-2002,PAK,3653,male
-2003,PAK,29205,male
-2004,PAK,4329,male
-2005,PAK,31201,male
-2006,PAK,5248,male
-2007,PAK,6100,male
-2008,PAK,7009,male
-2009,PAK,7997,male
-2010,PAK,9017,male
-2011,PAK,10211,male
-1995,PHL,1838,female
-1996,PHL,1469,female
-1997,PHL,1879,female
-1998,PHL,2045,female
-1999,PHL,20191,female
-2000,PHL,2014,female
-2001,PHL,5934,female
-2002,PHL,6028,female
-2003,PHL,6065,female
-2004,PHL,6196,female
-2005,PHL,6383,female
-2006,PHL,6719,female
-2007,PHL,6871,female
-2008,PHL,7266,female
-2009,PHL,7587,female
-2010,PHL,8068,female
-2011,PHL,8439,female
-1995,PHL,2375,male
-1996,PHL,1840,male
-1997,PHL,3140,male
-1998,PHL,3162,male
-1999,PHL,24200,male
-2000,PHL,3327,male
-2001,PHL,5713,male
-2002,PHL,5826,male
-2003,PHL,5963,male
-2004,PHL,6051,male
-2005,PHL,6412,male
-2006,PHL,6906,male
-2007,PHL,7011,male
-2008,PHL,7282,male
-2009,PHL,7581,male
-2010,PHL,7947,male
-2011,PHL,8175,male
-1995,QAT,1838,female
-1996,QAT,1469,female
-1997,QAT,1879,female
-1998,QAT,2045,female
-1999,QAT,20191,female
-2000,QAT,2014,female
-2001,QAT,5934,female
-2002,QAT,6028,female
-2003,QAT,6065,female
-2004,QAT,6196,female
-2005,QAT,6383,female
-2006,QAT,4131,female
-2007,QAT,4939,female
-2008,QAT,5800,female
-2009,QAT,6106,female
-2010,QAT,8068,female
-2011,QAT,6094,female
-1995,QAT,2375,male
-1996,QAT,1840,male
-1997,QAT,3140,male
-1998,QAT,3162,male
-1999,QAT,24200,male
-2000,QAT,3327,male
-2001,QAT,5713,male
-2002,QAT,5826,male
-2003,QAT,5963,male
-2004,QAT,6051,male
-2005,QAT,6412,male
-2006,QAT,5611,male
-2007,QAT,6884,male
-2008,QAT,8100,male
-2009,QAT,8484,male
-2010,QAT,7947,male
-2011,QAT,7882,male
-1995,SGP,1850,female
-1996,SGP,1979,female
-1997,SGP,2114,female
-1998,SGP,2256,female
-1999,SGP,2327,female
-2000,SGP,2530,female
-2001,SGP,2588,female
-2002,SGP,2617,female
-2003,SGP,2662,female
-2004,SGP,2773,female
-2005,SGP,2865,female
-2006,SGP,2966,female
-2007,SGP,3148,female
-2008,SGP,3332,female
-2009,SGP,3247,female
-2010,SGP,3434,female
-2011,SGP,3650,female
-1995,SGP,2517,male
-1996,SGP,2646,male
-1997,SGP,2781,male
-1998,SGP,3141,male
-1999,SGP,3222,male
-2000,SGP,3518,male
-2001,SGP,3606,male
-2002,SGP,3632,male
-2003,SGP,3698,male
-2004,SGP,3825,male
-2005,SGP,3962,male
-2006,SGP,4081,male
-2007,SGP,4335,male
-2008,SGP,4560,male
-2009,SGP,4436,male
-2010,SGP,4686,male
-2011,SGP,4964,male
-1995,SVK,1850,female
-1996,SVK,1979,female
-1997,SVK,2114,female
-1998,SVK,2256,female
-1999,SVK,2327,female
-2000,SVK,2530,female
-2001,SVK,2588,female
-2002,SVK,2617,female
-2003,SVK,2662,female
-2004,SVK,2773,female
-2005,SVK,15394,female
-2006,SVK,16575,female
-2007,SVK,18340,female
-2008,SVK,20009,female
-2009,SVK,681,female
-2010,SVK,709,female
-2011,SVK,732,female
-1995,SVK,2517,male
-1996,SVK,2646,male
-1997,SVK,2781,male
-1998,SVK,3141,male
-1999,SVK,3222,male
-2000,SVK,3518,male
-2001,SVK,3606,male
-2002,SVK,3632,male
-2003,SVK,3698,male
-2004,SVK,3825,male
-2005,SVK,21503,male
-2006,SVK,22686,male
-2007,SVK,24726,male
-2008,SVK,26318,male
-2009,SVK,913,male
-2010,SVK,941,male
-2011,SVK,966,male
-1995,ESP,1850,female
-1996,ESP,1979,female
-1997,ESP,2114,female
-1998,ESP,2256,female
-1999,ESP,2327,female
-2000,ESP,2530,female
-2001,ESP,2588,female
-2002,ESP,2617,female
-2003,ESP,2662,female
-2004,ESP,1247,female
-2005,ESP,1287,female
-2006,ESP,1359,female
-2007,ESP,1424,female
-2008,ESP,1555,female
-2009,ESP,1609,female
-2010,ESP,1623,female
-2011,ESP,1640,female
-1995,ESP,2517,male
-1996,ESP,2646,male
-1997,ESP,2781,male
-1998,ESP,3141,male
-1999,ESP,3222,male
-2000,ESP,3518,male
-2001,ESP,3606,male
-2002,ESP,3632,male
-2003,ESP,3698,male
-2004,ESP,1721,male
-2005,ESP,1775,male
-2006,ESP,1845,male
-2007,ESP,1914,male
-2008,ESP,1990,male
-2009,ESP,2063,male
-2010,ESP,2096,male
-2011,ESP,2118,male
-1995,SWE,14700,female
-1996,SWE,15500,female
-1997,SWE,16200,female
-1998,SWE,16800,female
-1999,SWE,17600,female
-2000,SWE,18400,female
-2001,SWE,19200,female
-2002,SWE,20000,female
-2003,SWE,20700,female
-2004,SWE,21500,female
-2005,SWE,22100,female
-2006,SWE,22800,female
-2007,SWE,23500,female
-2008,SWE,24700,female
-2009,SWE,25700,female
-2010,SWE,26200,female
-2011,SWE,26800,female
-1995,SWE,17300,male
-1996,SWE,18600,male
-1997,SWE,19600,male
-1998,SWE,20400,male
-1999,SWE,21200,male
-2000,SWE,22500,male
-2001,SWE,23300,male
-2002,SWE,24100,male
-2003,SWE,24800,male
-2004,SWE,25700,male
-2005,SWE,26400,male
-2006,SWE,27100,male
-2007,SWE,28000,male
-2008,SWE,29400,male
-2009,SWE,30100,male
-2010,SWE,30600,male
-2011,SWE,31200,male
-1995,SYR,14700,female
-1996,SYR,15500,female
-1997,SYR,16200,female
-1998,SYR,16800,female
-1999,SYR,17600,female
-2000,SYR,18400,female
-2001,SYR,19200,female
-2002,SYR,20000,female
-2003,SYR,20700,female
-2004,SYR,21500,female
-2005,SYR,22100,female
-2006,SYR,8834,female
-2007,SYR,9306,female
-2008,SYR,10977,female
-2009,SYR,11779,female
-2010,SYR,11981,female
-2011,SYR,15592,female
-1995,SYR,17300,male
-1996,SYR,18600,male
-1997,SYR,19600,male
-1998,SYR,20400,male
-1999,SYR,21200,male
-2000,SYR,22500,male
-2001,SYR,23300,male
-2002,SYR,24100,male
-2003,SYR,24800,male
-2004,SYR,25700,male
-2005,SYR,26400,male
-2006,SYR,8669,male
-2007,SYR,8961,male
-2008,SYR,10552,male
-2009,SYR,10967,male
-2010,SYR,11227,male
-2011,SYR,13502,male
-1995,THA,14700,female
-1996,THA,15500,female
-1997,THA,16200,female
-1998,THA,16800,female
-1999,THA,17600,female
-2000,THA,18400,female
-2001,THA,6290,female
-2002,THA,6183,female
-2003,THA,6328,female
-2004,THA,6533,female
-2005,THA,7018,female
-2006,THA,7571,female
-2007,THA,7801,female
-2008,THA,8692,female
-2009,THA,8521,female
-2010,THA,9084,female
-2011,THA,9740,female
-1995,THA,17300,male
-1996,THA,18600,male
-1997,THA,19600,male
-1998,THA,20400,male
-1999,THA,21200,male
-2000,THA,22500,male
-2001,THA,6950,male
-2002,THA,6940,male
-2003,THA,7090,male
-2004,THA,7206,male
-2005,THA,7683,male
-2006,THA,8071,male
-2007,THA,8314,male
-2008,THA,9090,male
-2009,THA,8833,male
-2010,THA,9403,male
-2011,THA,10093,male
-1995,UKR,66,female
-1996,UKR,114,female
-1997,UKR,132,female
-1998,UKR,131,female
-1999,UKR,149,female
-2000,UKR,191,female
-2001,UKR,256,female
-2002,UKR,310,female
-2003,UKR,379,female
-2004,UKR,485,female
-2005,UKR,675,female
-2006,UKR,885,female
-2007,UKR,1150,female
-2008,UKR,1565,female
-2009,UKR,1677,female
-2010,UKR,1974,female
-2011,UKR,2272,female
-1995,UKR,98,male
-1996,UKR,167,male
-1997,UKR,182,male
-1998,UKR,176,male
-1999,UKR,206,male
-2000,UKR,269,male
-2001,UKR,367,male
-2002,UKR,447,male
-2003,UKR,552,male
-2004,UKR,707,male
-2005,UKR,953,male
-2006,UKR,1216,male
-2007,UKR,1578,male
-2008,UKR,2080,male
-2009,UKR,2173,male
-2010,UKR,2538,male
-2011,UKR,3035,male
-1995,GBR,66,female
-1996,GBR,114,female
-1997,GBR,971,female
-1998,GBR,1016,female
-1999,GBR,1066,female
-2000,GBR,1105,female
-2001,GBR,1171,female
-2002,GBR,1231,female
-2003,GBR,1282,female
-2004,GBR,1337,female
-2005,GBR,1384,female
-2006,GBR,1443,female
-2007,GBR,1490,female
-2008,GBR,1553,female
-2009,GBR,1604,female
-2010,GBR,1634,female
-2011,GBR,1653,female
-1995,GBR,98,male
-1996,GBR,167,male
-1997,GBR,1711,male
-1998,GBR,1800,male
-1999,GBR,1860,male
-2000,GBR,1932,male
-2001,GBR,2037,male
-2002,GBR,2138,male
-2003,GBR,2197,male
-2004,GBR,2228,male
-2005,GBR,2274,male
-2006,GBR,2361,male
-2007,GBR,2420,male
-2008,GBR,2529,male
-2009,GBR,2554,male
-2010,GBR,2580,male
-2011,GBR,2591,male
-1995,URY,66,female
-1996,URY,114,female
-1997,URY,971,female
-1998,URY,1016,female
-1999,URY,1066,female
-2000,URY,5312,female
-2001,URY,5430,female
-2002,URY,5480,female
-2003,URY,5756,female
-2004,URY,6081,female
-2005,URY,6666,female
-2006,URY,7692,female
-2007,URY,9016,female
-2008,URY,9608,female
-2009,URY,11295,female
-2010,URY,12281,female
-2011,URY,14151,female
-1995,URY,98,male
-1996,URY,167,male
-1997,URY,1711,male
-1998,URY,1800,male
-1999,URY,1860,male
-2000,URY,7700,male
-2001,URY,7600,male
-2002,URY,7743,male
-2003,URY,7855,male
-2004,URY,8607,male
-2005,URY,8970,male
-2006,URY,10474,male
-2007,URY,12048,male
-2008,URY,13563,male
-2009,URY,15824,male
-2010,URY,16579,male
-2011,URY,18819,male
-1995,USA,3133,female
-1996,USA,3216,female
-1997,USA,3316,female
-1998,USA,3388,female
-1999,USA,3376,female
-2000,USA,3407,female
-2001,USA,3524,female
-2002,USA,3587,female
-2003,USA,3568,female
-2004,USA,3532,female
-2005,USA,3484,female
-2006,USA,3444,female
-2007,USA,3616,female
-2008,USA,3546,female
-2009,USA,3611,female
-2010,USA,3612,female
-2011,USA,3524,female
-2012,USA,3513,female
-2013,USA,3587,female
-2013,USA,3554,female
-2014,USA,3569,female
-2015,USA,3664,female
-2016,USA,3689,female
-2017,USA,3648,female
-2017,USA,3704,female
-2018,USA,3826,female
-2019,USA,3942,female
-1995,USA,4386,male
-1996,USA,4360,male
-1997,USA,4471,male
-1998,USA,4630,male
-1999,USA,4668,male
-2000,USA,4622,male
-2001,USA,4617,male
-2002,USA,4682,male
-2003,USA,4722,male
-2004,USA,4613,male
-2005,USA,4526,male
-2006,USA,4477,male
-2007,USA,4647,male
-2008,USA,4599,male
-2009,USA,4691,male
-2010,USA,4696,male
-2011,USA,4576,male
-2012,USA,4592,male
-2013,USA,4583,male
-2013,USA,4582,male
-2014,USA,4539,male
-2015,USA,4605,male
-2016,USA,4585,male
-2017,USA,4532,male
-2017,USA,4536,male
-2018,USA,4691,male
-2019,USA,4788,male
+year,state,wvalue,lvalue
+1995,Australia,1867,female
+1996,Australia,1923,female
+1997,Australia,1996,female
+1998,Australia,2043,female
+1999,Australia,2081,female
+2000,Australia,2187,female
+2001,Australia,2286,female
+2002,Australia,2347,female
+2003,Australia,2450,female
+2004,Australia,2552,female
+2005,Australia,2680,female
+2006,Australia,2790,female
+2007,Australia,2931,female
+2008,Australia,3047,female
+2009,Australia,3181,female
+2010,Australia,3341,female
+2011,Australia,3473,female
+1995,Australia,2846,male
+1996,Australia,2924,male
+1997,Australia,3013,male
+1998,Australia,3116,male
+1999,Australia,3172,male
+2000,Australia,3299,male
+2001,Australia,3439,male
+2002,Australia,3598,male
+2003,Australia,3790,male
+2004,Australia,3893,male
+2005,Australia,4102,male
+2006,Australia,4289,male
+2007,Australia,4502,male
+2008,Australia,4689,male
+2009,Australia,4903,male
+2010,Australia,5152,male
+2011,Australia,5373,male
+1995,Canada,1867,female
+1996,Canada,1923,female
+1997,Canada,2015,female
+1998,Canada,2048,female
+1999,Canada,2109,female
+2000,Canada,2172,female
+2001,Canada,2250,female
+2002,Canada,2318,female
+2003,Canada,2379,female
+2004,Canada,2460,female
+2005,Canada,2556,female
+2006,Canada,2649,female
+2007,Canada,2743,female
+2008,Canada,2857,female
+2009,Canada,2972,female
+2010,Canada,3036,female
+2011,Canada,3131,female
+1995,Canada,2846,male
+1996,Canada,2924,male
+1997,Canada,2911,male
+1998,Canada,2954,male
+1999,Canada,3031,male
+2000,Canada,3129,male
+2001,Canada,3226,male
+2002,Canada,3286,male
+2003,Canada,3343,male
+2004,Canada,3414,male
+2005,Canada,3519,male
+2006,Canada,3638,male
+2007,Canada,3753,male
+2008,Canada,3912,male
+2009,Canada,3999,male
+2010,Canada,4077,male
+2011,Canada,4142,male
+1995,Czech Republic,1867,female
+1996,Czech Republic,1923,female
+1997,Czech Republic,2015,female
+1998,Czech Republic,2048,female
+1999,Czech Republic,2109,female
+2000,Czech Republic,2172,female
+2001,Czech Republic,2250,female
+2002,Czech Republic,2318,female
+2003,Czech Republic,2379,female
+2004,Czech Republic,2460,female
+2005,Czech Republic,18221,female
+2006,Czech Republic,19305,female
+2007,Czech Republic,20683,female
+2008,Czech Republic,21938,female
+2009,Czech Republic,22413,female
+2010,Czech Republic,22666,female
+2011,Czech Republic,22389,female
+1995,Czech Republic,2846,male
+1996,Czech Republic,2924,male
+1997,Czech Republic,2911,male
+1998,Czech Republic,2954,male
+1999,Czech Republic,3031,male
+2000,Czech Republic,3129,male
+2001,Czech Republic,3226,male
+2002,Czech Republic,3286,male
+2003,Czech Republic,3343,male
+2004,Czech Republic,3414,male
+2005,Czech Republic,24271,male
+2006,Czech Republic,25593,male
+2007,Czech Republic,27488,male
+2008,Czech Republic,29628,male
+2009,Czech Republic,29952,male
+2010,Czech Republic,30192,male
+2011,Czech Republic,28233,male
+1995,Ecuador,150,female
+1996,Ecuador,161,female
+1997,Ecuador,192,female
+1998,Ecuador,158,female
+1999,Ecuador,105,female
+2000,Ecuador,107,female
+2001,Ecuador,143,female
+2002,Ecuador,214,female
+2003,Ecuador,236,female
+2004,Ecuador,303,female
+2005,Ecuador,279,female
+2006,Ecuador,300,female
+2007,Ecuador,327,female
+2008,Ecuador,348,female
+2009,Ecuador,367,female
+2010,Ecuador,416,female
+2011,Ecuador,460,female
+1995,Ecuador,197,male
+1996,Ecuador,205,male
+1997,Ecuador,232,male
+1998,Ecuador,204,male
+1999,Ecuador,127,male
+2000,Ecuador,130,male
+2001,Ecuador,189,male
+2002,Ecuador,269,male
+2003,Ecuador,273,male
+2004,Ecuador,337,male
+2005,Ecuador,330,male
+2006,Ecuador,333,male
+2007,Ecuador,384,male
+2008,Ecuador,402,male
+2009,Ecuador,421,male
+2010,Ecuador,456,male
+2011,Ecuador,488,male
+1995,Germany,1858,female
+1996,Germany,1933,female
+1997,Germany,1985,female
+1998,Germany,2039,female
+1999,Germany,2105,female
+2000,Germany,2150,female
+2001,Germany,2216,female
+2002,Germany,2286,female
+2003,Germany,2359,female
+2004,Germany,2421,female
+2005,Germany,2475,female
+2006,Germany,2522,female
+2007,Germany,2590,female
+2008,Germany,2661,female
+2009,Germany,2729,female
+2010,Germany,2791,female
+2011,Germany,2861,female
+1995,Germany,2470,male
+1996,Germany,2539,male
+1997,Germany,2580,male
+1998,Germany,2639,male
+1999,Germany,2713,male
+2000,Germany,2732,male
+2001,Germany,2800,male
+2002,Germany,2889,male
+2003,Germany,2972,male
+2004,Germany,3034,male
+2005,Germany,3088,male
+2006,Germany,3138,male
+2007,Germany,3211,male
+2008,Germany,3294,male
+2009,Germany,3320,male
+2010,Germany,3416,male
+2011,Germany,3508,male
+1995,Guatemala,1858,female
+1996,Guatemala,1933,female
+1997,Guatemala,1985,female
+1998,Guatemala,2039,female
+1999,Guatemala,2105,female
+2000,Guatemala,2150,female
+2001,Guatemala,2216,female
+2002,Guatemala,2286,female
+2003,Guatemala,2359,female
+2004,Guatemala,2421,female
+2005,Guatemala,2475,female
+2006,Guatemala,2522,female
+2007,Guatemala,2590,female
+2008,Guatemala,2661,female
+2009,Guatemala,2729,female
+2010,Guatemala,2791,female
+2011,Guatemala,1707,female
+1995,Guatemala,2470,male
+1996,Guatemala,2539,male
+1997,Guatemala,2580,male
+1998,Guatemala,2639,male
+1999,Guatemala,2713,male
+2000,Guatemala,2732,male
+2001,Guatemala,2800,male
+2002,Guatemala,2889,male
+2003,Guatemala,2972,male
+2004,Guatemala,3034,male
+2005,Guatemala,3088,male
+2006,Guatemala,3138,male
+2007,Guatemala,3211,male
+2008,Guatemala,3294,male
+2009,Guatemala,3320,male
+2010,Guatemala,3416,male
+2011,Guatemala,2086,male
+1995,Iceland,1858,female
+1996,Iceland,1933,female
+1997,Iceland,1985,female
+1998,Iceland,107000,female
+1999,Iceland,117000,female
+2000,Iceland,129000,female
+2001,Iceland,144000,female
+2002,Iceland,157000,female
+2003,Iceland,167000,female
+2004,Iceland,177000,female
+2005,Iceland,203000,female
+2006,Iceland,226000,female
+2007,Iceland,256000,female
+2008,Iceland,279000,female
+2009,Iceland,293000,female
+2010,Iceland,309000,female
+2011,Iceland,321000,female
+1995,Iceland,2470,male
+1996,Iceland,2539,male
+1997,Iceland,2580,male
+1998,Iceland,157000,male
+1999,Iceland,170000,male
+2000,Iceland,191000,male
+2001,Iceland,211000,male
+2002,Iceland,221000,male
+2003,Iceland,234000,male
+2004,Iceland,245000,male
+2005,Iceland,278000,male
+2006,Iceland,301000,male
+2007,Iceland,332000,male
+2008,Iceland,352000,male
+2009,Iceland,360000,male
+2010,Iceland,374000,male
+2011,Iceland,393000,male
+1995,Latvia,1858,female
+1996,Latvia,1933,female
+1997,Latvia,1985,female
+1998,Latvia,107000,female
+1999,Latvia,117000,female
+2000,Latvia,129000,female
+2001,Latvia,144000,female
+2002,Latvia,157000,female
+2003,Latvia,167000,female
+2004,Latvia,200,female
+2005,Latvia,204,female
+2006,Latvia,244,female
+2007,Latvia,323,female
+2008,Latvia,417,female
+2009,Latvia,432,female
+2010,Latvia,391,female
+2011,Latvia,412,female
+1995,Latvia,2470,male
+1996,Latvia,2539,male
+1997,Latvia,2580,male
+1998,Latvia,157000,male
+1999,Latvia,170000,male
+2000,Latvia,191000,male
+2001,Latvia,211000,male
+2002,Latvia,221000,male
+2003,Latvia,234000,male
+2004,Latvia,235,male
+2005,Latvia,249,male
+2006,Latvia,296,male
+2007,Latvia,385,male
+2008,Latvia,492,male
+2009,Latvia,515,male
+2010,Latvia,480,male
+2011,Latvia,494,male
+1995,Luxembourg,2197,female
+1996,Luxembourg,2709,female
+1997,Luxembourg,2280,female
+1998,Luxembourg,2338,female
+1999,Luxembourg,2427,female
+2000,Luxembourg,2544,female
+2001,Luxembourg,2692,female
+2002,Luxembourg,2710,female
+2003,Luxembourg,2794,female
+2004,Luxembourg,2872,female
+2005,Luxembourg,2990,female
+2006,Luxembourg,3111,female
+2007,Luxembourg,3259,female
+2008,Luxembourg,3384,female
+2009,Luxembourg,3482,female
+2010,Luxembourg,3563,female
+2011,Luxembourg,3656,female
+1995,Luxembourg,2762,male
+1996,Luxembourg,2809,male
+1997,Luxembourg,2865,male
+1998,Luxembourg,2928,male
+1999,Luxembourg,3025,male
+2000,Luxembourg,3143,male
+2001,Luxembourg,3319,male
+2002,Luxembourg,3385,male
+2003,Luxembourg,3483,male
+2004,Luxembourg,3565,male
+2005,Luxembourg,3699,male
+2006,Luxembourg,3826,male
+2007,Luxembourg,3961,male
+2008,Luxembourg,4114,male
+2009,Luxembourg,4203,male
+2010,Luxembourg,4316,male
+2011,Luxembourg,4212,male
+1995,Mexico,1166,female
+1996,Mexico,1469,female
+1997,Mexico,1759,female
+1998,Mexico,2120,female
+1999,Mexico,2444,female
+2000,Mexico,3057,female
+2001,Mexico,3407,female
+2002,Mexico,3670,female
+2003,Mexico,3949,female
+2004,Mexico,4134,female
+2005,Mexico,4310,female
+2006,Mexico,4573,female
+2007,Mexico,4790,female
+2008,Mexico,4821,female
+2009,Mexico,5101,female
+2010,Mexico,5067,female
+2011,Mexico,5142,female
+1995,Mexico,1557,male
+1996,Mexico,1840,male
+1997,Mexico,2273,male
+1998,Mexico,2689,male
+1999,Mexico,3166,male
+2000,Mexico,3936,male
+2001,Mexico,4410,male
+2002,Mexico,4657,male
+2003,Mexico,4921,male
+2004,Mexico,5162,male
+2005,Mexico,5330,male
+2006,Mexico,5654,male
+2007,Mexico,6071,male
+2008,Mexico,6188,male
+2009,Mexico,6186,male
+2010,Mexico,6243,male
+2011,Mexico,6191,male
+1995,Mongolia,1166,female
+1996,Mongolia,1469,female
+1997,Mongolia,1759,female
+1998,Mongolia,2120,female
+1999,Mongolia,2444,female
+2000,Mongolia,59800,female
+2001,Mongolia,61000,female
+2002,Mongolia,67300,female
+2003,Mongolia,76000,female
+2004,Mongolia,88000,female
+2005,Mongolia,92300,female
+2006,Mongolia,117325,female
+2007,Mongolia,159325,female
+2008,Mongolia,258075,female
+2009,Mongolia,279875,female
+2010,Mongolia,314550,female
+2011,Mongolia,381325,female
+1995,Mongolia,1557,male
+1996,Mongolia,1840,male
+1997,Mongolia,2273,male
+1998,Mongolia,2689,male
+1999,Mongolia,3166,male
+2000,Mongolia,64700,male
+2001,Mongolia,69200,male
+2002,Mongolia,75800,male
+2003,Mongolia,86900,male
+2004,Mongolia,98300,male
+2005,Mongolia,110000,male
+2006,Mongolia,138125,male
+2007,Mongolia,186700,male
+2008,Mongolia,291250,male
+2009,Mongolia,322575,male
+2010,Mongolia,370375,male
+2011,Mongolia,470000,male
+1995,New Zealand,1166,female
+1996,New Zealand,1469,female
+1997,New Zealand,1759,female
+1998,New Zealand,1870,female
+1999,New Zealand,1937,female
+2000,New Zealand,2015,female
+2001,New Zealand,2094,female
+2002,New Zealand,2154,female
+2003,New Zealand,2267,female
+2004,New Zealand,2336,female
+2005,New Zealand,2425,female
+2006,New Zealand,2588,female
+2007,New Zealand,2739,female
+2008,New Zealand,2884,female
+2009,New Zealand,2979,female
+2010,New Zealand,3120,female
+2011,New Zealand,3180,female
+1995,New Zealand,1557,male
+1996,New Zealand,1840,male
+1997,New Zealand,2273,male
+1998,New Zealand,2951,male
+1999,New Zealand,2980,male
+2000,New Zealand,3015,male
+2001,New Zealand,3167,male
+2002,New Zealand,3198,male
+2003,New Zealand,3383,male
+2004,New Zealand,3484,male
+2005,New Zealand,3759,male
+2006,New Zealand,3785,male
+2007,New Zealand,4104,male
+2008,New Zealand,4244,male
+2009,New Zealand,4298,male
+2010,New Zealand,4461,male
+2011,New Zealand,4582,male
+1995,Norway,1166,female
+1996,Norway,1469,female
+1997,Norway,18085,female
+1998,Norway,19418,female
+1999,Norway,20191,female
+2000,Norway,21213,female
+2001,Norway,22165,female
+2002,Norway,23736,female
+2003,Norway,24609,female
+2004,Norway,25579,female
+2005,Norway,26430,female
+2006,Norway,27653,female
+2007,Norway,29137,female
+2008,Norway,30800,female
+2009,Norway,32000,female
+2010,Norway,33400,female
+2011,Norway,34800,female
+1995,Norway,1557,male
+1996,Norway,1840,male
+1997,Norway,21606,male
+1998,Norway,23227,male
+1999,Norway,24200,male
+2000,Norway,25408,male
+2001,Norway,26600,male
+2002,Norway,28279,male
+2003,Norway,29205,male
+2004,Norway,30217,male
+2005,Norway,31201,male
+2006,Norway,32672,male
+2007,Norway,34570,male
+2008,Norway,36700,male
+2009,Norway,37800,male
+2010,Norway,39300,male
+2011,Norway,40800,male
+1995,Pakistan,1838,female
+1996,Pakistan,1469,female
+1997,Pakistan,1879,female
+1998,Pakistan,2045,female
+1999,Pakistan,20191,female
+2000,Pakistan,2014,female
+2001,Pakistan,22165,female
+2002,Pakistan,2029,female
+2003,Pakistan,24609,female
+2004,Pakistan,2593,female
+2005,Pakistan,26430,female
+2006,Pakistan,3348,female
+2007,Pakistan,3567,female
+2008,Pakistan,3852,female
+2009,Pakistan,5188,female
+2010,Pakistan,5821,female
+2011,Pakistan,6422,female
+1995,Pakistan,2375,male
+1996,Pakistan,1840,male
+1997,Pakistan,3140,male
+1998,Pakistan,3162,male
+1999,Pakistan,24200,male
+2000,Pakistan,3327,male
+2001,Pakistan,26600,male
+2002,Pakistan,3653,male
+2003,Pakistan,29205,male
+2004,Pakistan,4329,male
+2005,Pakistan,31201,male
+2006,Pakistan,5248,male
+2007,Pakistan,6100,male
+2008,Pakistan,7009,male
+2009,Pakistan,7997,male
+2010,Pakistan,9017,male
+2011,Pakistan,10211,male
+1995,Philippines,1838,female
+1996,Philippines,1469,female
+1997,Philippines,1879,female
+1998,Philippines,2045,female
+1999,Philippines,20191,female
+2000,Philippines,2014,female
+2001,Philippines,5934,female
+2002,Philippines,6028,female
+2003,Philippines,6065,female
+2004,Philippines,6196,female
+2005,Philippines,6383,female
+2006,Philippines,6719,female
+2007,Philippines,6871,female
+2008,Philippines,7266,female
+2009,Philippines,7587,female
+2010,Philippines,8068,female
+2011,Philippines,8439,female
+1995,Philippines,2375,male
+1996,Philippines,1840,male
+1997,Philippines,3140,male
+1998,Philippines,3162,male
+1999,Philippines,24200,male
+2000,Philippines,3327,male
+2001,Philippines,5713,male
+2002,Philippines,5826,male
+2003,Philippines,5963,male
+2004,Philippines,6051,male
+2005,Philippines,6412,male
+2006,Philippines,6906,male
+2007,Philippines,7011,male
+2008,Philippines,7282,male
+2009,Philippines,7581,male
+2010,Philippines,7947,male
+2011,Philippines,8175,male
+1995,Qatar,1838,female
+1996,Qatar,1469,female
+1997,Qatar,1879,female
+1998,Qatar,2045,female
+1999,Qatar,20191,female
+2000,Qatar,2014,female
+2001,Qatar,5934,female
+2002,Qatar,6028,female
+2003,Qatar,6065,female
+2004,Qatar,6196,female
+2005,Qatar,6383,female
+2006,Qatar,4131,female
+2007,Qatar,4939,female
+2008,Qatar,5800,female
+2009,Qatar,6106,female
+2010,Qatar,8068,female
+2011,Qatar,6094,female
+1995,Qatar,2375,male
+1996,Qatar,1840,male
+1997,Qatar,3140,male
+1998,Qatar,3162,male
+1999,Qatar,24200,male
+2000,Qatar,3327,male
+2001,Qatar,5713,male
+2002,Qatar,5826,male
+2003,Qatar,5963,male
+2004,Qatar,6051,male
+2005,Qatar,6412,male
+2006,Qatar,5611,male
+2007,Qatar,6884,male
+2008,Qatar,8100,male
+2009,Qatar,8484,male
+2010,Qatar,7947,male
+2011,Qatar,7882,male
+1995,Singapore,1850,female
+1996,Singapore,1979,female
+1997,Singapore,2114,female
+1998,Singapore,2256,female
+1999,Singapore,2327,female
+2000,Singapore,2530,female
+2001,Singapore,2588,female
+2002,Singapore,2617,female
+2003,Singapore,2662,female
+2004,Singapore,2773,female
+2005,Singapore,2865,female
+2006,Singapore,2966,female
+2007,Singapore,3148,female
+2008,Singapore,3332,female
+2009,Singapore,3247,female
+2010,Singapore,3434,female
+2011,Singapore,3650,female
+1995,Singapore,2517,male
+1996,Singapore,2646,male
+1997,Singapore,2781,male
+1998,Singapore,3141,male
+1999,Singapore,3222,male
+2000,Singapore,3518,male
+2001,Singapore,3606,male
+2002,Singapore,3632,male
+2003,Singapore,3698,male
+2004,Singapore,3825,male
+2005,Singapore,3962,male
+2006,Singapore,4081,male
+2007,Singapore,4335,male
+2008,Singapore,4560,male
+2009,Singapore,4436,male
+2010,Singapore,4686,male
+2011,Singapore,4964,male
+1995,Slovak Republic,1850,female
+1996,Slovak Republic,1979,female
+1997,Slovak Republic,2114,female
+1998,Slovak Republic,2256,female
+1999,Slovak Republic,2327,female
+2000,Slovak Republic,2530,female
+2001,Slovak Republic,2588,female
+2002,Slovak Republic,2617,female
+2003,Slovak Republic,2662,female
+2004,Slovak Republic,2773,female
+2005,Slovak Republic,15394,female
+2006,Slovak Republic,16575,female
+2007,Slovak Republic,18340,female
+2008,Slovak Republic,20009,female
+2009,Slovak Republic,681,female
+2010,Slovak Republic,709,female
+2011,Slovak Republic,732,female
+1995,Slovak Republic,2517,male
+1996,Slovak Republic,2646,male
+1997,Slovak Republic,2781,male
+1998,Slovak Republic,3141,male
+1999,Slovak Republic,3222,male
+2000,Slovak Republic,3518,male
+2001,Slovak Republic,3606,male
+2002,Slovak Republic,3632,male
+2003,Slovak Republic,3698,male
+2004,Slovak Republic,3825,male
+2005,Slovak Republic,21503,male
+2006,Slovak Republic,22686,male
+2007,Slovak Republic,24726,male
+2008,Slovak Republic,26318,male
+2009,Slovak Republic,913,male
+2010,Slovak Republic,941,male
+2011,Slovak Republic,966,male
+1995,Spain,1850,female
+1996,Spain,1979,female
+1997,Spain,2114,female
+1998,Spain,2256,female
+1999,Spain,2327,female
+2000,Spain,2530,female
+2001,Spain,2588,female
+2002,Spain,2617,female
+2003,Spain,2662,female
+2004,Spain,1247,female
+2005,Spain,1287,female
+2006,Spain,1359,female
+2007,Spain,1424,female
+2008,Spain,1555,female
+2009,Spain,1609,female
+2010,Spain,1623,female
+2011,Spain,1640,female
+1995,Spain,2517,male
+1996,Spain,2646,male
+1997,Spain,2781,male
+1998,Spain,3141,male
+1999,Spain,3222,male
+2000,Spain,3518,male
+2001,Spain,3606,male
+2002,Spain,3632,male
+2003,Spain,3698,male
+2004,Spain,1721,male
+2005,Spain,1775,male
+2006,Spain,1845,male
+2007,Spain,1914,male
+2008,Spain,1990,male
+2009,Spain,2063,male
+2010,Spain,2096,male
+2011,Spain,2118,male
+1995,Sweden,14700,female
+1996,Sweden,15500,female
+1997,Sweden,16200,female
+1998,Sweden,16800,female
+1999,Sweden,17600,female
+2000,Sweden,18400,female
+2001,Sweden,19200,female
+2002,Sweden,20000,female
+2003,Sweden,20700,female
+2004,Sweden,21500,female
+2005,Sweden,22100,female
+2006,Sweden,22800,female
+2007,Sweden,23500,female
+2008,Sweden,24700,female
+2009,Sweden,25700,female
+2010,Sweden,26200,female
+2011,Sweden,26800,female
+1995,Sweden,17300,male
+1996,Sweden,18600,male
+1997,Sweden,19600,male
+1998,Sweden,20400,male
+1999,Sweden,21200,male
+2000,Sweden,22500,male
+2001,Sweden,23300,male
+2002,Sweden,24100,male
+2003,Sweden,24800,male
+2004,Sweden,25700,male
+2005,Sweden,26400,male
+2006,Sweden,27100,male
+2007,Sweden,28000,male
+2008,Sweden,29400,male
+2009,Sweden,30100,male
+2010,Sweden,30600,male
+2011,Sweden,31200,male
+1995,Syrian Arab Republic,14700,female
+1996,Syrian Arab Republic,15500,female
+1997,Syrian Arab Republic,16200,female
+1998,Syrian Arab Republic,16800,female
+1999,Syrian Arab Republic,17600,female
+2000,Syrian Arab Republic,18400,female
+2001,Syrian Arab Republic,19200,female
+2002,Syrian Arab Republic,20000,female
+2003,Syrian Arab Republic,20700,female
+2004,Syrian Arab Republic,21500,female
+2005,Syrian Arab Republic,22100,female
+2006,Syrian Arab Republic,8834,female
+2007,Syrian Arab Republic,9306,female
+2008,Syrian Arab Republic,10977,female
+2009,Syrian Arab Republic,11779,female
+2010,Syrian Arab Republic,11981,female
+2011,Syrian Arab Republic,15592,female
+1995,Syrian Arab Republic,17300,male
+1996,Syrian Arab Republic,18600,male
+1997,Syrian Arab Republic,19600,male
+1998,Syrian Arab Republic,20400,male
+1999,Syrian Arab Republic,21200,male
+2000,Syrian Arab Republic,22500,male
+2001,Syrian Arab Republic,23300,male
+2002,Syrian Arab Republic,24100,male
+2003,Syrian Arab Republic,24800,male
+2004,Syrian Arab Republic,25700,male
+2005,Syrian Arab Republic,26400,male
+2006,Syrian Arab Republic,8669,male
+2007,Syrian Arab Republic,8961,male
+2008,Syrian Arab Republic,10552,male
+2009,Syrian Arab Republic,10967,male
+2010,Syrian Arab Republic,11227,male
+2011,Syrian Arab Republic,13502,male
+1995,Thailand,14700,female
+1996,Thailand,15500,female
+1997,Thailand,16200,female
+1998,Thailand,16800,female
+1999,Thailand,17600,female
+2000,Thailand,18400,female
+2001,Thailand,6290,female
+2002,Thailand,6183,female
+2003,Thailand,6328,female
+2004,Thailand,6533,female
+2005,Thailand,7018,female
+2006,Thailand,7571,female
+2007,Thailand,7801,female
+2008,Thailand,8692,female
+2009,Thailand,8521,female
+2010,Thailand,9084,female
+2011,Thailand,9740,female
+1995,Thailand,17300,male
+1996,Thailand,18600,male
+1997,Thailand,19600,male
+1998,Thailand,20400,male
+1999,Thailand,21200,male
+2000,Thailand,22500,male
+2001,Thailand,6950,male
+2002,Thailand,6940,male
+2003,Thailand,7090,male
+2004,Thailand,7206,male
+2005,Thailand,7683,male
+2006,Thailand,8071,male
+2007,Thailand,8314,male
+2008,Thailand,9090,male
+2009,Thailand,8833,male
+2010,Thailand,9403,male
+2011,Thailand,10093,male
+1995,Ukraine,66,female
+1996,Ukraine,114,female
+1997,Ukraine,132,female
+1998,Ukraine,131,female
+1999,Ukraine,149,female
+2000,Ukraine,191,female
+2001,Ukraine,256,female
+2002,Ukraine,310,female
+2003,Ukraine,379,female
+2004,Ukraine,485,female
+2005,Ukraine,675,female
+2006,Ukraine,885,female
+2007,Ukraine,1150,female
+2008,Ukraine,1565,female
+2009,Ukraine,1677,female
+2010,Ukraine,1974,female
+2011,Ukraine,2272,female
+1995,Ukraine,98,male
+1996,Ukraine,167,male
+1997,Ukraine,182,male
+1998,Ukraine,176,male
+1999,Ukraine,206,male
+2000,Ukraine,269,male
+2001,Ukraine,367,male
+2002,Ukraine,447,male
+2003,Ukraine,552,male
+2004,Ukraine,707,male
+2005,Ukraine,953,male
+2006,Ukraine,1216,male
+2007,Ukraine,1578,male
+2008,Ukraine,2080,male
+2009,Ukraine,2173,male
+2010,Ukraine,2538,male
+2011,Ukraine,3035,male
+1995,United Kingdom,66,female
+1996,United Kingdom,114,female
+1997,United Kingdom,971,female
+1998,United Kingdom,1016,female
+1999,United Kingdom,1066,female
+2000,United Kingdom,1105,female
+2001,United Kingdom,1171,female
+2002,United Kingdom,1231,female
+2003,United Kingdom,1282,female
+2004,United Kingdom,1337,female
+2005,United Kingdom,1384,female
+2006,United Kingdom,1443,female
+2007,United Kingdom,1490,female
+2008,United Kingdom,1553,female
+2009,United Kingdom,1604,female
+2010,United Kingdom,1634,female
+2011,United Kingdom,1653,female
+1995,United Kingdom,98,male
+1996,United Kingdom,167,male
+1997,United Kingdom,1711,male
+1998,United Kingdom,1800,male
+1999,United Kingdom,1860,male
+2000,United Kingdom,1932,male
+2001,United Kingdom,2037,male
+2002,United Kingdom,2138,male
+2003,United Kingdom,2197,male
+2004,United Kingdom,2228,male
+2005,United Kingdom,2274,male
+2006,United Kingdom,2361,male
+2007,United Kingdom,2420,male
+2008,United Kingdom,2529,male
+2009,United Kingdom,2554,male
+2010,United Kingdom,2580,male
+2011,United Kingdom,2591,male
+1995,Uruguay,66,female
+1996,Uruguay,114,female
+1997,Uruguay,971,female
+1998,Uruguay,1016,female
+1999,Uruguay,1066,female
+2000,Uruguay,5312,female
+2001,Uruguay,5430,female
+2002,Uruguay,5480,female
+2003,Uruguay,5756,female
+2004,Uruguay,6081,female
+2005,Uruguay,6666,female
+2006,Uruguay,7692,female
+2007,Uruguay,9016,female
+2008,Uruguay,9608,female
+2009,Uruguay,11295,female
+2010,Uruguay,12281,female
+2011,Uruguay,14151,female
+1995,Uruguay,98,male
+1996,Uruguay,167,male
+1997,Uruguay,1711,male
+1998,Uruguay,1800,male
+1999,Uruguay,1860,male
+2000,Uruguay,7700,male
+2001,Uruguay,7600,male
+2002,Uruguay,7743,male
+2003,Uruguay,7855,male
+2004,Uruguay,8607,male
+2005,Uruguay,8970,male
+2006,Uruguay,10474,male
+2007,Uruguay,12048,male
+2008,Uruguay,13563,male
+2009,Uruguay,15824,male
+2010,Uruguay,16579,male
+2011,Uruguay,18819,male
+1995,United States,3133,female
+1996,United States,3216,female
+1997,United States,3316,female
+1998,United States,3388,female
+1999,United States,3376,female
+2000,United States,3407,female
+2001,United States,3524,female
+2002,United States,3587,female
+2003,United States,3568,female
+2004,United States,3532,female
+2005,United States,3484,female
+2006,United States,3444,female
+2007,United States,3616,female
+2008,United States,3546,female
+2009,United States,3611,female
+2010,United States,3612,female
+2011,United States,3524,female
+2012,United States,3513,female
+2013,United States,3587,female
+2013,United States,3554,female
+2014,United States,3569,female
+2015,United States,3664,female
+2016,United States,3689,female
+2017,United States,3648,female
+2017,United States,3704,female
+2018,United States,3826,female
+2019,United States,3942,female
+1995,United States,4386,male
+1996,United States,4360,male
+1997,United States,4471,male
+1998,United States,4630,male
+1999,United States,4668,male
+2000,United States,4622,male
+2001,United States,4617,male
+2002,United States,4682,male
+2003,United States,4722,male
+2004,United States,4613,male
+2005,United States,4526,male
+2006,United States,4477,male
+2007,United States,4647,male
+2008,United States,4599,male
+2009,United States,4691,male
+2010,United States,4696,male
+2011,United States,4576,male
+2012,United States,4592,male
+2013,United States,4583,male
+2013,United States,4582,male
+2014,United States,4539,male
+2015,United States,4605,male
+2016,United States,4585,male
+2017,United States,4532,male
+2017,United States,4536,male
+2018,United States,4691,male
+2019,United States,4788,male

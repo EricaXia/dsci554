@@ -4,16 +4,19 @@ const w = 700 - margin.left - margin.right
 
 const formatDecimal = d3.format('.0')
 
-const data_url = 'Project/d3layout_data/ex_data.csv'
+// const data_url = 'Project/d3layout_data/ex_data.csv'
+const data_url = 'Project/d3layout_data/wages.csv'
 
 d3.csv(data_url).then((data) => {
   console.log('LINE CHART')
   console.log(data)
 
+  // TODO: re-scale the y-axis every time drop down menu changes the country
   // Scales
   const x = d3.scaleLinear()
     .domain([1995, 2011])
     .range([0, w])
+
   const y = d3.scaleLinear()
     .domain([
       d3.min([0, d3.min(data, function (d) { return d.wvalue })]),
@@ -119,7 +122,8 @@ d3.csv(data_url).then((data) => {
   } // initialGraph
 
   // Create initial graph
-  initialGraph("AUS")
+  // initialGraph("AUS")
+  initialGraph("Australia")
 
 
   // Update the data
