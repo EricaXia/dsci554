@@ -1,15 +1,12 @@
 // data_url_f = 'Project/d3layout_data/female_employment_data.json'
 // data_url_m = 'Project/d3layout_data/male_employment_data.json'
-data_url = 'Project/d3layout_data/all_employment_data.json'
 
-d3.json(data_url).then(data => {
-    // width = 932
-    // height = width
+d3.json('Project/d3layout_data/all_employment_data.json').then(data => {
+    width = 932
+    height = width
     format = d3.format(",d")
     color = d3.scaleLinear()
         .domain([0, 5])
-        // .range(["rgb(204, 204, 255)", "rgb(128, 0, 128)"])
-        // .range(["rgb(214, 205, 247)", "rgb(57, 47, 90)"])
         .range(["rgb(255, 249, 243)", "rgb(233, 201, 22)"])
         .interpolate(d3.interpolateHcl)
 
@@ -71,8 +68,6 @@ d3.json(data_url).then(data => {
             return (d.data.name + ": " + Math.round(d.data.value) + "\%")
         }
     }
-
-    // TODO: show % values on a new line?
     const label = svg.append("g")
         .attr("class", "zoom-font")
         .attr("pointer-events", "none")

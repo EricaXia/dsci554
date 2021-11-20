@@ -2,9 +2,8 @@ const margin = { top: 50, right: 50, bottom: 50, left: 50 }
 const h = 500 - margin.top - margin.bottom
 const w = 700 - margin.left - margin.right
 
-const formatDecimal = d3.format('.0')
+// const formatDecimal = d3.format('.0')
 
-// const data_url = 'Project/d3layout_data/ex_data.csv'
 const data_url = 'Project/d3layout_data/wages.csv'
 
 d3.csv(data_url).then((data) => {
