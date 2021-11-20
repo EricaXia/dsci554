@@ -1,6 +1,3 @@
-// data_url_f = 'Project/d3layout_data/female_employment_data.json'
-// data_url_m = 'Project/d3layout_data/male_employment_data.json'
-
 d3.json('Project/d3layout_data/all_employment_data.json').then(data => {
     width = 932
     height = width
@@ -9,22 +6,17 @@ d3.json('Project/d3layout_data/all_employment_data.json').then(data => {
         .domain([0, 5])
         .range(["rgb(255, 249, 243)", "rgb(233, 201, 22)"])
         .interpolate(d3.interpolateHcl)
-
-    // color: {type: "sequential", scheme: "magma", domain: [8, 0], reverse: true},
-
     pack = data => d3.pack()
-        .size([932,932])
+        .size([932, 932])
         .padding(3)
         (d3.hierarchy(data)
             .sum(d => d.value)
             .sort((a, b) => b.value - a.value))
 
-
     const root = pack(data);
     let focus = root;
     let view;
 
-    //   const svg = d3.create("svg")
     const svg = d3.select('#circle-packing-chart')
         .attr("viewBox", `-${932 / 2} -${932 / 2} ${932} ${932}`)
         .style("display", "block")
@@ -78,9 +70,6 @@ d3.json('Project/d3layout_data/all_employment_data.json').then(data => {
         .style("fill-opacity", d => d.parent === root ? 1 : 0)
         .style("display", d => d.parent === root ? "inline" : "none")
         .text(d => displayText(d))
-    // .text(d => d.data.name);      
-
-
 
     zoomTo([root.x, root.y, root.r * 2]);
 
@@ -113,6 +102,5 @@ d3.json('Project/d3layout_data/all_employment_data.json').then(data => {
             .on("start", function (d) { if (d.parent === focus) this.style.display = "inline"; })
             .on("end", function (d) { if (d.parent !== focus) this.style.display = "none"; });
     }
-
     return svg.node();
 }) // .then
