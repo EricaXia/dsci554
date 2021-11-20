@@ -11,18 +11,6 @@ d3.csv(data_url).then((data) => {
   // console.log('LINE CHART')
   // console.log(data)
 
-  // TODO: re-scale the y-axis every time drop down menu changes the country
-  // Scales
-  const x = d3.scaleLinear()
-    .domain([1995, 2011])
-    .range([0, w])
-
-  const y = d3.scaleLinear()
-    .domain([
-      0, d3.max([0, d3.max(data, function (d) { return d.wvalue })])
-    ])
-    .range([h, 0])
-
   // Define the line
   const valueLine = d3.line()
     .x(function (d) { return x(d.year); })
@@ -55,12 +43,27 @@ d3.csv(data_url).then((data) => {
     .attr("value", ([key,]) => key)
     .text(([key,]) => key)
 
-  // Function to create the initial graph
+
+  // Scales
+  const x = d3.scaleLinear()
+    .domain([1995, 2011])
+    .range([0, w])
+
+  const y = d3.scaleLinear()
+    .domain([0, 6000])
+    .range([h, 0])
+  // .domain([
+  //   0, d3.max([0, d3.max(data, function (d) { return d.wvalue })])
+  // ])
+
+
+  // Init graph
   const initialGraph = function (legis) {
     let xAxis = d3.axisBottom()
       .scale(x)
-      .ticks(5)
+      .ticks(10)
       .tickFormat(d3.format("d"))
+
     let yAxis = d3.axisLeft()
       .scale(y)
     // Create AXES
@@ -129,24 +132,34 @@ d3.csv(data_url).then((data) => {
   const updateGraph = function (legis) {
     // Filter the data to include only state of interest
     const selectLegis = nest.filter(([key,]) => key == legis)  // this is the ARRAY
-    // console.log(selectLegis) // ['country', Array of values]
 
+    // RESCALE Y AXIS for new country
     function getMax(maleArr) {
       let max = 0;
       for (let i = 0; i < maleArr.length; i++) {
         if (max == 0 || parseInt(maleArr[i].wvalue) > parseInt(max))
           max = maleArr[i].wvalue;
       }
-      // console.log(max)
       return max;
     }
-
-    // newmax = d3.max(selectLegis, (d) => { getMax(d[1][1][1]) })
     newMax = d3.map(selectLegis, d => getMax(d[1][1][1]))[0]
     y.domain([0, newMax]);
-    // yAxis.scale(y);
-    let yAxis = d3.axisLeft()
-      .scale(y)
+    yAxis = d3.axisLeft().scale(y)
+    // REMOVE old Y-Axis
+    d3.select("#yAxis").remove()
+    // create NEW Y-axis
+    svg.append('g')
+      .attr('class', 'axis')
+      .attr('id', 'yAxis')
+      .call(yAxis)
+      .append('text') // y-axis Label
+      .attr('id', 'yAxisLabel')
+      .attr('fill', 'black')
+      .attr('transform', 'rotate(-90)')
+      .attr('x', 0)
+      .attr('y', 5)
+      .attr('dy', '.71em')
+      .style('text-anchor', 'end')
 
     // Select all of the grouped elements and update the data
     const selectLegisGroups = svg.selectAll(".legisGroups")
@@ -155,7 +168,7 @@ d3.csv(data_url).then((data) => {
     selectLegisGroups.selectAll("path.line")
       .data(([, values]) => values)
       .transition()
-      .duration(800)
+      .duration(700)
       .attr('d', (d) => valueLine(Array.from(d.values())[1]))
   }
 
