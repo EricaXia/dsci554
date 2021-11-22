@@ -1,16 +1,10 @@
-// const margin = { top: 50, right: 20, bottom: 30, left: 50 };
 const margin = { top: 10, right: 0, bottom: 0, left: 40 };
 const h = 500 - margin.top - margin.bottom; // height
-// const h = 400
 const w = 900 - margin.left - margin.right; // width
-// const w = 800
-
-// const formatDecimal = d3.format('.0')
 
 const data_url = "Project/d3layout_data/wages.csv";
 
 d3.csv(data_url).then((data) => {
-  // Define the line
   const valueLine = d3
     .line()
     .x(function (d) {
@@ -19,7 +13,6 @@ d3.csv(data_url).then((data) => {
     .y(function (d) {
       return y(d.wvalue);
     });
-  // Create svg
   const svg = d3
     .select("#line-chart")
     .append("svg")
@@ -30,15 +23,6 @@ d3.csv(data_url).then((data) => {
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     .attr("class", "svg");
-
-  // .attr("viewBox", `0 0 w h`)
-  // .style("width", w + margin.left + margin.right + "px")
-  // .style("height", h + margin.top + margin.bottom + "px")
-  // .attr("width", w + margin.left + margin.right)
-  // .attr("height", h + margin.top + margin.bottom)
-  // .append("g")
-  // .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-  // .attr("class", "svg");
 
   // Add a color legend
   svg
@@ -93,11 +77,9 @@ d3.csv(data_url).then((data) => {
 
   // Init graph
   const initialGraph = function (legis) {
-    let xAxis = d3.axisBottom().scale(x).ticks(10).tickFormat(d3.format("d"));
-
-    let yAxis = d3.axisLeft().scale(y);
     // Create AXES
-    // X-axis
+    let xAxis = d3.axisBottom().scale(x).ticks(10).tickFormat(d3.format("d"));
+    let yAxis = d3.axisLeft().scale(y);
     svg
       .append("g")
       .attr("class", "axis")
@@ -112,7 +94,6 @@ d3.csv(data_url).then((data) => {
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("");
-
     // Y-axis
     svg
       .append("g")
