@@ -156,9 +156,9 @@ d3.csv(data_url).then((data) => {
       }
       return max;
     }
-    newMax = d3.map(selectCountry, (d) => getMax(d[1][1][1]))[0];
+    let newMax = d3.map(selectCountry, (d) => getMax(d[1][1][1]))[0];
     y.domain([0, newMax]);
-    yAxis = d3.axisLeft().scale(y);
+    let yAxis = d3.axisLeft().scale(y);
     // REMOVE old Y-Axis
     d3.select("#yAxis").remove();
     // create NEW Y-axis
