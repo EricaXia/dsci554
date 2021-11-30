@@ -1,10 +1,10 @@
 url = "Project/d3layout_data/wages.csv"
 
 const margin = { top: 10, right: 30, bottom: 30, left: 60 },
-    width = 800 - margin.left - margin.right,
-    height = 450 - margin.top - margin.bottom;
+width = 800 - margin.left - margin.right,
+height = 450 - margin.top - margin.bottom;
 
-const svg = d3.select("#line-chart")
+const svg = d3.select("#line-chart-overview")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -13,12 +13,11 @@ const svg = d3.select("#line-chart")
 
 d3.csv(url).then((data) => {
     // draw one line per gender
-    const sumstat = d3.group(data, d => d.gender);
+    const sumstat = d3.group(data, d => d.lvalue);
 
     // Add X axis as a date format
     const x = d3.scaleLinear()
         .domain([1995, 2011])
-        // .domain(d3.extent(data, function (d) { return d.year; }))
         .range([0, width]);
     svg.append("g")
         .attr("transform", `translate(0, ${height})`)
@@ -45,7 +44,7 @@ d3.csv(url).then((data) => {
         .attr("d", function (d) {
             return d3.line()
                 .x(function (d) { return x(d.year); })
-                .y(function (d) { return y(+d.AUS); })
+                .y(function (d) { return y(+d.wvalue); })
                 (d[1])
         }) // d attr
 
